@@ -1,0 +1,13 @@
+{
+    "Page_1_Identification": {
+        "masquage_identifiants": [
+            {"champ": "Nom_Patiente", "bbox_normalisee": [0.1, 0.05, 0.4, 0.08]}
+        ],
+        "cases_a_cocher": [
+            {"champ": "Consanguinite", "bbox_normalisee": [0.1, 0.2, 0.12, 0.22]}
+        ],
+        "zones_texte": [
+            {"champ": "Age", "bbox_normalisee": [0.1, 0.1, 0.2, 0.13]}
+        ]
+    }
+}

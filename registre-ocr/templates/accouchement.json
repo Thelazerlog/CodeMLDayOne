@@ -1,0 +1,902 @@
+{
+ "page_type": "accouchement",
+ "dpi": 150,
+ "size_px": [
+  1240,
+  1754
+ ],
+ "title": "DÉROULEMENT DE L'ACCOUCHEMENT",
+ "anchors": [
+  {
+   "id": "deroulement_de_l_accouchement",
+   "text": "DÉROULEMENT DE L'ACCOUCHEMENT",
+   "bold": true,
+   "bbox": [
+    77.4,
+    63.7,
+    515.9,
+    98.5
+   ]
+  },
+  {
+   "id": "specimen_donnees_fictives",
+   "text": "SPÉCIMEN — DONNÉES FICTIVES",
+   "bold": true,
+   "bbox": [
+    828.0,
+    59.9,
+    1103.2,
+    84.8
+   ]
+  },
+  {
+   "id": "patiente",
+   "text": "Patiente :",
+   "bold": false,
+   "bbox": [
+    78.1,
+    162.6,
+    153.3,
+    186.0
+   ]
+  },
+  {
+   "id": "lieu",
+   "text": "Lieu",
+   "bold": true,
+   "bbox": [
+    78.7,
+    244.0,
+    117.4,
+    270.1
+   ]
+  },
+  {
+   "id": "en_milieu_surveille",
+   "text": "En milieu surveillé",
+   "bold": false,
+   "bbox": [
+    104.0,
+    286.9,
+    238.5,
+    310.8
+   ]
+  },
+  {
+   "id": "maison_d_accouchement",
+   "text": "Maison d'accouchement",
+   "bold": false,
+   "bbox": [
+    468.5,
+    273.5,
+    647.9,
+    297.7
+   ]
+  },
+  {
+   "id": "maternite",
+   "text": "Maternité",
+   "bold": false,
+   "bbox": [
+    468.8,
+    307.7,
+    538.4,
+    331.1
+   ]
+  },
+  {
+   "id": "clinique_privee",
+   "text": "Clinique privée",
+   "bold": false,
+   "bbox": [
+    469.0,
+    340.7,
+    579.4,
+    364.4
+   ]
+  },
+  {
+   "id": "a_domicile",
+   "text": "A domicile",
+   "bold": false,
+   "bbox": [
+    105.4,
+    474.8,
+    182.4,
+    498.3
+   ]
+  },
+  {
+   "id": "assiste_par_un_personnel_quali",
+   "text": "Assisté par un personnel qualifié",
+   "bold": false,
+   "bbox": [
+    470.0,
+    471.0,
+    711.0,
+    495.6
+   ]
+  },
+  {
+   "id": "date_de_l_accouchement",
+   "text": "Date de l'accouchement :",
+   "bold": false,
+   "bbox": [
+    81.5,
+    620.0,
+    273.8,
+    644.3
+   ]
+  },
+  {
+   "id": "mode_de_l_accouchement",
+   "text": "Mode de l'accouchement :",
+   "bold": true,
+   "bbox": [
+    82.0,
+    700.9,
+    315.9,
+    728.4
+   ]
+  },
+  {
+   "id": "voie_basse_non_instrumentale",
+   "text": "Voie basse non instrumentale",
+   "bold": false,
+   "bbox": [
+    471.7,
+    710.7,
+    691.4,
+    735.2
+   ]
+  },
+  {
+   "id": "voie_basse_instrumentale",
+   "text": "Voie basse instrumentale",
+   "bold": false,
+   "bbox": [
+    472.0,
+    748.5,
+    659.3,
+    772.7
+   ]
+  },
+  {
+   "id": "forceps",
+   "text": "Forceps",
+   "bold": false,
+   "bbox": [
+    545.1,
+    782.2,
+    605.5,
+    805.5
+   ]
+  },
+  {
+   "id": "ventouse",
+   "text": "Ventouse",
+   "bold": false,
+   "bbox": [
+    545.4,
+    815.4,
+    616.0,
+    838.9
+   ]
+  },
+  {
+   "id": "avec_episiotomie",
+   "text": "Avec épisiotomie",
+   "bold": false,
+   "bbox": [
+    545.6,
+    848.4,
+    671.8,
+    872.2
+   ]
+  },
+  {
+   "id": "cesarienne_programmee",
+   "text": "Césarienne : Programmée",
+   "bold": false,
+   "bbox": [
+    473.0,
+    890.1,
+    668.6,
+    914.4
+   ]
+  },
+  {
+   "id": "urgence",
+   "text": "Urgence",
+   "bold": false,
+   "bbox": [
+    837.6,
+    888.4,
+    900.7,
+    911.7
+   ]
+  },
+  {
+   "id": "preciser_l_indication",
+   "text": "Préciser l'indication :",
+   "bold": false,
+   "bbox": [
+    448.3,
+    932.2,
+    605.4,
+    956.2
+   ]
+  },
+  {
+   "id": "presence_de_complications",
+   "text": "Présence de complications",
+   "bold": true,
+   "bbox": [
+    84.5,
+    1034.2,
+    326.4,
+    1061.7
+   ]
+  },
+  {
+   "id": "au_moment_de_l_accouchement",
+   "text": "Au moment de l'accouchement",
+   "bold": false,
+   "bbox": [
+    474.1,
+    1039.8,
+    702.6,
+    1064.4
+   ]
+  },
+  {
+   "id": "suites_de_couches",
+   "text": "Suites de couches",
+   "bold": false,
+   "bbox": [
+    474.4,
+    1073.8,
+    610.7,
+    1097.7
+   ]
+  },
+  {
+   "id": "type_de_complications",
+   "text": "Type de complications :",
+   "bold": false,
+   "bbox": [
+    449.6,
+    1111.2,
+    624.9,
+    1135.4
+   ]
+  },
+  {
+   "id": "pre_eclampsie",
+   "text": "Pré-éclampsie",
+   "bold": false,
+   "bbox": [
+    547.8,
+    1148.5,
+    654.5,
+    1172.2
+   ]
+  },
+  {
+   "id": "eclampsie",
+   "text": "Eclampsie",
+   "bold": false,
+   "bbox": [
+    548.0,
+    1180.0,
+    625.1,
+    1203.4
+   ]
+  },
+  {
+   "id": "hemorragie",
+   "text": "Hémorragie",
+   "bold": false,
+   "bbox": [
+    548.3,
+    1211.1,
+    635.5,
+    1234.7
+   ]
+  },
+  {
+   "id": "infection",
+   "text": "Infection",
+   "bold": false,
+   "bbox": [
+    548.5,
+    1242.6,
+    611.7,
+    1265.9
+   ]
+  },
+  {
+   "id": "autres",
+   "text": "Autres",
+   "bold": false,
+   "bbox": [
+    548.7,
+    1273.9,
+    597.1,
+    1297.2
+   ]
+  },
+  {
+   "id": "si_autres_a_preciser",
+   "text": "Si autres à préciser : ...............................",
+   "bold": false,
+   "bbox": [
+    524.0,
+    1313.9,
+    825.3,
+    1339.0
+   ]
+  },
+  {
+   "id": "etat_du_nouveau_ne",
+   "text": "Etat du nouveau-né :",
+   "bold": true,
+   "bbox": [
+    87.2,
+    1409.6,
+    272.8,
+    1436.7
+   ]
+  },
+  {
+   "id": "vivant",
+   "text": "Vivant",
+   "bold": false,
+   "bbox": [
+    476.8,
+    1409.9,
+    523.3,
+    1433.1
+   ]
+  },
+  {
+   "id": "mort_ne",
+   "text": "Mort-né",
+   "bold": false,
+   "bbox": [
+    622.6,
+    1408.7,
+    680.2,
+    1432.1
+   ]
+  },
+  {
+   "id": "deces_24_heures",
+   "text": "Décès < 24 heures",
+   "bold": false,
+   "bbox": [
+    789.3,
+    1406.9,
+    929.8,
+    1430.8
+   ]
+  },
+  {
+   "id": "sexe",
+   "text": "Sexe :",
+   "bold": false,
+   "bbox": [
+    452.2,
+    1462.1,
+    504.2,
+    1485.4
+   ]
+  },
+  {
+   "id": "poids_a_la_naissance",
+   "text": "Poids à la naissance :",
+   "bold": false,
+   "bbox": [
+    452.5,
+    1502.9,
+    619.4,
+    1527.1
+   ]
+  },
+  {
+   "id": "perimetre_cranien_a_la_naissan",
+   "text": "Périmètre crânien à la naissance :",
+   "bold": false,
+   "bbox": [
+    452.8,
+    1544.0,
+    709.5,
+    1568.7
+   ]
+  },
+  {
+   "id": "anomalie_a_preciser",
+   "text": "Anomalie à préciser :",
+   "bold": false,
+   "bbox": [
+    453.1,
+    1590.5,
+    614.4,
+    1614.6
+   ]
+  },
+  {
+   "id": "age_gestationnel",
+   "text": "Âge gestationnel :",
+   "bold": false,
+   "bbox": [
+    453.4,
+    1632.3,
+    591.6,
+    1656.2
+   ]
+  },
+  {
+   "id": "document_synthetique_genere_po",
+   "text": "Document synthétique généré pour l'entraînement de modèles — aucune donnée réelle — ne pas utiliser comme dossier médical.",
+   "bold": false,
+   "bbox": [
+    89.4,
+    1706.0,
+    809.6,
+    1728.5
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "key": "patiente",
+   "kind": "text",
+   "label": "Patiente :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    161.7,
+    149.7,
+    578.3,
+    189.3
+   ]
+  },
+  {
+   "key": "date_de_l_accouchement",
+   "kind": "text",
+   "label": "Date de l'accouchement :",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    282.1,
+    608.0,
+    469.6,
+    647.6
+   ]
+  },
+  {
+   "key": "sexe",
+   "kind": "text",
+   "label": "Sexe :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    512.6,
+    1450.5,
+    595.9,
+    1490.1
+   ]
+  },
+  {
+   "key": "poids_a_la_naissance",
+   "kind": "text",
+   "label": "Poids à la naissance :",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    627.7,
+    1491.1,
+    773.6,
+    1530.7
+   ]
+  },
+  {
+   "key": "perimetre_cranien_a_la_naissance",
+   "kind": "text",
+   "label": "Périmètre crânien à la naissance :",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    717.9,
+    1532.2,
+    842.9,
+    1571.8
+   ]
+  },
+  {
+   "key": "anomalie_a_preciser",
+   "kind": "text",
+   "label": "Anomalie à préciser :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    622.8,
+    1577.8,
+    997.8,
+    1617.4
+   ]
+  },
+  {
+   "key": "age_gestationnel",
+   "kind": "text",
+   "label": "Âge gestationnel :",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    600.0,
+    1620.6,
+    704.1,
+    1660.2
+   ]
+  },
+  {
+   "label": "Maison d'accouchement",
+   "context": "Lieu",
+   "kind": "checkbox",
+   "key": "maison_d_accouchement",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    443.5,
+    278.2,
+    460.3,
+    295.0
+   ]
+  },
+  {
+   "label": "En milieu surveillé",
+   "context": "Lieu",
+   "kind": "checkbox",
+   "key": "en_milieu_surveille",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    79.1,
+    291.3,
+    95.8,
+    308.1
+   ]
+  },
+  {
+   "label": "Maternité",
+   "context": "Lieu",
+   "kind": "checkbox",
+   "key": "maternite",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    443.8,
+    311.6,
+    460.6,
+    328.4
+   ]
+  },
+  {
+   "label": "Clinique privée",
+   "context": "Lieu",
+   "kind": "checkbox",
+   "key": "clinique_privee",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    444.0,
+    344.9,
+    460.8,
+    361.7
+   ]
+  },
+  {
+   "label": "A domicile",
+   "context": null,
+   "kind": "checkbox",
+   "key": "a_domicile",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    80.4,
+    478.8,
+    97.2,
+    495.6
+   ]
+  },
+  {
+   "label": "Assisté par un personnel qualifié",
+   "context": null,
+   "kind": "checkbox",
+   "key": "assiste_par_un_personnel",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    445.0,
+    476.1,
+    461.8,
+    492.9
+   ]
+  },
+  {
+   "label": "Voie basse non instrumentale",
+   "context": "Mode de l'accouchement :",
+   "kind": "checkbox",
+   "key": "voie_basse_non_instrumen",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    446.7,
+    715.7,
+    463.5,
+    732.5
+   ]
+  },
+  {
+   "label": "Voie basse instrumentale",
+   "context": "Mode de l'accouchement :",
+   "kind": "checkbox",
+   "key": "voie_basse_instrumentale",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    447.0,
+    753.2,
+    463.8,
+    770.0
+   ]
+  },
+  {
+   "label": "Forceps",
+   "context": "Mode de l'accouchement :",
+   "kind": "checkbox",
+   "key": "forceps",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    520.2,
+    786.0,
+    537.0,
+    802.8
+   ]
+  },
+  {
+   "label": "Ventouse",
+   "context": "Mode de l'accouchement :",
+   "kind": "checkbox",
+   "key": "ventouse",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    520.4,
+    819.4,
+    537.2,
+    836.1
+   ]
+  },
+  {
+   "label": "Avec épisiotomie",
+   "context": "Mode de l'accouchement :",
+   "kind": "checkbox",
+   "key": "avec_episiotomie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    520.7,
+    852.7,
+    537.4,
+    869.5
+   ]
+  },
+  {
+   "label": "Urgence",
+   "context": null,
+   "kind": "checkbox",
+   "key": "urgence",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    812.6,
+    892.2,
+    829.4,
+    909.0
+   ]
+  },
+  {
+   "label": "Césarienne : Programmée",
+   "context": null,
+   "kind": "checkbox",
+   "key": "cesarienne_programmee",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    448.0,
+    894.9,
+    464.8,
+    911.7
+   ]
+  },
+  {
+   "label": "Présence de complications",
+   "context": null,
+   "kind": "checkbox",
+   "key": "presence_de_complication",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    397.0,
+    1039.0,
+    413.8,
+    1055.8
+   ]
+  },
+  {
+   "label": "Au moment de l'accouchement",
+   "context": "Préciser l'indication :",
+   "kind": "checkbox",
+   "key": "au_moment_de_l_accouchem",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    449.1,
+    1044.9,
+    465.9,
+    1061.7
+   ]
+  },
+  {
+   "label": "Suites de couches",
+   "context": "Présence de complications",
+   "kind": "checkbox",
+   "key": "suites_de_couches",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    449.4,
+    1078.2,
+    466.2,
+    1095.0
+   ]
+  },
+  {
+   "label": "Pré-éclampsie",
+   "context": "Type de complications :",
+   "kind": "checkbox",
+   "key": "pre_eclampsie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    522.8,
+    1152.7,
+    539.6,
+    1169.5
+   ]
+  },
+  {
+   "label": "Eclampsie",
+   "context": "Type de complications :",
+   "kind": "checkbox",
+   "key": "eclampsie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    523.1,
+    1183.9,
+    539.9,
+    1200.7
+   ]
+  },
+  {
+   "label": "Hémorragie",
+   "context": "Type de complications :",
+   "kind": "checkbox",
+   "key": "hemorragie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    523.3,
+    1215.2,
+    540.1,
+    1232.0
+   ]
+  },
+  {
+   "label": "Infection",
+   "context": "Type de complications :",
+   "kind": "checkbox",
+   "key": "infection",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    523.5,
+    1246.4,
+    540.3,
+    1263.2
+   ]
+  },
+  {
+   "label": "Autres",
+   "context": null,
+   "kind": "checkbox",
+   "key": "autres",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    523.8,
+    1277.7,
+    540.5,
+    1294.5
+   ]
+  },
+  {
+   "label": "Vivant",
+   "context": "Etat du nouveau-né :",
+   "kind": "checkbox",
+   "key": "vivant",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    451.8,
+    1413.6,
+    468.6,
+    1430.4
+   ]
+  },
+  {
+   "label": "Mort-né",
+   "context": "Etat du nouveau-né :",
+   "kind": "checkbox",
+   "key": "mort_ne",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    597.7,
+    1412.6,
+    614.4,
+    1429.3
+   ]
+  },
+  {
+   "label": "Décès < 24 heures",
+   "context": "Etat du nouveau-né :",
+   "kind": "checkbox",
+   "key": "deces_24_heures",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    764.3,
+    1411.3,
+    781.1,
+    1428.1
+   ]
+  },
+  {
+   "key": "preciser_l_indication",
+   "kind": "text",
+   "label": "Préciser l'indication :",
+   "origin": "orphelin",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    607.5,
+    926.4,
+    918.2,
+    964.1
+   ]
+  }
+ ],
+ "redact": [
+  [
+   161.7,
+   149.7,
+   578.3,
+   189.3
+  ]
+ ]
+}

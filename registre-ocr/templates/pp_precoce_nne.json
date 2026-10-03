@@ -1,0 +1,1189 @@
+{
+ "page_type": "pp_precoce_nne",
+ "dpi": 150,
+ "size_px": [
+  1240,
+  1754
+ ],
+ "title": "CONSULTATION DU POST-PARTUM PRÉCOCE",
+ "anchors": [
+  {
+   "id": "consultation_du_post_partum_pr",
+   "text": "CONSULTATION DU POST-PARTUM PRÉCOCE",
+   "bold": true,
+   "bbox": [
+    87.2,
+    60.3,
+    603.0,
+    94.4
+   ]
+  },
+  {
+   "id": "nouveau_ne",
+   "text": "NOUVEAU-NÉ",
+   "bold": false,
+   "bbox": [
+    87.1,
+    96.1,
+    198.3,
+    119.5
+   ]
+  },
+  {
+   "id": "specimen_donnees_fictives",
+   "text": "SPÉCIMEN — DONNÉES FICTIVES",
+   "bold": true,
+   "bbox": [
+    837.8,
+    64.5,
+    1113.0,
+    88.8
+   ]
+  },
+  {
+   "id": "date_de_la_consultation",
+   "text": "Date de la consultation :",
+   "bold": false,
+   "bbox": [
+    691.0,
+    149.1,
+    874.6,
+    172.9
+   ]
+  },
+  {
+   "id": "age",
+   "text": "Age",
+   "bold": false,
+   "bbox": [
+    99.0,
+    221.1,
+    133.4,
+    244.2
+   ]
+  },
+  {
+   "id": "temperature",
+   "text": "Température",
+   "bold": false,
+   "bbox": [
+    399.0,
+    222.6,
+    499.1,
+    246.0
+   ]
+  },
+  {
+   "id": "poids",
+   "text": "Poids",
+   "bold": false,
+   "bbox": [
+    794.8,
+    224.6,
+    841.2,
+    247.7
+   ]
+  },
+  {
+   "id": "taille",
+   "text": "Taille",
+   "bold": false,
+   "bbox": [
+    98.7,
+    267.0,
+    143.3,
+    290.1
+   ]
+  },
+  {
+   "id": "perimetre_cranien",
+   "text": "Périmètre crânien",
+   "bold": false,
+   "bbox": [
+    398.7,
+    268.5,
+    535.0,
+    292.1
+   ]
+  },
+  {
+   "id": "nouveau_ne_premature",
+   "text": "Nouveau-né prématuré",
+   "bold": false,
+   "bbox": [
+    123.5,
+    312.9,
+    295.0,
+    336.7
+   ]
+  },
+  {
+   "id": "nouveau_ne_hypotrophe",
+   "text": "Nouveau-né hypotrophe",
+   "bold": false,
+   "bbox": [
+    423.5,
+    314.4,
+    602.4,
+    338.2
+   ]
+  },
+  {
+   "id": "allaitement",
+   "text": "Allaitement :",
+   "bold": true,
+   "bbox": [
+    98.3,
+    358.7,
+    198.4,
+    382.2
+   ]
+  },
+  {
+   "id": "exclusivement_au_sein",
+   "text": "exclusivement au sein",
+   "bold": false,
+   "bbox": [
+    256.6,
+    359.4,
+    420.7,
+    383.2
+   ]
+  },
+  {
+   "id": "artificiel",
+   "text": "Artificiel",
+   "bold": false,
+   "bbox": [
+    548.3,
+    360.9,
+    606.7,
+    384.1
+   ]
+  },
+  {
+   "id": "mixte",
+   "text": "mixte",
+   "bold": false,
+   "bbox": [
+    715.0,
+    361.7,
+    754.9,
+    384.8
+   ]
+  },
+  {
+   "id": "signes_d_une_affection_grave",
+   "text": "Signes d'une affection grave :",
+   "bold": true,
+   "bbox": [
+    98.1,
+    404.6,
+    334.6,
+    428.7
+   ]
+  },
+  {
+   "id": "convulsions",
+   "text": "Convulsions",
+   "bold": false,
+   "bbox": [
+    131.2,
+    447.4,
+    216.4,
+    469.3
+   ]
+  },
+  {
+   "id": "refus_de_teter",
+   "text": "Refus de téter",
+   "bold": false,
+   "bbox": [
+    391.6,
+    448.7,
+    489.9,
+    470.7
+   ]
+  },
+  {
+   "id": "hematemeses",
+   "text": "Hématémèses",
+   "bold": false,
+   "bbox": [
+    652.0,
+    450.0,
+    752.8,
+    472.0
+   ]
+  },
+  {
+   "id": "melaenas",
+   "text": "Mélaenas",
+   "bold": false,
+   "bbox": [
+    912.4,
+    451.3,
+    980.3,
+    473.1
+   ]
+  },
+  {
+   "id": "diarrhee",
+   "text": "Diarrhée",
+   "bold": false,
+   "bbox": [
+    131.0,
+    484.9,
+    191.0,
+    506.7
+   ]
+  },
+  {
+   "id": "tirage_sous_costal",
+   "text": "Tirage sous costal",
+   "bold": false,
+   "bbox": [
+    651.8,
+    487.5,
+    778.7,
+    509.6
+   ]
+  },
+  {
+   "id": "toux",
+   "text": "Toux",
+   "bold": false,
+   "bbox": [
+    912.2,
+    488.8,
+    947.1,
+    510.5
+   ]
+  },
+  {
+   "id": "rythme_respiratoire_anormal",
+   "text": "Rythme respiratoire anormal",
+   "bold": false,
+   "bbox": [
+    130.8,
+    522.4,
+    328.0,
+    544.9
+   ]
+  },
+  {
+   "id": "fievre",
+   "text": "Fièvre",
+   "bold": false,
+   "bbox": [
+    391.2,
+    523.7,
+    434.7,
+    545.4
+   ]
+  },
+  {
+   "id": "hypothermie",
+   "text": "Hypothermie",
+   "bold": false,
+   "bbox": [
+    651.6,
+    525.0,
+    740.3,
+    546.9
+   ]
+  },
+  {
+   "id": "contusions_lesions_traumatique",
+   "text": "Contusions, lésions traumatiques et malformations :",
+   "bold": true,
+   "bbox": [
+    96.9,
+    629.6,
+    513.8,
+    654.6
+   ]
+  },
+  {
+   "id": "bosse_serosanguine_ou_cephaloh",
+   "text": "Bosse sérosanguine ou céphalohématome",
+   "bold": false,
+   "bbox": [
+    150.9,
+    671.4,
+    466.9,
+    695.9
+   ]
+  },
+  {
+   "id": "luxation_congenitale_de_la_han",
+   "text": "Luxation congénitale de la hanche",
+   "bold": false,
+   "bbox": [
+    150.7,
+    704.7,
+    403.8,
+    728.9
+   ]
+  },
+  {
+   "id": "diminution_ou_absence_de_la_mo",
+   "text": "Diminution ou absence de la mobilité d'un membre",
+   "bold": false,
+   "bbox": [
+    150.6,
+    738.1,
+    524.4,
+    762.8
+   ]
+  },
+  {
+   "id": "evaluation_de_l_allaitement_ma",
+   "text": "Evaluation de l'allaitement maternel :",
+   "bold": true,
+   "bbox": [
+    95.9,
+    837.9,
+    389.0,
+    862.3
+   ]
+  },
+  {
+   "id": "normal",
+   "text": "Normal",
+   "bold": false,
+   "bbox": [
+    545.9,
+    840.0,
+    599.7,
+    863.2
+   ]
+  },
+  {
+   "id": "a_problemes",
+   "text": "A problèmes",
+   "bold": false,
+   "bbox": [
+    691.7,
+    840.8,
+    785.4,
+    864.1
+   ]
+  },
+  {
+   "id": "etat_vaccinal",
+   "text": "Etat vaccinal",
+   "bold": true,
+   "bbox": [
+    95.7,
+    879.6,
+    197.7,
+    903.0
+   ]
+  },
+  {
+   "id": "vaccins_administres_ce_jour",
+   "text": "Vaccins administrés ce jour :",
+   "bold": false,
+   "bbox": [
+    124.7,
+    917.1,
+    336.9,
+    941.1
+   ]
+  },
+  {
+   "id": "bcg",
+   "text": "BCG",
+   "bold": false,
+   "bbox": [
+    420.5,
+    918.6,
+    456.7,
+    941.7
+   ]
+  },
+  {
+   "id": "supplementation_en_vitamine_d",
+   "text": "Supplémentation en vitamine D",
+   "bold": false,
+   "bbox": [
+    120.3,
+    958.8,
+    352.0,
+    982.8
+   ]
+  },
+  {
+   "id": "presence_de_complications_et_d",
+   "text": "Présence de complications et de malformation :",
+   "bold": true,
+   "bbox": [
+    95.1,
+    1008.7,
+    474.0,
+    1033.6
+   ]
+  },
+  {
+   "id": "infection",
+   "text": "Infection",
+   "bold": false,
+   "bbox": [
+    315.7,
+    1051.4,
+    378.8,
+    1074.6
+   ]
+  },
+  {
+   "id": "conjonctivite",
+   "text": "Conjonctivite",
+   "bold": false,
+   "bbox": [
+    482.3,
+    1052.2,
+    577.9,
+    1075.6
+   ]
+  },
+  {
+   "id": "traumatisme",
+   "text": "Traumatisme",
+   "bold": false,
+   "bbox": [
+    148.8,
+    1088.1,
+    246.2,
+    1111.5
+   ]
+  },
+  {
+   "id": "malformation",
+   "text": "Malformation",
+   "bold": false,
+   "bbox": [
+    315.5,
+    1088.9,
+    411.9,
+    1112.3
+   ]
+  },
+  {
+   "id": "autres",
+   "text": "Autres",
+   "bold": false,
+   "bbox": [
+    148.6,
+    1125.6,
+    196.9,
+    1148.7
+   ]
+  },
+  {
+   "id": "vu_par",
+   "text": "Vu par :",
+   "bold": false,
+   "bbox": [
+    94.1,
+    1208.6,
+    157.2,
+    1231.8
+   ]
+  },
+  {
+   "id": "decision_prise",
+   "text": "Décision prise :",
+   "bold": false,
+   "bbox": [
+    93.8,
+    1271.1,
+    212.4,
+    1294.6
+   ]
+  },
+  {
+   "id": "traitement_prescrit",
+   "text": "Traitement prescrit :",
+   "bold": false,
+   "bbox": [
+    93.4,
+    1333.6,
+    246.4,
+    1357.3
+   ]
+  },
+  {
+   "id": "transfert",
+   "text": "Transfert",
+   "bold": false,
+   "bbox": [
+    118.1,
+    1406.7,
+    184.9,
+    1429.9
+   ]
+  },
+  {
+   "id": "preciser_l_etablissement_de_re",
+   "text": "Préciser l'établissement de référence :",
+   "bold": false,
+   "bbox": [
+    247.2,
+    1407.3,
+    534.9,
+    1431.6
+   ]
+  },
+  {
+   "id": "les_trois_regles_de_la_prise_e",
+   "text": "Les trois règles de la prise en charge du nouveau-né à domicile :",
+   "bold": true,
+   "bbox": [
+    105.2,
+    1487.9,
+    618.4,
+    1513.4
+   ]
+  },
+  {
+   "id": "1_allaitement_maternel_exclusi",
+   "text": "1. Allaitement maternel exclusif   2. Maintien au chaud   3. Quand revenir immédiatement ?",
+   "bold": false,
+   "bbox": [
+    105.0,
+    1517.0,
+    774.9,
+    1543.3
+   ]
+  },
+  {
+   "id": "revenir_pour_une_visite_de_sui",
+   "text": "Revenir pour une visite de suivi nécessaire le",
+   "bold": false,
+   "bbox": [
+    92.2,
+    1583.6,
+    431.3,
+    1608.2
+   ]
+  },
+  {
+   "id": "document_synthetique_genere_po",
+   "text": "Document synthétique généré pour l'entraînement de modèles — aucune donnée réelle — ne pas utiliser comme dossier médical.",
+   "bold": false,
+   "bbox": [
+    79.1,
+    1704.7,
+    799.3,
+    1725.5
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "key": "date_de_la_consultation",
+   "kind": "text",
+   "label": "Date de la consultation :",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    882.8,
+    139.2,
+    1049.4,
+    178.8
+   ]
+  },
+  {
+   "key": "age",
+   "kind": "text",
+   "label": "Age",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    141.6,
+    210.3,
+    235.3,
+    249.9
+   ]
+  },
+  {
+   "key": "temperature",
+   "kind": "text",
+   "label": "Température",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    507.3,
+    212.2,
+    601.1,
+    251.7
+   ]
+  },
+  {
+   "key": "poids",
+   "kind": "text",
+   "label": "Poids",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    849.5,
+    213.9,
+    964.0,
+    253.5
+   ]
+  },
+  {
+   "key": "taille",
+   "kind": "text",
+   "label": "Taille",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    151.5,
+    256.2,
+    245.3,
+    295.8
+   ]
+  },
+  {
+   "key": "perimetre_cranien",
+   "kind": "text",
+   "label": "Périmètre crânien",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    543.2,
+    258.2,
+    637.0,
+    297.8
+   ]
+  },
+  {
+   "key": "signes_graves_autres",
+   "kind": "text",
+   "label": "Autres à préciser :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    245.4,
+    563.8,
+    662.1,
+    603.3
+   ]
+  },
+  {
+   "key": "traumatismes_autres",
+   "kind": "text",
+   "label": "Autres à préciser :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    273.5,
+    778.5,
+    690.2,
+    818.1
+   ]
+  },
+  {
+   "key": "vu_par",
+   "kind": "text",
+   "label": "Vu par :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    165.4,
+    1199.0,
+    686.2,
+    1238.6
+   ]
+  },
+  {
+   "key": "decision_prise",
+   "kind": "text",
+   "label": "Décision prise :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    220.6,
+    1262.5,
+    1012.3,
+    1302.1
+   ]
+  },
+  {
+   "key": "traitement_prescrit",
+   "kind": "text",
+   "label": "Traitement prescrit :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    254.6,
+    1325.0,
+    983.7,
+    1364.6
+   ]
+  },
+  {
+   "key": "preciser_l_etablissement_de_reference",
+   "kind": "text",
+   "label": "Préciser l'établissement de référence :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    543.1,
+    1399.0,
+    1126.5,
+    1438.6
+   ]
+  },
+  {
+   "key": "revenir_pour_une_visite_de_suivi_necessa",
+   "kind": "text",
+   "label": "Revenir pour une visite de suivi nécessaire le",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    439.5,
+    1574.5,
+    606.2,
+    1614.1
+   ]
+  },
+  {
+   "label": "Nouveau-né prématuré",
+   "context": null,
+   "kind": "checkbox",
+   "key": "nouveau_ne_premature",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    98.5,
+    316.1,
+    115.3,
+    332.9
+   ]
+  },
+  {
+   "label": "Nouveau-né hypotrophe",
+   "context": null,
+   "kind": "checkbox",
+   "key": "nouveau_ne_hypotrophe",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    398.5,
+    317.6,
+    415.3,
+    334.4
+   ]
+  },
+  {
+   "label": "exclusivement au sein",
+   "context": "Allaitement :",
+   "kind": "checkbox",
+   "key": "exclusivement_au_sein",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    231.6,
+    362.6,
+    248.4,
+    379.4
+   ]
+  },
+  {
+   "label": "Artificiel",
+   "context": "Allaitement :",
+   "kind": "checkbox",
+   "key": "artificiel",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    523.3,
+    364.1,
+    540.1,
+    380.8
+   ]
+  },
+  {
+   "label": "mixte",
+   "context": "Allaitement :",
+   "kind": "checkbox",
+   "key": "mixte",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    690.0,
+    364.9,
+    706.7,
+    381.7
+   ]
+  },
+  {
+   "label": "Convulsions",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "convulsions",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    106.2,
+    449.5,
+    123.0,
+    466.3
+   ]
+  },
+  {
+   "label": "Refus de téter",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "refus_de_teter",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    366.6,
+    450.8,
+    383.4,
+    467.6
+   ]
+  },
+  {
+   "label": "Hématémèses",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "hematemeses",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    627.0,
+    452.1,
+    643.8,
+    468.9
+   ]
+  },
+  {
+   "label": "Mélaenas",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "melaenas",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    887.4,
+    453.4,
+    904.2,
+    470.2
+   ]
+  },
+  {
+   "label": "Diarrhée",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "diarrhee",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    106.0,
+    487.0,
+    122.8,
+    503.8
+   ]
+  },
+  {
+   "label": "Ictère",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "signes_d_une_affec__ictere",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    366.4,
+    488.3,
+    383.2,
+    505.1
+   ]
+  },
+  {
+   "label": "Tirage sous costal",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "tirage_sous_costal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    626.8,
+    489.6,
+    643.6,
+    506.4
+   ]
+  },
+  {
+   "label": "Toux",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "toux",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    887.3,
+    490.9,
+    904.0,
+    507.7
+   ]
+  },
+  {
+   "label": "Rythme respiratoire anormal",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "rythme_respiratoire_anor",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    105.8,
+    524.5,
+    122.6,
+    541.3
+   ]
+  },
+  {
+   "label": "Fièvre",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "fievre",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    366.2,
+    525.8,
+    383.0,
+    542.6
+   ]
+  },
+  {
+   "label": "Hypothermie",
+   "context": "Signes d'une affection grave :",
+   "kind": "checkbox",
+   "key": "hypothermie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    626.7,
+    527.1,
+    643.4,
+    543.9
+   ]
+  },
+  {
+   "label": "Bosse sérosanguine ou céphalohématome",
+   "context": "Contusions, lésions traumatiques et malformations :",
+   "kind": "checkbox",
+   "key": "bosse_serosanguine_ou_ce",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    125.9,
+    674.6,
+    142.7,
+    691.4
+   ]
+  },
+  {
+   "label": "Luxation congénitale de la hanche",
+   "context": "Contusions, lésions traumatiques et malformations :",
+   "kind": "checkbox",
+   "key": "luxation_congenitale_de",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    125.8,
+    708.0,
+    142.5,
+    724.7
+   ]
+  },
+  {
+   "label": "Diminution ou absence de la mobilité d'un membre",
+   "context": "Contusions, lésions traumatiques et malformations :",
+   "kind": "checkbox",
+   "key": "diminution_ou_absence_de",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    125.6,
+    741.3,
+    142.3,
+    758.0
+   ]
+  },
+  {
+   "label": "Normal",
+   "context": "Evaluation de l'allaitement maternel :",
+   "kind": "checkbox",
+   "key": "normal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    520.9,
+    843.3,
+    537.7,
+    860.0
+   ]
+  },
+  {
+   "label": "A problèmes",
+   "context": "Evaluation de l'allaitement maternel :",
+   "kind": "checkbox",
+   "key": "a_problemes",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    666.7,
+    844.0,
+    683.5,
+    860.7
+   ]
+  },
+  {
+   "label": "BCG",
+   "context": "Vaccins administrés ce jour :",
+   "kind": "checkbox",
+   "key": "bcg",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    395.5,
+    921.8,
+    412.3,
+    938.5
+   ]
+  },
+  {
+   "label": "HB",
+   "context": "Vaccins administrés ce jour :",
+   "kind": "checkbox",
+   "key": "hb",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    520.5,
+    922.4,
+    537.3,
+    939.2
+   ]
+  },
+  {
+   "label": "Supplémentation en vitamine D",
+   "context": "Etat vaccinal",
+   "kind": "checkbox",
+   "key": "supplementation_en_vitam",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    95.3,
+    962.0,
+    112.1,
+    978.7
+   ]
+  },
+  {
+   "label": "Ictère",
+   "context": "Présence de complications et de malformation :",
+   "kind": "checkbox",
+   "key": "presence_de_compli__ictere",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    124.0,
+    1053.8,
+    140.8,
+    1070.5
+   ]
+  },
+  {
+   "label": "Infection",
+   "context": "Présence de complications et de malformation :",
+   "kind": "checkbox",
+   "key": "infection",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    290.7,
+    1054.6,
+    307.4,
+    1071.4
+   ]
+  },
+  {
+   "label": "Conjonctivite",
+   "context": "Présence de complications et de malformation :",
+   "kind": "checkbox",
+   "key": "conjonctivite",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    457.4,
+    1055.4,
+    474.1,
+    1072.2
+   ]
+  },
+  {
+   "label": "Traumatisme",
+   "context": "Présence de complications et de malformation :",
+   "kind": "checkbox",
+   "key": "traumatisme",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    123.8,
+    1091.3,
+    140.6,
+    1108.0
+   ]
+  },
+  {
+   "label": "Malformation",
+   "context": "Présence de complications et de malformation :",
+   "kind": "checkbox",
+   "key": "malformation",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    290.5,
+    1092.1,
+    307.3,
+    1108.9
+   ]
+  },
+  {
+   "label": "Autres",
+   "context": "Présence de complications et de malformation :",
+   "kind": "checkbox",
+   "key": "autres",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    123.7,
+    1128.8,
+    140.4,
+    1145.5
+   ]
+  },
+  {
+   "label": "Transfert",
+   "context": "Traitement prescrit :",
+   "kind": "checkbox",
+   "key": "transfert",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    93.1,
+    1409.9,
+    109.8,
+    1426.6
+   ]
+  }
+ ],
+ "redact": []
+}

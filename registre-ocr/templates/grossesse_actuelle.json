@@ -1,0 +1,4739 @@
+{
+ "page_type": "grossesse_actuelle",
+ "dpi": 150,
+ "size_px": [
+  1240,
+  1754
+ ],
+ "title": "GROSSESSE ACTUELLE",
+ "anchors": [
+  {
+   "id": "grossesse_actuelle",
+   "text": "GROSSESSE ACTUELLE",
+   "bold": true,
+   "bbox": [
+    83.0,
+    63.1,
+    355.5,
+    94.7
+   ]
+  },
+  {
+   "id": "specimen_donnees_fictives",
+   "text": "SPÉCIMEN — DONNÉES FICTIVES",
+   "bold": true,
+   "bbox": [
+    833.6,
+    63.2,
+    1108.7,
+    86.3
+   ]
+  },
+  {
+   "id": "ddr",
+   "text": "DDR :",
+   "bold": false,
+   "bbox": [
+    83.1,
+    144.8,
+    133.1,
+    167.7
+   ]
+  },
+  {
+   "id": "taille",
+   "text": "Taille :",
+   "bold": false,
+   "bbox": [
+    395.6,
+    144.6,
+    449.3,
+    167.6
+   ]
+  },
+  {
+   "id": "groupage",
+   "text": "Groupage :",
+   "bold": false,
+   "bbox": [
+    666.4,
+    144.5,
+    749.8,
+    167.5
+   ]
+  },
+  {
+   "id": "rh",
+   "text": "Rh-",
+   "bold": false,
+   "bbox": [
+    1076.8,
+    144.4,
+    1103.7,
+    167.3
+   ]
+  },
+  {
+   "id": "rh",
+   "text": "Rh+",
+   "bold": false,
+   "bbox": [
+    1076.8,
+    173.6,
+    1107.9,
+    196.5
+   ]
+  },
+  {
+   "id": "date_prevue_d_accouchement",
+   "text": "DATE PRÉVUE D'ACCOUCHEMENT :",
+   "bold": false,
+   "bbox": [
+    83.1,
+    180.1,
+    377.0,
+    203.1
+   ]
+  },
+  {
+   "id": "date_de_depassement_de_terme",
+   "text": "DATE DE DÉPASSEMENT DE TERME :",
+   "bold": false,
+   "bbox": [
+    562.2,
+    179.9,
+    869.7,
+    202.9
+   ]
+  },
+  {
+   "id": "prestations_visites",
+   "text": "Prestations / Visites",
+   "bold": true,
+   "bbox": [
+    91.4,
+    259.5,
+    230.0,
+    279.7
+   ]
+  },
+  {
+   "id": "1er_trimestre",
+   "text": "1er trimestre",
+   "bold": true,
+   "bbox": [
+    362.3,
+    230.3,
+    450.6,
+    250.4
+   ]
+  },
+  {
+   "id": "2eme_trimestre",
+   "text": "2ème trimestre",
+   "bold": true,
+   "bbox": [
+    642.3,
+    230.2,
+    746.1,
+    250.3
+   ]
+  },
+  {
+   "id": "3eme_trimestre",
+   "text": "3ème trimestre",
+   "bold": true,
+   "bbox": [
+    922.4,
+    230.1,
+    1026.1,
+    250.2
+   ]
+  },
+  {
+   "id": "7eme_mois",
+   "text": "7ème mois",
+   "bold": false,
+   "bbox": [
+    880.7,
+    263.5,
+    941.8,
+    280.7
+   ]
+  },
+  {
+   "id": "8eme_mois",
+   "text": "8ème mois",
+   "bold": false,
+   "bbox": [
+    974.1,
+    263.5,
+    1035.2,
+    280.7
+   ]
+  },
+  {
+   "id": "9eme_mois",
+   "text": "9ème mois",
+   "bold": false,
+   "bbox": [
+    1067.4,
+    263.5,
+    1128.5,
+    280.7
+   ]
+  },
+  {
+   "id": "rendez_vous",
+   "text": "Rendez-vous",
+   "bold": false,
+   "bbox": [
+    91.5,
+    297.4,
+    174.9,
+    316.9
+   ]
+  },
+  {
+   "id": "venue_le",
+   "text": "Venue le",
+   "bold": false,
+   "bbox": [
+    91.5,
+    334.5,
+    147.4,
+    354.0
+   ]
+  },
+  {
+   "id": "visites_de_relance",
+   "text": "Visites de relance",
+   "bold": false,
+   "bbox": [
+    91.5,
+    371.6,
+    203.3,
+    391.1
+   ]
+  },
+  {
+   "id": "age_probable",
+   "text": "Age probable",
+   "bold": false,
+   "bbox": [
+    91.5,
+    408.7,
+    175.8,
+    428.2
+   ]
+  },
+  {
+   "id": "examen_clinique",
+   "text": "EXAMEN CLINIQUE",
+   "bold": true,
+   "bbox": [
+    91.5,
+    446.5,
+    217.9,
+    465.2
+   ]
+  },
+  {
+   "id": "poids_kg",
+   "text": "Poids (kg)",
+   "bold": false,
+   "bbox": [
+    91.5,
+    482.9,
+    155.3,
+    502.3
+   ]
+  },
+  {
+   "id": "anomalies_squelette",
+   "text": "Anomalies squelette",
+   "bold": false,
+   "bbox": [
+    91.5,
+    557.0,
+    219.1,
+    576.5
+   ]
+  },
+  {
+   "id": "etat_des_conjonctives",
+   "text": "État des conjonctives",
+   "bold": false,
+   "bbox": [
+    91.6,
+    594.1,
+    225.4,
+    613.6
+   ]
+  },
+  {
+   "id": "examen_des_seins",
+   "text": "Examen des seins",
+   "bold": false,
+   "bbox": [
+    91.6,
+    631.2,
+    207.3,
+    650.7
+   ]
+  },
+  {
+   "id": "oedemes",
+   "text": "Œdèmes",
+   "bold": false,
+   "bbox": [
+    91.6,
+    668.3,
+    148.3,
+    687.8
+   ]
+  },
+  {
+   "id": "mouvements_actifs",
+   "text": "Mouvements actifs",
+   "bold": false,
+   "bbox": [
+    91.6,
+    705.3,
+    209.7,
+    724.8
+   ]
+  },
+  {
+   "id": "hu_cm",
+   "text": "HU (cm)",
+   "bold": false,
+   "bbox": [
+    91.6,
+    742.4,
+    144.3,
+    761.9
+   ]
+  },
+  {
+   "id": "bcf",
+   "text": "BCF",
+   "bold": false,
+   "bbox": [
+    91.6,
+    779.5,
+    120.0,
+    799.0
+   ]
+  },
+  {
+   "id": "examen_au_speculum",
+   "text": "Examen au spéculum",
+   "bold": false,
+   "bbox": [
+    91.6,
+    816.6,
+    227.9,
+    836.1
+   ]
+  },
+  {
+   "id": "tv_etat_du_col",
+   "text": "TV : état du col",
+   "bold": false,
+   "bbox": [
+    91.7,
+    853.7,
+    187.0,
+    873.2
+   ]
+  },
+  {
+   "id": "tv_presentation",
+   "text": "TV : présentation",
+   "bold": false,
+   "bbox": [
+    91.7,
+    890.8,
+    199.6,
+    910.3
+   ]
+  },
+  {
+   "id": "tv_bassin",
+   "text": "TV : bassin",
+   "bold": false,
+   "bbox": [
+    91.7,
+    927.9,
+    162.6,
+    947.3
+   ]
+  },
+  {
+   "id": "examen_biologique",
+   "text": "EXAMEN BIOLOGIQUE",
+   "bold": true,
+   "bbox": [
+    91.7,
+    965.7,
+    239.9,
+    984.4
+   ]
+  },
+  {
+   "id": "glucosurie",
+   "text": "Glucosurie",
+   "bold": false,
+   "bbox": [
+    91.7,
+    1002.0,
+    159.4,
+    1021.5
+   ]
+  },
+  {
+   "id": "albuminurie",
+   "text": "Albuminurie",
+   "bold": false,
+   "bbox": [
+    91.7,
+    1039.1,
+    166.5,
+    1058.6
+   ]
+  },
+  {
+   "id": "rubeole",
+   "text": "Rubéole",
+   "bold": false,
+   "bbox": [
+    91.7,
+    1076.2,
+    144.5,
+    1095.7
+   ]
+  },
+  {
+   "id": "toxoplasmose",
+   "text": "Toxoplasmose",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1113.3,
+    183.9,
+    1132.8
+   ]
+  },
+  {
+   "id": "syphilis_tpha_vdrl",
+   "text": "Syphilis (TPHA/VDRL)",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1150.3,
+    233.5,
+    1169.8
+   ]
+  },
+  {
+   "id": "ag_hbs",
+   "text": "Ag HBs",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1187.4,
+    139.8,
+    1206.9
+   ]
+  },
+  {
+   "id": "serologie_vih",
+   "text": "Sérologie VIH",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1224.5,
+    179.2,
+    1244.0
+   ]
+  },
+  {
+   "id": "hemoglobine",
+   "text": "Hémoglobine",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1261.6,
+    175.3,
+    1281.1
+   ]
+  },
+  {
+   "id": "plaquettes",
+   "text": "Plaquettes",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1298.7,
+    158.8,
+    1318.2
+   ]
+  },
+  {
+   "id": "bilan_glycemique",
+   "text": "Bilan glycémique",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1335.8,
+    198.9,
+    1355.3
+   ]
+  },
+  {
+   "id": "rai_si_rh_negatif",
+   "text": "RAI (si Rh négatif)",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1372.8,
+    207.6,
+    1392.3
+   ]
+  },
+  {
+   "id": "traitement",
+   "text": "TRAITEMENT",
+   "bold": true,
+   "bbox": [
+    91.9,
+    1410.7,
+    179.1,
+    1429.4
+   ]
+  },
+  {
+   "id": "examen_fait_par",
+   "text": "EXAMEN FAIT PAR",
+   "bold": true,
+   "bbox": [
+    91.9,
+    1484.8,
+    216.0,
+    1503.5
+   ]
+  },
+  {
+   "id": "examen_fait_par",
+   "text": "Examen fait par",
+   "bold": false,
+   "bbox": [
+    91.9,
+    1521.2,
+    191.1,
+    1540.7
+   ]
+  },
+  {
+   "id": "document_synthetique_genere_po",
+   "text": "Document synthétique généré pour l'entraînement de modèles — aucune donnée réelle — ne pas utiliser comme dossier médical.",
+   "bold": false,
+   "bbox": [
+    83.6,
+    1707.3,
+    803.7,
+    1724.8
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "key": "rendez_vous__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    318.8,
+    289.6,
+    407.9,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    412.1,
+    289.6,
+    501.3,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    505.5,
+    289.6,
+    594.6,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    598.8,
+    289.6,
+    688.0,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    692.2,
+    289.6,
+    781.3,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    785.5,
+    289.6,
+    874.7,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    878.9,
+    289.6,
+    968.0,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    972.2,
+    289.6,
+    1061.4,
+    322.5
+   ]
+  },
+  {
+   "key": "rendez_vous__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rendez-vous",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    1065.6,
+    289.6,
+    1154.7,
+    322.5
+   ]
+  },
+  {
+   "key": "venue_le__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    318.8,
+    326.7,
+    407.9,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    412.1,
+    326.7,
+    501.3,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    505.5,
+    326.7,
+    594.6,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    598.8,
+    326.7,
+    688.0,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    692.2,
+    326.7,
+    781.3,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    785.5,
+    326.7,
+    874.7,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    878.9,
+    326.7,
+    968.0,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    972.2,
+    326.7,
+    1061.4,
+    359.6
+   ]
+  },
+  {
+   "key": "venue_le__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Venue le",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    1065.6,
+    326.7,
+    1154.7,
+    359.6
+   ]
+  },
+  {
+   "key": "visites_de_relance__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    363.7,
+    407.9,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    363.7,
+    501.3,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    363.7,
+    594.6,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    363.7,
+    688.0,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    363.7,
+    781.3,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    363.7,
+    874.7,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    363.7,
+    968.0,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    363.7,
+    1061.4,
+    396.7
+   ]
+  },
+  {
+   "key": "visites_de_relance__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Visites de relance",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    363.7,
+    1154.7,
+    396.7
+   ]
+  },
+  {
+   "key": "age_probable__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    318.8,
+    400.8,
+    407.9,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    412.1,
+    400.8,
+    501.3,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    505.5,
+    400.8,
+    594.6,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    598.8,
+    400.8,
+    688.0,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    692.2,
+    400.8,
+    781.3,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    785.5,
+    400.8,
+    874.7,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    878.9,
+    400.8,
+    968.0,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    972.2,
+    400.8,
+    1061.4,
+    433.7
+   ]
+  },
+  {
+   "key": "age_probable__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Age probable",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    1065.6,
+    400.8,
+    1154.7,
+    433.7
+   ]
+  },
+  {
+   "key": "poids_kg__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    318.8,
+    475.0,
+    407.9,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    412.1,
+    475.0,
+    501.3,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    505.5,
+    475.0,
+    594.6,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    598.8,
+    475.0,
+    688.0,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    692.2,
+    475.0,
+    781.3,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    785.5,
+    475.0,
+    874.7,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    878.9,
+    475.0,
+    968.0,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    972.2,
+    475.0,
+    1061.4,
+    507.9
+   ]
+  },
+  {
+   "key": "poids_kg__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Poids (kg)",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    1065.6,
+    475.0,
+    1154.7,
+    507.9
+   ]
+  },
+  {
+   "key": "ta__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    318.8,
+    512.1,
+    407.9,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    412.1,
+    512.1,
+    501.3,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    505.5,
+    512.1,
+    594.6,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    598.8,
+    512.1,
+    688.0,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    692.2,
+    512.1,
+    781.3,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    785.5,
+    512.1,
+    874.7,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    878.9,
+    512.1,
+    968.0,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    972.2,
+    512.1,
+    1061.4,
+    545.0
+   ]
+  },
+  {
+   "key": "ta__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "TA",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    1065.6,
+    512.1,
+    1154.7,
+    545.0
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    549.2,
+    407.9,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    549.2,
+    501.3,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    549.2,
+    594.6,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    549.2,
+    688.0,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    549.2,
+    781.3,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    549.2,
+    874.7,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    549.2,
+    968.0,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    549.2,
+    1061.4,
+    582.1
+   ]
+  },
+  {
+   "key": "anomalies_squelette__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Anomalies squelette",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    549.2,
+    1154.7,
+    582.1
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    586.2,
+    407.9,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    586.2,
+    501.3,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    586.2,
+    594.6,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    586.2,
+    688.0,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    586.2,
+    781.3,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    586.2,
+    874.7,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    586.2,
+    968.0,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    586.2,
+    1061.4,
+    619.2
+   ]
+  },
+  {
+   "key": "etat_des_conjonctives__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "État des conjonctives",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    586.2,
+    1154.7,
+    619.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    623.3,
+    407.9,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    623.3,
+    501.3,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    623.3,
+    594.6,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    623.3,
+    688.0,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    623.3,
+    781.3,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    623.3,
+    874.7,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    623.3,
+    968.0,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    623.3,
+    1061.4,
+    656.2
+   ]
+  },
+  {
+   "key": "examen_des_seins__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen des seins",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    623.3,
+    1154.7,
+    656.2
+   ]
+  },
+  {
+   "key": "oedemes__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    660.4,
+    407.9,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    660.4,
+    501.3,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    660.4,
+    594.6,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    660.4,
+    688.0,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    660.4,
+    781.3,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    660.4,
+    874.7,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    660.4,
+    968.0,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    660.4,
+    1061.4,
+    693.3
+   ]
+  },
+  {
+   "key": "oedemes__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Œdèmes",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    660.4,
+    1154.7,
+    693.3
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    697.5,
+    407.9,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    697.5,
+    501.3,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    697.5,
+    594.6,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    697.5,
+    688.0,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    697.5,
+    781.3,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    697.5,
+    874.7,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    697.5,
+    968.0,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    697.5,
+    1061.4,
+    730.4
+   ]
+  },
+  {
+   "key": "mouvements_actifs__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Mouvements actifs",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    697.5,
+    1154.7,
+    730.4
+   ]
+  },
+  {
+   "key": "hu_cm__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    318.8,
+    734.6,
+    407.9,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    412.1,
+    734.6,
+    501.3,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    505.5,
+    734.6,
+    594.6,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    598.8,
+    734.6,
+    688.0,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    692.2,
+    734.6,
+    781.3,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    785.5,
+    734.6,
+    874.7,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    878.9,
+    734.6,
+    968.0,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    972.2,
+    734.6,
+    1061.4,
+    767.5
+   ]
+  },
+  {
+   "key": "hu_cm__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "HU (cm)",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    1065.6,
+    734.6,
+    1154.7,
+    767.5
+   ]
+  },
+  {
+   "key": "bcf__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    318.8,
+    771.7,
+    407.9,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    412.1,
+    771.7,
+    501.3,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    505.5,
+    771.7,
+    594.6,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    598.8,
+    771.7,
+    688.0,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    692.2,
+    771.7,
+    781.3,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    785.5,
+    771.7,
+    874.7,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    878.9,
+    771.7,
+    968.0,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    972.2,
+    771.7,
+    1061.4,
+    804.6
+   ]
+  },
+  {
+   "key": "bcf__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "BCF",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    1065.6,
+    771.7,
+    1154.7,
+    804.6
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    808.7,
+    407.9,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    808.7,
+    501.3,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    808.7,
+    594.6,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    808.7,
+    688.0,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    808.7,
+    781.3,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    808.7,
+    874.7,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    808.7,
+    968.0,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    808.7,
+    1061.4,
+    841.7
+   ]
+  },
+  {
+   "key": "examen_au_speculum__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen au spéculum",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    808.7,
+    1154.7,
+    841.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    845.8,
+    407.9,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    845.8,
+    501.3,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    845.8,
+    594.6,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    845.8,
+    688.0,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    845.8,
+    781.3,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    845.8,
+    874.7,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    845.8,
+    968.0,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    845.8,
+    1061.4,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_etat_du_col__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : état du col",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    845.8,
+    1154.7,
+    878.7
+   ]
+  },
+  {
+   "key": "tv_presentation__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    882.9,
+    407.9,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    882.9,
+    501.3,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    882.9,
+    594.6,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    882.9,
+    688.0,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    882.9,
+    781.3,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    882.9,
+    874.7,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    882.9,
+    968.0,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    882.9,
+    1061.4,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_presentation__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : présentation",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    882.9,
+    1154.7,
+    915.8
+   ]
+  },
+  {
+   "key": "tv_bassin__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    920.0,
+    407.9,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    920.0,
+    501.3,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    920.0,
+    594.6,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    920.0,
+    688.0,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    920.0,
+    781.3,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    920.0,
+    874.7,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    920.0,
+    968.0,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    920.0,
+    1061.4,
+    952.9
+   ]
+  },
+  {
+   "key": "tv_bassin__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "TV : bassin",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    920.0,
+    1154.7,
+    952.9
+   ]
+  },
+  {
+   "key": "glucosurie__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    994.2,
+    407.9,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    994.2,
+    501.3,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    994.2,
+    594.6,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    994.2,
+    688.0,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    994.2,
+    781.3,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    994.2,
+    874.7,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    994.2,
+    968.0,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    994.2,
+    1061.4,
+    1027.1
+   ]
+  },
+  {
+   "key": "glucosurie__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Glucosurie",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    994.2,
+    1154.7,
+    1027.1
+   ]
+  },
+  {
+   "key": "albuminurie__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1031.2,
+    407.9,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1031.2,
+    501.3,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1031.2,
+    594.6,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1031.2,
+    688.0,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1031.2,
+    781.3,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1031.2,
+    874.7,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1031.2,
+    968.0,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1031.2,
+    1061.4,
+    1064.2
+   ]
+  },
+  {
+   "key": "albuminurie__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Albuminurie",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1031.2,
+    1154.7,
+    1064.2
+   ]
+  },
+  {
+   "key": "rubeole__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1068.3,
+    407.9,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1068.3,
+    501.3,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1068.3,
+    594.6,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1068.3,
+    688.0,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1068.3,
+    781.3,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1068.3,
+    874.7,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1068.3,
+    968.0,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1068.3,
+    1061.4,
+    1101.2
+   ]
+  },
+  {
+   "key": "rubeole__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Rubéole",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1068.3,
+    1154.7,
+    1101.2
+   ]
+  },
+  {
+   "key": "toxoplasmose__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1105.4,
+    407.9,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1105.4,
+    501.3,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1105.4,
+    594.6,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1105.4,
+    688.0,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1105.4,
+    781.3,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1105.4,
+    874.7,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1105.4,
+    968.0,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1105.4,
+    1061.4,
+    1138.3
+   ]
+  },
+  {
+   "key": "toxoplasmose__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Toxoplasmose",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1105.4,
+    1154.7,
+    1138.3
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1142.5,
+    407.9,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1142.5,
+    501.3,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1142.5,
+    594.6,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1142.5,
+    688.0,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1142.5,
+    781.3,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1142.5,
+    874.7,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1142.5,
+    968.0,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1142.5,
+    1061.4,
+    1175.4
+   ]
+  },
+  {
+   "key": "syphilis_tpha_vdrl__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Syphilis (TPHA/VDRL)",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1142.5,
+    1154.7,
+    1175.4
+   ]
+  },
+  {
+   "key": "ag_hbs__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1179.6,
+    407.9,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1179.6,
+    501.3,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1179.6,
+    594.6,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1179.6,
+    688.0,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1179.6,
+    781.3,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1179.6,
+    874.7,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1179.6,
+    968.0,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1179.6,
+    1061.4,
+    1212.5
+   ]
+  },
+  {
+   "key": "ag_hbs__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Ag HBs",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1179.6,
+    1154.7,
+    1212.5
+   ]
+  },
+  {
+   "key": "serologie_vih__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1216.7,
+    407.9,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1216.7,
+    501.3,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1216.7,
+    594.6,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1216.7,
+    688.0,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1216.7,
+    781.3,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1216.7,
+    874.7,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1216.7,
+    968.0,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1216.7,
+    1061.4,
+    1249.6
+   ]
+  },
+  {
+   "key": "serologie_vih__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Sérologie VIH",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1216.7,
+    1154.7,
+    1249.6
+   ]
+  },
+  {
+   "key": "hemoglobine__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    318.8,
+    1253.7,
+    407.9,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    412.1,
+    1253.7,
+    501.3,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    505.5,
+    1253.7,
+    594.6,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    598.8,
+    1253.7,
+    688.0,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    692.2,
+    1253.7,
+    781.3,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    785.5,
+    1253.7,
+    874.7,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    878.9,
+    1253.7,
+    968.0,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    972.2,
+    1253.7,
+    1061.4,
+    1286.7
+   ]
+  },
+  {
+   "key": "hemoglobine__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Hémoglobine",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    1065.6,
+    1253.7,
+    1154.7,
+    1286.7
+   ]
+  },
+  {
+   "key": "plaquettes__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    318.8,
+    1290.8,
+    407.9,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    412.1,
+    1290.8,
+    501.3,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    505.5,
+    1290.8,
+    594.6,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    598.8,
+    1290.8,
+    688.0,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    692.2,
+    1290.8,
+    781.3,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    785.5,
+    1290.8,
+    874.7,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    878.9,
+    1290.8,
+    968.0,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    972.2,
+    1290.8,
+    1061.4,
+    1323.7
+   ]
+  },
+  {
+   "key": "plaquettes__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Plaquettes",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    1065.6,
+    1290.8,
+    1154.7,
+    1323.7
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    318.8,
+    1327.9,
+    407.9,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    412.1,
+    1327.9,
+    501.3,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    505.5,
+    1327.9,
+    594.6,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    598.8,
+    1327.9,
+    688.0,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    692.2,
+    1327.9,
+    781.3,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    785.5,
+    1327.9,
+    874.7,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    878.9,
+    1327.9,
+    968.0,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    972.2,
+    1327.9,
+    1061.4,
+    1360.8
+   ]
+  },
+  {
+   "key": "bilan_glycemique__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Bilan glycémique",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    1065.6,
+    1327.9,
+    1154.7,
+    1360.8
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1365.0,
+    407.9,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1365.0,
+    501.3,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1365.0,
+    594.6,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1365.0,
+    688.0,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1365.0,
+    781.3,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1365.0,
+    874.7,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1365.0,
+    968.0,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1365.0,
+    1061.4,
+    1397.9
+   ]
+  },
+  {
+   "key": "rai_si_rh_negatif__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "RAI (si Rh négatif)",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1365.0,
+    1154.7,
+    1397.9
+   ]
+  },
+  {
+   "key": "fer__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1439.2,
+    407.9,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1439.2,
+    501.3,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1439.2,
+    594.6,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1439.2,
+    688.0,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1439.2,
+    781.3,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1439.2,
+    874.7,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1439.2,
+    968.0,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1439.2,
+    1061.4,
+    1472.1
+   ]
+  },
+  {
+   "key": "fer__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Fer",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1439.2,
+    1154.7,
+    1472.1
+   ]
+  },
+  {
+   "key": "examen_fait_par__t1_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    318.8,
+    1513.3,
+    407.9,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t1_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    412.1,
+    1513.3,
+    501.3,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t1_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    505.5,
+    1513.3,
+    594.6,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t2_v1",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "Visite 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    598.8,
+    1513.3,
+    688.0,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t2_v2",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "Visite 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    692.2,
+    1513.3,
+    781.3,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t2_v3",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "Visite 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.5,
+    1513.3,
+    874.7,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t3_m7",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "7ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    878.9,
+    1513.3,
+    968.0,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t3_m8",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "8ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    972.2,
+    1513.3,
+    1061.4,
+    1546.2
+   ]
+  },
+  {
+   "key": "examen_fait_par__t3_m9",
+   "kind": "text",
+   "table": "t5",
+   "row": "Examen fait par",
+   "col": "9ème mois",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    1065.6,
+    1513.3,
+    1154.7,
+    1546.2
+   ]
+  },
+  {
+   "key": "ddr",
+   "kind": "text",
+   "label": "DDR :",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    141.4,
+    133.5,
+    287.2,
+    173.1
+   ]
+  },
+  {
+   "key": "taille",
+   "kind": "text",
+   "label": "Taille :",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    457.6,
+    133.4,
+    561.8,
+    173.0
+   ]
+  },
+  {
+   "key": "date_prevue_d_accouchement",
+   "kind": "text",
+   "label": "DATE PRÉVUE D'ACCOUCHEMENT :",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    385.4,
+    168.8,
+    531.2,
+    208.4
+   ]
+  },
+  {
+   "key": "date_de_depassement_de_terme",
+   "kind": "text",
+   "label": "DATE DE DÉPASSEMENT DE TERME :",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    878.1,
+    168.6,
+    1023.9,
+    208.2
+   ]
+  },
+  {
+   "label": "A",
+   "context": "Groupage :",
+   "kind": "checkbox",
+   "key": "a",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    781.0,
+    147.9,
+    797.7,
+    164.5
+   ]
+  },
+  {
+   "label": "B",
+   "context": "Groupage :",
+   "kind": "checkbox",
+   "key": "b",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    847.6,
+    147.8,
+    864.3,
+    164.5
+   ]
+  },
+  {
+   "label": "O",
+   "context": "Groupage :",
+   "kind": "checkbox",
+   "key": "o",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    914.3,
+    147.8,
+    931.0,
+    164.5
+   ]
+  },
+  {
+   "label": "AB",
+   "context": "Groupage :",
+   "kind": "checkbox",
+   "key": "ab",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    981.0,
+    147.8,
+    997.7,
+    164.5
+   ]
+  },
+  {
+   "label": "Rh-",
+   "context": "Groupage :",
+   "kind": "checkbox",
+   "key": "rh_neg",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    1051.8,
+    147.8,
+    1068.5,
+    164.4
+   ]
+  },
+  {
+   "label": "Rh+",
+   "context": "DATE DE DÉPASSEMENT DE TERME :",
+   "kind": "checkbox",
+   "key": "rh_pos",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    1051.8,
+    176.9,
+    1068.5,
+    193.6
+   ]
+  }
+ ],
+ "redact": []
+}

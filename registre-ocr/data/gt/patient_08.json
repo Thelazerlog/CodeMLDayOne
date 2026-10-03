@@ -1,0 +1,2425 @@
+{
+ "couverture": {
+  "n_de_la_fiche": {
+   "value": "2026-803-008",
+   "status": "CONNU"
+  },
+  "region": {
+   "value": "Casablanca-Settat",
+   "status": "CONNU"
+  },
+  "province": {
+   "value": "Settat",
+   "status": "CONNU"
+  },
+  "nom_de_l_etablissement_sanitaire": {
+   "value": "CSCA Lahraouiyine",
+   "status": "CONNU"
+  },
+  "dr": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csc": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csu": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csca": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "csua": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "fixe": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "mobile": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "grossesse_classee_a_risq": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "anemie": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "metrorragie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "h_t_a": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "diabete": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "pre_eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "cardiopathie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  }
+ },
+ "identification": {
+  "hta__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "hta__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "diabete__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "diabete__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "maladies_hereditaires__famille_de_la_femme": {
+   "value": "Oncle",
+   "status": "CONNU"
+  },
+  "maladies_hereditaires__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "malformations__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "malformations__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "allergie_s__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "allergie_s__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "medicaux": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "chirurgicaux": {
+   "value": "Aucun",
+   "status": "CONNU"
+  },
+  "gynecologiques": {
+   "value": "Cycles réguliers",
+   "status": "CONNU"
+  },
+  "avortement__nombre": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "avortement__date": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "avortement__lieu": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "avortement__age_gestationnel_sa": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "accouchement_premature__nombre": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "accouchement_premature__date": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "accouchement_premature__lieu": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "accouchement_premature__age_gestationnel_sa": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "mort_foetale_in_utero__nombre": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "mort_foetale_in_utero__date": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "mort_foetale_in_utero__lieu": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "mort_foetale_in_utero__age_gestationnel_sa": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "autres_a_preciser__nombre": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "autres_a_preciser__date": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "autres_a_preciser__lieu": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "autres_a_preciser__age_gestationnel_sa": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_1": {
+   "value": "03/08/2022",
+   "status": "CONNU"
+  },
+  "date__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_1": {
+   "value": "Césarienne",
+   "status": "CONNU"
+  },
+  "modalite_d_extraction__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_1": {
+   "value": "SFA",
+   "status": "CONNU"
+  },
+  "si_cesarienne_indication__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "complication_type__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_1": {
+   "value": "3175 g",
+   "status": "CONNU"
+  },
+  "poids_nouveau_ne_s__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "compl_nouveau_ne_type__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "age": {
+   "value": "28",
+   "status": "CONNU"
+  },
+  "niveau_d_instruction": {
+   "value": "Aucun",
+   "status": "CONNU"
+  },
+  "profession": {
+   "value": "Agricultrice",
+   "status": "CONNU"
+  },
+  "gestation": {
+   "value": "2",
+   "status": "CONNU"
+  },
+  "parite": {
+   "value": "1",
+   "status": "CONNU"
+  },
+  "nombre_d_enfants_vivants": {
+   "value": "1",
+   "status": "CONNU"
+  },
+  "date_vacc_rubeole": {
+   "value": "12/05/2022",
+   "status": "CONNU"
+  },
+  "date_vacc_hepatite_b": {
+   "value": "03/09/2021",
+   "status": "CONNU"
+  },
+  "frottis_cervical_iva_moins_de_3_ans": {
+   "value": "Normal",
+   "status": "CONNU"
+  },
+  "consanguinite": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "grossesse_desiree": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "vat_1": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_2": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "vat_3": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_4": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_5": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vaccinee_contre_la_rubeo": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "vaccinee_contre_l_hepati": {
+   "value": true,
+   "status": "CONNU"
+  }
+ },
+ "grossesse_actuelle": {
+  "rendez_vous__t1_v1": {
+   "value": "14/03/2026",
+   "status": "CONNU"
+  },
+  "rendez_vous__t1_v2": {
+   "value": "12/04/2026",
+   "status": "CONNU"
+  },
+  "rendez_vous__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rendez_vous__t2_v1": {
+   "value": "30/05/2026",
+   "status": "CONNU"
+  },
+  "rendez_vous__t2_v2": {
+   "value": "22/06/2026",
+   "status": "CONNU"
+  },
+  "rendez_vous__t2_v3": {
+   "value": "19/07/2026",
+   "status": "CONNU"
+  },
+  "rendez_vous__t3_m7": {
+   "value": "25/08/2026",
+   "status": "CONNU"
+  },
+  "rendez_vous__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rendez_vous__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "venue_le__t1_v1": {
+   "value": "14/02/2026",
+   "status": "CONNU"
+  },
+  "venue_le__t1_v2": {
+   "value": "15/03/2026",
+   "status": "CONNU"
+  },
+  "venue_le__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "venue_le__t2_v1": {
+   "value": "02/05/2026",
+   "status": "CONNU"
+  },
+  "venue_le__t2_v2": {
+   "value": "25/05/2026",
+   "status": "CONNU"
+  },
+  "venue_le__t2_v3": {
+   "value": "21/06/2026",
+   "status": "CONNU"
+  },
+  "venue_le__t3_m7": {
+   "value": "28/07/2026",
+   "status": "CONNU"
+  },
+  "venue_le__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "venue_le__t3_m9": {
+   "value": "17/09/2026",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t1_v1": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t1_v2": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "visites_de_relance__t2_v1": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t2_v2": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t2_v3": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t3_m7": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "visites_de_relance__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "visites_de_relance__t3_m9": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "age_probable__t1_v1": {
+   "value": "8 SA",
+   "status": "CONNU"
+  },
+  "age_probable__t1_v2": {
+   "value": "12 SA",
+   "status": "CONNU"
+  },
+  "age_probable__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "age_probable__t2_v1": {
+   "value": "19 SA",
+   "status": "CONNU"
+  },
+  "age_probable__t2_v2": {
+   "value": "22 SA",
+   "status": "CONNU"
+  },
+  "age_probable__t2_v3": {
+   "value": "26 SA",
+   "status": "CONNU"
+  },
+  "age_probable__t3_m7": {
+   "value": "31 SA",
+   "status": "CONNU"
+  },
+  "age_probable__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "age_probable__t3_m9": {
+   "value": "38 SA",
+   "status": "CONNU"
+  },
+  "poids_kg__t1_v1": {
+   "value": "74.9",
+   "status": "CONNU"
+  },
+  "poids_kg__t1_v2": {
+   "value": "75.5",
+   "status": "CONNU"
+  },
+  "poids_kg__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_kg__t2_v1": {
+   "value": "77.1",
+   "status": "CONNU"
+  },
+  "poids_kg__t2_v2": {
+   "value": "79.8",
+   "status": "CONNU"
+  },
+  "poids_kg__t2_v3": {
+   "value": "80.2",
+   "status": "CONNU"
+  },
+  "poids_kg__t3_m7": {
+   "value": "81.2",
+   "status": "CONNU"
+  },
+  "poids_kg__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_kg__t3_m9": {
+   "value": "85.3",
+   "status": "CONNU"
+  },
+  "ta__t1_v1": {
+   "value": "120/61",
+   "status": "CONNU"
+  },
+  "ta__t1_v2": {
+   "value": "120/60",
+   "status": "CONNU"
+  },
+  "ta__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ta__t2_v1": {
+   "value": "101/78",
+   "status": "CONNU"
+  },
+  "ta__t2_v2": {
+   "value": "101/72",
+   "status": "CONNU"
+  },
+  "ta__t2_v3": {
+   "value": "100/76",
+   "status": "CONNU"
+  },
+  "ta__t3_m7": {
+   "value": "106/63",
+   "status": "CONNU"
+  },
+  "ta__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ta__t3_m9": {
+   "value": "108/72",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t1_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t1_v2": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "anomalies_squelette__t2_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t2_v2": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t2_v3": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t3_m7": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "anomalies_squelette__t3_m9": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t1_v1": {
+   "value": "Pâles",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t1_v2": {
+   "value": "Pâles",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "etat_des_conjonctives__t2_v1": {
+   "value": "Pâles",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t2_v2": {
+   "value": "Pâles",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t2_v3": {
+   "value": "Pâles",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t3_m7": {
+   "value": "Normales",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "etat_des_conjonctives__t3_m9": {
+   "value": "Normales",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t1_v1": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t1_v2": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_des_seins__t2_v1": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t2_v2": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t2_v3": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t3_m7": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_des_seins__t3_m9": {
+   "value": "Normaux",
+   "status": "CONNU"
+  },
+  "oedemes__t1_v1": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "oedemes__t1_v2": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "oedemes__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "oedemes__t2_v1": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "oedemes__t2_v2": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "oedemes__t2_v3": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "oedemes__t3_m7": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "oedemes__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "oedemes__t3_m9": {
+   "value": "Non",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t1_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "mouvements_actifs__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "mouvements_actifs__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "mouvements_actifs__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "mouvements_actifs__t2_v2": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t2_v3": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t3_m7": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "mouvements_actifs__t3_m9": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "hu_cm__t1_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "hu_cm__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "hu_cm__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hu_cm__t2_v1": {
+   "value": "15",
+   "status": "CONNU"
+  },
+  "hu_cm__t2_v2": {
+   "value": "18",
+   "status": "CONNU"
+  },
+  "hu_cm__t2_v3": {
+   "value": "22",
+   "status": "CONNU"
+  },
+  "hu_cm__t3_m7": {
+   "value": "27",
+   "status": "CONNU"
+  },
+  "hu_cm__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hu_cm__t3_m9": {
+   "value": "34",
+   "status": "CONNU"
+  },
+  "bcf__t1_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "bcf__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "bcf__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bcf__t2_v1": {
+   "value": "140",
+   "status": "CONNU"
+  },
+  "bcf__t2_v2": {
+   "value": "157",
+   "status": "CONNU"
+  },
+  "bcf__t2_v3": {
+   "value": "153",
+   "status": "CONNU"
+  },
+  "bcf__t3_m7": {
+   "value": "138",
+   "status": "CONNU"
+  },
+  "bcf__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bcf__t3_m9": {
+   "value": "145",
+   "status": "CONNU"
+  },
+  "examen_au_speculum__t1_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "examen_au_speculum__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "examen_au_speculum__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_au_speculum__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "examen_au_speculum__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "examen_au_speculum__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "examen_au_speculum__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "examen_au_speculum__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_au_speculum__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_etat_du_col__t1_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_etat_du_col__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_etat_du_col__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "tv_etat_du_col__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_etat_du_col__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_etat_du_col__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_etat_du_col__t3_m7": {
+   "value": "Fermé",
+   "status": "CONNU"
+  },
+  "tv_etat_du_col__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "tv_etat_du_col__t3_m9": {
+   "value": "Fermé",
+   "status": "CONNU"
+  },
+  "tv_presentation__t1_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_presentation__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_presentation__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "tv_presentation__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_presentation__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_presentation__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_presentation__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_presentation__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "tv_presentation__t3_m9": {
+   "value": "Céphalique",
+   "status": "CONNU"
+  },
+  "tv_bassin__t1_v1": {
+   "value": "Normal",
+   "status": "CONNU"
+  },
+  "tv_bassin__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_bassin__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "tv_bassin__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_bassin__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_bassin__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_bassin__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "tv_bassin__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "tv_bassin__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "—"
+  },
+  "glucosurie__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "glucosurie__t1_v2": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "glucosurie__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "glucosurie__t2_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "glucosurie__t2_v2": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "glucosurie__t2_v3": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "glucosurie__t3_m7": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "glucosurie__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "glucosurie__t3_m9": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t1_v2": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "albuminurie__t2_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t2_v2": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t2_v3": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t3_m7": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "albuminurie__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "albuminurie__t3_m9": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "rubeole__t1_v1": {
+   "value": "Immune",
+   "status": "CONNU"
+  },
+  "rubeole__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rubeole__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t1_v1": {
+   "value": "Immune",
+   "status": "CONNU"
+  },
+  "toxoplasmose__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "toxoplasmose__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "syphilis_tpha_vdrl__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "syphilis_tpha_vdrl__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "ag_hbs__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "ag_hbs__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "serologie_vih__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "serologie_vih__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t1_v1": {
+   "value": "10.1 g/dL",
+   "status": "CONNU"
+  },
+  "hemoglobine__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t2_v1": {
+   "value": "9.5 g/dL",
+   "status": "CONNU"
+  },
+  "hemoglobine__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "hemoglobine__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t1_v1": {
+   "value": "247k",
+   "status": "CONNU"
+  },
+  "plaquettes__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "plaquettes__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t1_v1": {
+   "value": "0.76 g/L",
+   "status": "CONNU"
+  },
+  "bilan_glycemique__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "bilan_glycemique__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "rai_si_rh_negatif__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t2_v1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "rai_si_rh_negatif__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t1_v1": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "fer__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t2_v1": {
+   "value": "Oui",
+   "status": "CONNU"
+  },
+  "fer__t2_v2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t2_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t3_m7": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "fer__t3_m9": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_fait_par__t1_v1": {
+   "value": "Dr Chakir",
+   "status": "CONNU"
+  },
+  "examen_fait_par__t1_v2": {
+   "value": "Sage-femme",
+   "status": "CONNU"
+  },
+  "examen_fait_par__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_fait_par__t2_v1": {
+   "value": "Inf. Zahra",
+   "status": "CONNU"
+  },
+  "examen_fait_par__t2_v2": {
+   "value": "Dr Chakir",
+   "status": "CONNU"
+  },
+  "examen_fait_par__t2_v3": {
+   "value": "Dr Benjelloun",
+   "status": "CONNU"
+  },
+  "examen_fait_par__t3_m7": {
+   "value": "Inf. Zahra",
+   "status": "CONNU"
+  },
+  "examen_fait_par__t3_m8": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "examen_fait_par__t3_m9": {
+   "value": "Inf. Zahra",
+   "status": "CONNU"
+  },
+  "ddr": {
+   "value": "22/12/2025",
+   "status": "CONNU"
+  },
+  "taille": {
+   "value": "167 cm",
+   "status": "CONNU"
+  },
+  "date_prevue_d_accouchement": {
+   "value": "28/09/2026",
+   "status": "CONNU"
+  },
+  "date_de_depassement_de_terme": {
+   "value": "05/10/2026",
+   "status": "CONNU"
+  },
+  "a": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "b": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "o": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "ab": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "rh_neg": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "rh_pos": {
+   "value": true,
+   "status": "CONNU"
+  }
+ },
+ "accouchement": {
+  "date_de_l_accouchement": {
+   "value": "25/09/2026",
+   "status": "CONNU"
+  },
+  "sexe": {
+   "value": "M",
+   "status": "CONNU"
+  },
+  "poids_a_la_naissance": {
+   "value": "3492 g",
+   "status": "CONNU"
+  },
+  "perimetre_cranien_a_la_naissance": {
+   "value": "35 cm",
+   "status": "CONNU"
+  },
+  "anomalie_a_preciser": {
+   "value": "Aucune",
+   "status": "CONNU"
+  },
+  "age_gestationnel": {
+   "value": "39 SA",
+   "status": "CONNU"
+  },
+  "maison_d_accouchement": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "en_milieu_surveille": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "maternite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "clinique_privee": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "a_domicile": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "assiste_par_un_personnel": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "voie_basse_non_instrumen": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "voie_basse_instrumentale": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "forceps": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "ventouse": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "avec_episiotomie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "urgence": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "cesarienne_programmee": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "presence_de_complication": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "au_moment_de_l_accouchem": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "suites_de_couches": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "pre_eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hemorragie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "autres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vivant": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "mort_ne": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "deces_24_heures": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "preciser_l_indication": {
+   "value": null,
+   "status": "NON_FOURNI"
+  }
+ },
+ "pp_precoce_mere": {
+  "date_de_la_consultation": {
+   "value": "02/10/2026",
+   "status": "CONNU"
+  },
+  "temperature": {
+   "value": "37.0",
+   "status": "CONNU"
+  },
+  "ta": {
+   "value": "114/76",
+   "status": "CONNU"
+  },
+  "pouls": {
+   "value": "80",
+   "status": "CONNU"
+  },
+  "poids": {
+   "value": "81 kg",
+   "status": "CONNU"
+  },
+  "prochain_rendez_vous_le": {
+   "value": "06/11/2026",
+   "status": "CONNU"
+  },
+  "entre_le_7eme_et_8eme_jo": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "apres_le_8eme_jour_de_l": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "normales": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "decolorees": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "presence_du_globe_uterin": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "fade": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "fetide": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "claires": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "sanglantes": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "jaunatres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_du_perinee__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "episiotomie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "reparee": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "dechirure": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_des_sphincter__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "anormal": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "cesarienne": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_des_seins__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "lymphangite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "mastite_et_abces": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_des_mollets__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "rouges": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "chauds": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "douloureux_a_la_dorsifle": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "presence_de_complication": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "hemorragie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "complications_mammaires": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "anemie": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "autres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "phlebite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "notion_de_prise_de_medic": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "fer": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "vitamine_a": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "desire_utiliser_une_meth": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "pilule": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "diu": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "prescription_faite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "referee": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_de_la_cicatrice": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "notion_de_prise_de_medicaments": {
+   "value": "Fer 2 cp/j",
+   "status": "CONNU"
+  },
+  "pf_motif_refus": {
+   "value": null,
+   "status": "NON_FOURNI"
+  }
+ },
+ "pp_precoce_nne": {
+  "date_de_la_consultation": {
+   "value": "02/10/2026",
+   "status": "CONNU"
+  },
+  "age": {
+   "value": "7 jours",
+   "status": "CONNU"
+  },
+  "temperature": {
+   "value": "37.1 °C",
+   "status": "CONNU"
+  },
+  "poids": {
+   "value": "3343 g",
+   "status": "CONNU"
+  },
+  "taille": {
+   "value": "48 cm",
+   "status": "CONNU"
+  },
+  "perimetre_cranien": {
+   "value": "35 cm",
+   "status": "CONNU"
+  },
+  "signes_graves_autres": {
+   "value": "Néant",
+   "status": "CONNU"
+  },
+  "traumatismes_autres": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "vu_par": {
+   "value": "Sage-femme Hajar",
+   "status": "CONNU"
+  },
+  "decision_prise": {
+   "value": "Poursuivre l'allaitement exclusif",
+   "status": "CONNU"
+  },
+  "traitement_prescrit": {
+   "value": "Néant",
+   "status": "CONNU"
+  },
+  "preciser_l_etablissement_de_reference": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "revenir_pour_une_visite_de_suivi_necessa": {
+   "value": "01/11/2026",
+   "status": "CONNU"
+  },
+  "nouveau_ne_premature": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "nouveau_ne_hypotrophe": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "exclusivement_au_sein": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "artificiel": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "mixte": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "convulsions": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "refus_de_teter": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hematemeses": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "melaenas": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "diarrhee": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "signes_d_une_affec__ictere": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "tirage_sous_costal": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "toux": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "rythme_respiratoire_anor": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "fievre": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hypothermie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "bosse_serosanguine_ou_ce": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "luxation_congenitale_de": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "diminution_ou_absence_de": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "a_problemes": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "bcg": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "hb": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "supplementation_en_vitam": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "presence_de_compli__ictere": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "conjonctivite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "traumatisme": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "malformation": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "autres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "transfert": {
+   "value": false,
+   "status": "CONNU"
+  }
+ },
+ "pp_tardif_mere": {
+  "date_de_la_consultation": {
+   "value": "08/11/2026",
+   "status": "CONNU"
+  },
+  "temperature": {
+   "value": "36.7",
+   "status": "CONNU"
+  },
+  "ta": {
+   "value": "120/68",
+   "status": "CONNU"
+  },
+  "pouls": {
+   "value": "66",
+   "status": "CONNU"
+  },
+  "poids": {
+   "value": "81 kg",
+   "status": "CONNU"
+  },
+  "prochain_rendez_vous_le": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "entre_le_40eme_et_50eme": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "apres_le_50eme_jour_de_l": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "normales": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "decolorees": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "presence_du_globe_uterin": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "fade": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "fetide": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "claires": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "sanglantes": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "jaunatres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_du_perinee__normal": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "episiotomie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "reparee": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "dechirure": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_des_sphincter__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "anormal": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "cesarienne": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_des_seins__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "lymphangite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "mastite_et_abces": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_des_mollets__normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "rouges": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "chauds": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "douloureux_a_la_dorsifle": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "presence_de_complication": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "hemorragie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "complications_mammaires": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "anemie": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "autres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "phlebite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "notion_de_prise_de_medic": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "fer": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "vitamine_a": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "desire_utiliser_une_meth": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "pilule": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "diu": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "prescription_faite": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "referee": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "etat_de_la_cicatrice": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "notion_de_prise_de_medicaments": {
+   "value": "Fer 2 cp/j",
+   "status": "CONNU"
+  },
+  "pf_motif_refus": {
+   "value": null,
+   "status": "NON_FOURNI"
+  }
+ },
+ "pp_tardif_nne": {
+  "date_de_la_consultation": {
+   "value": "08/11/2026",
+   "status": "CONNU"
+  },
+  "age": {
+   "value": "44 jours",
+   "status": "CONNU"
+  },
+  "temperature": {
+   "value": "37.2 °C",
+   "status": "CONNU"
+  },
+  "poids": {
+   "value": "5062 g",
+   "status": "CONNU"
+  },
+  "taille": {
+   "value": "58 cm",
+   "status": "CONNU"
+  },
+  "perimetre_cranien": {
+   "value": "39 cm",
+   "status": "CONNU"
+  },
+  "signes_graves_autres": {
+   "value": "Néant",
+   "status": "CONNU"
+  },
+  "traumatismes_autres": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "vu_par": {
+   "value": "Sage-femme Hajar",
+   "status": "CONNU"
+  },
+  "decision_prise": {
+   "value": "Poursuivre l'allaitement exclusif",
+   "status": "CONNU"
+  },
+  "traitement_prescrit": {
+   "value": "Néant",
+   "status": "CONNU"
+  },
+  "preciser_l_etablissement_de_reference": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "revenir_pour_une_visite_de_suivi_necessa": {
+   "value": "07/01/2027",
+   "status": "CONNU"
+  },
+  "nouveau_ne_premature": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "nouveau_ne_hypotrophe": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "exclusivement_au_sein": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "artificiel": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "mixte": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "convulsions": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "refus_de_teter": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hematemeses": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "melaenas": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "diarrhee": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "signes_d_une_affec__ictere": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "tirage_sous_costal": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "toux": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "rythme_respiratoire_anor": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "fievre": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hypothermie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "bosse_serosanguine_ou_ce": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "luxation_congenitale_de": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "diminution_ou_absence_de": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "normal": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "a_problemes": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "bcg": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hb": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "supplementation_en_vitam": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "presence_de_compli__ictere": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "conjonctivite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "traumatisme": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "malformation": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "autres": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "transfert": {
+   "value": false,
+   "status": "CONNU"
+  }
+ }
+}

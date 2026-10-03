@@ -1,0 +1,1799 @@
+{
+ "page_type": "identification",
+ "dpi": 150,
+ "size_px": [
+  1240,
+  1754
+ ],
+ "title": "IDENTIFICATION ET ANTÉCÉDENTS",
+ "anchors": [
+  {
+   "id": "identification_et_antecedents",
+   "text": "IDENTIFICATION ET ANTÉCÉDENTS",
+   "bold": true,
+   "bbox": [
+    88.3,
+    59.6,
+    485.8,
+    93.7
+   ]
+  },
+  {
+   "id": "specimen_donnees_fictives",
+   "text": "SPÉCIMEN — DONNÉES FICTIVES",
+   "bold": true,
+   "bbox": [
+    838.9,
+    64.8,
+    1114.1,
+    89.5
+   ]
+  },
+  {
+   "id": "age",
+   "text": "Age :",
+   "bold": false,
+   "bbox": [
+    104.4,
+    166.3,
+    148.1,
+    189.5
+   ]
+  },
+  {
+   "id": "cin",
+   "text": "CIN :",
+   "bold": false,
+   "bbox": [
+    629.4,
+    169.6,
+    672.1,
+    192.8
+   ]
+  },
+  {
+   "id": "niveau_d_instruction",
+   "text": "Niveau d'instruction :",
+   "bold": false,
+   "bbox": [
+    104.1,
+    212.1,
+    263.0,
+    236.0
+   ]
+  },
+  {
+   "id": "adresse",
+   "text": "Adresse :",
+   "bold": false,
+   "bbox": [
+    103.8,
+    257.9,
+    179.0,
+    281.3
+   ]
+  },
+  {
+   "id": "telephone",
+   "text": "Téléphone :",
+   "bold": false,
+   "bbox": [
+    628.8,
+    261.3,
+    721.6,
+    284.8
+   ]
+  },
+  {
+   "id": "nom_du_mari",
+   "text": "Nom du Mari :",
+   "bold": false,
+   "bbox": [
+    103.5,
+    303.8,
+    212.9,
+    327.4
+   ]
+  },
+  {
+   "id": "consanguinite",
+   "text": "Consanguinité",
+   "bold": false,
+   "bbox": [
+    128.2,
+    358.1,
+    234.8,
+    381.7
+   ]
+  },
+  {
+   "id": "grossesse_desiree",
+   "text": "Grossesse désirée",
+   "bold": false,
+   "bbox": [
+    653.1,
+    361.5,
+    792.2,
+    385.2
+   ]
+  },
+  {
+   "id": "antecedents_hereditaires_et_fa",
+   "text": "ANTÉCÉDENTS HÉRÉDITAIRES ET FAMILIAUX",
+   "bold": true,
+   "bbox": [
+    86.1,
+    412.1,
+    461.3,
+    437.4
+   ]
+  },
+  {
+   "id": "famille_de_la_femme",
+   "text": "Famille de la femme",
+   "bold": false,
+   "bbox": [
+    283.8,
+    450.0,
+    405.9,
+    469.3
+   ]
+  },
+  {
+   "id": "mari_famille",
+   "text": "Mari/famille",
+   "bold": false,
+   "bbox": [
+    450.5,
+    451.0,
+    519.8,
+    470.1
+   ]
+  },
+  {
+   "id": "hta",
+   "text": "HTA",
+   "bold": false,
+   "bbox": [
+    94.0,
+    494.4,
+    125.3,
+    516.1
+   ]
+  },
+  {
+   "id": "diabete",
+   "text": "Diabète",
+   "bold": false,
+   "bbox": [
+    93.7,
+    536.1,
+    147.7,
+    557.9
+   ]
+  },
+  {
+   "id": "maladies_hereditaires",
+   "text": "Maladies héréditaires",
+   "bold": false,
+   "bbox": [
+    93.4,
+    577.8,
+    242.0,
+    600.2
+   ]
+  },
+  {
+   "id": "malformations",
+   "text": "Malformations",
+   "bold": false,
+   "bbox": [
+    93.2,
+    619.4,
+    191.4,
+    641.5
+   ]
+  },
+  {
+   "id": "allergie_s",
+   "text": "Allergie(s)",
+   "bold": false,
+   "bbox": [
+    92.9,
+    661.1,
+    163.3,
+    683.0
+   ]
+  },
+  {
+   "id": "antecedents_de_la_femme",
+   "text": "ANTÉCÉDENTS DE LA FEMME",
+   "bold": true,
+   "bbox": [
+    648.6,
+    415.7,
+    893.2,
+    440.2
+   ]
+  },
+  {
+   "id": "medicaux",
+   "text": "Médicaux",
+   "bold": false,
+   "bbox": [
+    658.8,
+    451.2,
+    721.4,
+    471.7
+   ]
+  },
+  {
+   "id": "chirurgicaux",
+   "text": "Chirurgicaux",
+   "bold": false,
+   "bbox": [
+    794.3,
+    452.1,
+    876.2,
+    472.7
+   ]
+  },
+  {
+   "id": "gynecologiques",
+   "text": "Gynécologiques",
+   "bold": false,
+   "bbox": [
+    956.8,
+    453.1,
+    1061.4,
+    473.8
+   ]
+  },
+  {
+   "id": "antecedents_obstetricaux_anoma",
+   "text": "ANTÉCÉDENTS OBSTÉTRICAUX — Anomalies des grossesses antérieures",
+   "bold": true,
+   "bbox": [
+    84.2,
+    716.2,
+    679.9,
+    743.0
+   ]
+  },
+  {
+   "id": "nature",
+   "text": "Nature",
+   "bold": false,
+   "bbox": [
+    92.3,
+    756.0,
+    136.2,
+    776.3
+   ]
+  },
+  {
+   "id": "nombre",
+   "text": "Nombre",
+   "bold": false,
+   "bbox": [
+    321.5,
+    757.4,
+    373.4,
+    777.8
+   ]
+  },
+  {
+   "id": "lieu",
+   "text": "Lieu",
+   "bold": false,
+   "bbox": [
+    696.5,
+    759.8,
+    724.1,
+    780.0
+   ]
+  },
+  {
+   "id": "age_gestationnel_sa",
+   "text": "Age gestationnel (SA)",
+   "bold": false,
+   "bbox": [
+    884.0,
+    761.0,
+    1025.9,
+    781.9
+   ]
+  },
+  {
+   "id": "avortement",
+   "text": "Avortement",
+   "bold": false,
+   "bbox": [
+    92.0,
+    795.5,
+    166.7,
+    816.0
+   ]
+  },
+  {
+   "id": "accouchement_premature",
+   "text": "Accouchement prématuré",
+   "bold": false,
+   "bbox": [
+    91.8,
+    837.2,
+    258.9,
+    858.3
+   ]
+  },
+  {
+   "id": "mort_foetale_in_utero",
+   "text": "Mort fœtale in utéro",
+   "bold": false,
+   "bbox": [
+    91.5,
+    878.9,
+    218.9,
+    899.7
+   ]
+  },
+  {
+   "id": "autres_a_preciser",
+   "text": "Autres à préciser :",
+   "bold": false,
+   "bbox": [
+    91.2,
+    920.5,
+    209.7,
+    941.3
+   ]
+  },
+  {
+   "id": "deroulement_des_accouchements",
+   "text": "DÉROULEMENT DES ACCOUCHEMENTS ANTÉRIEURS",
+   "bold": true,
+   "bbox": [
+    82.5,
+    978.7,
+    522.5,
+    1004.5
+   ]
+  },
+  {
+   "id": "accouch_1",
+   "text": "Accouch. 1",
+   "bold": false,
+   "bbox": [
+    317.7,
+    1018.9,
+    384.8,
+    1038.0
+   ]
+  },
+  {
+   "id": "accouch_2",
+   "text": "Accouch. 2",
+   "bold": false,
+   "bbox": [
+    486.5,
+    1020.0,
+    553.6,
+    1039.0
+   ]
+  },
+  {
+   "id": "accouch_3",
+   "text": "Accouch. 3",
+   "bold": false,
+   "bbox": [
+    655.2,
+    1021.1,
+    722.3,
+    1040.1
+   ]
+  },
+  {
+   "id": "accouch_4",
+   "text": "Accouch. 4",
+   "bold": false,
+   "bbox": [
+    824.0,
+    1022.2,
+    891.1,
+    1041.2
+   ]
+  },
+  {
+   "id": "accouch_5",
+   "text": "Accouch. 5",
+   "bold": false,
+   "bbox": [
+    992.7,
+    1023.2,
+    1059.8,
+    1042.3
+   ]
+  },
+  {
+   "id": "accouchement",
+   "text": "Accouchement",
+   "bold": false,
+   "bbox": [
+    90.4,
+    1048.7,
+    180.1,
+    1067.9
+   ]
+  },
+  {
+   "id": "modalite_d_extraction",
+   "text": "Modalité d'extraction",
+   "bold": false,
+   "bbox": [
+    89.7,
+    1165.4,
+    213.6,
+    1184.8
+   ]
+  },
+  {
+   "id": "si_cesarienne_indication",
+   "text": "Si césarienne : indication",
+   "bold": false,
+   "bbox": [
+    89.3,
+    1223.7,
+    240.0,
+    1243.3
+   ]
+  },
+  {
+   "id": "complication_type",
+   "text": "Complication (type)",
+   "bold": false,
+   "bbox": [
+    89.0,
+    1282.1,
+    205.7,
+    1301.4
+   ]
+  },
+  {
+   "id": "poids_nouveau_ne_s",
+   "text": "Poids nouveau-né(s)",
+   "bold": false,
+   "bbox": [
+    88.6,
+    1340.4,
+    213.6,
+    1359.8
+   ]
+  },
+  {
+   "id": "compl_nouveau_ne_type",
+   "text": "Compl. nouveau-né (type)",
+   "bold": false,
+   "bbox": [
+    88.2,
+    1398.7,
+    244.9,
+    1418.3
+   ]
+  },
+  {
+   "id": "gestation",
+   "text": "Gestation :",
+   "bold": false,
+   "bbox": [
+    79.3,
+    1489.1,
+    164.6,
+    1512.5
+   ]
+  },
+  {
+   "id": "parite",
+   "text": "Parité :",
+   "bold": false,
+   "bbox": [
+    329.3,
+    1490.7,
+    386.8,
+    1513.9
+   ]
+  },
+  {
+   "id": "nombre_d_enfants_vivants",
+   "text": "Nombre d'enfants vivants :",
+   "bold": false,
+   "bbox": [
+    579.3,
+    1492.3,
+    780.8,
+    1516.4
+   ]
+  },
+  {
+   "id": "vat",
+   "text": "VAT :",
+   "bold": false,
+   "bbox": [
+    79.0,
+    1537.0,
+    120.8,
+    1560.1
+   ]
+  },
+  {
+   "id": "vaccinee_contre_la_rubeole",
+   "text": "Vaccinée contre la rubéole",
+   "bold": false,
+   "bbox": [
+    103.7,
+    1578.8,
+    301.2,
+    1603.0
+   ]
+  },
+  {
+   "id": "vaccinee_contre_l_hepatite_b",
+   "text": "Vaccinée contre l'hépatite B",
+   "bold": false,
+   "bbox": [
+    103.5,
+    1612.1,
+    309.7,
+    1636.4
+   ]
+  },
+  {
+   "id": "frottis_cervical_iva_moins_de",
+   "text": "Frottis cervical / IVA (moins de 3 ans) :",
+   "bold": false,
+   "bbox": [
+    78.2,
+    1649.5,
+    369.2,
+    1674.2
+   ]
+  },
+  {
+   "id": "document_synthetique_genere_po",
+   "text": "Document synthétique généré pour l'entraînement de modèles — aucune donnée réelle — ne pas utiliser comme dossier médical.",
+   "bold": false,
+   "bbox": [
+    77.9,
+    1704.0,
+    798.1,
+    1725.7
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "key": "hta__famille_de_la_femme",
+   "kind": "text",
+   "table": "t10",
+   "row": "HTA",
+   "col": "Famille de la femme",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    274.9,
+    487.8,
+    437.4,
+    525.3
+   ]
+  },
+  {
+   "key": "hta__mari_famille",
+   "kind": "text",
+   "table": "t10",
+   "row": "HTA",
+   "col": "Mari/famille",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    441.5,
+    487.8,
+    604.0,
+    525.3
+   ]
+  },
+  {
+   "key": "diabete__famille_de_la_femme",
+   "kind": "text",
+   "table": "t10",
+   "row": "Diabète",
+   "col": "Famille de la femme",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    274.9,
+    529.5,
+    437.4,
+    567.0
+   ]
+  },
+  {
+   "key": "diabete__mari_famille",
+   "kind": "text",
+   "table": "t10",
+   "row": "Diabète",
+   "col": "Mari/famille",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    441.5,
+    529.5,
+    604.0,
+    567.0
+   ]
+  },
+  {
+   "key": "maladies_hereditaires__famille_de_la_femme",
+   "kind": "text",
+   "table": "t10",
+   "row": "Maladies héréditaires",
+   "col": "Famille de la femme",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    274.9,
+    571.2,
+    437.4,
+    608.7
+   ]
+  },
+  {
+   "key": "maladies_hereditaires__mari_famille",
+   "kind": "text",
+   "table": "t10",
+   "row": "Maladies héréditaires",
+   "col": "Mari/famille",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    441.5,
+    571.2,
+    604.0,
+    608.7
+   ]
+  },
+  {
+   "key": "malformations__famille_de_la_femme",
+   "kind": "text",
+   "table": "t10",
+   "row": "Malformations",
+   "col": "Famille de la femme",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    274.9,
+    612.8,
+    437.4,
+    650.3
+   ]
+  },
+  {
+   "key": "malformations__mari_famille",
+   "kind": "text",
+   "table": "t10",
+   "row": "Malformations",
+   "col": "Mari/famille",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    441.5,
+    612.8,
+    604.0,
+    650.3
+   ]
+  },
+  {
+   "key": "allergie_s__famille_de_la_femme",
+   "kind": "text",
+   "table": "t10",
+   "row": "Allergie(s)",
+   "col": "Famille de la femme",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    274.9,
+    654.5,
+    437.4,
+    692.0
+   ]
+  },
+  {
+   "key": "allergie_s__mari_famille",
+   "kind": "text",
+   "table": "t10",
+   "row": "Allergie(s)",
+   "col": "Mari/famille",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    441.5,
+    654.5,
+    604.0,
+    692.0
+   ]
+  },
+  {
+   "key": "medicaux",
+   "kind": "text",
+   "table": "t11",
+   "row": null,
+   "col": "Médicaux",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    649.9,
+    478.9,
+    781.1,
+    695.5
+   ]
+  },
+  {
+   "key": "chirurgicaux",
+   "kind": "text",
+   "table": "t11",
+   "row": null,
+   "col": "Chirurgicaux",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    785.3,
+    478.9,
+    947.8,
+    695.5
+   ]
+  },
+  {
+   "key": "gynecologiques",
+   "kind": "text",
+   "table": "t11",
+   "row": null,
+   "col": "Gynécologiques",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    951.9,
+    478.9,
+    1156.1,
+    695.5
+   ]
+  },
+  {
+   "key": "avortement__nombre",
+   "kind": "text",
+   "table": "t12",
+   "row": "Avortement",
+   "col": "Nombre",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    314.7,
+    789.6,
+    456.4,
+    827.1
+   ]
+  },
+  {
+   "key": "avortement__date",
+   "kind": "text",
+   "table": "t12",
+   "row": "Avortement",
+   "col": "Date",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    460.6,
+    789.6,
+    685.6,
+    827.1
+   ]
+  },
+  {
+   "key": "avortement__lieu",
+   "kind": "text",
+   "table": "t12",
+   "row": "Avortement",
+   "col": "Lieu",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    689.7,
+    789.6,
+    873.1,
+    827.1
+   ]
+  },
+  {
+   "key": "avortement__age_gestationnel_sa",
+   "kind": "text",
+   "table": "t12",
+   "row": "Avortement",
+   "col": "Age gestationnel (SA)",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    877.2,
+    789.6,
+    1154.3,
+    827.1
+   ]
+  },
+  {
+   "key": "accouchement_premature__nombre",
+   "kind": "text",
+   "table": "t12",
+   "row": "Accouchement prématuré",
+   "col": "Nombre",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    314.7,
+    831.2,
+    456.4,
+    868.7
+   ]
+  },
+  {
+   "key": "accouchement_premature__date",
+   "kind": "text",
+   "table": "t12",
+   "row": "Accouchement prématuré",
+   "col": "Date",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    460.6,
+    831.2,
+    685.6,
+    868.7
+   ]
+  },
+  {
+   "key": "accouchement_premature__lieu",
+   "kind": "text",
+   "table": "t12",
+   "row": "Accouchement prématuré",
+   "col": "Lieu",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    689.7,
+    831.2,
+    873.1,
+    868.7
+   ]
+  },
+  {
+   "key": "accouchement_premature__age_gestationnel_sa",
+   "kind": "text",
+   "table": "t12",
+   "row": "Accouchement prématuré",
+   "col": "Age gestationnel (SA)",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    877.2,
+    831.2,
+    1154.3,
+    868.7
+   ]
+  },
+  {
+   "key": "mort_foetale_in_utero__nombre",
+   "kind": "text",
+   "table": "t12",
+   "row": "Mort fœtale in utéro",
+   "col": "Nombre",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    314.7,
+    872.9,
+    456.4,
+    910.4
+   ]
+  },
+  {
+   "key": "mort_foetale_in_utero__date",
+   "kind": "text",
+   "table": "t12",
+   "row": "Mort fœtale in utéro",
+   "col": "Date",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    460.6,
+    872.9,
+    685.6,
+    910.4
+   ]
+  },
+  {
+   "key": "mort_foetale_in_utero__lieu",
+   "kind": "text",
+   "table": "t12",
+   "row": "Mort fœtale in utéro",
+   "col": "Lieu",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    689.7,
+    872.9,
+    873.1,
+    910.4
+   ]
+  },
+  {
+   "key": "mort_foetale_in_utero__age_gestationnel_sa",
+   "kind": "text",
+   "table": "t12",
+   "row": "Mort fœtale in utéro",
+   "col": "Age gestationnel (SA)",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    877.2,
+    872.9,
+    1154.3,
+    910.4
+   ]
+  },
+  {
+   "key": "autres_a_preciser__nombre",
+   "kind": "text",
+   "table": "t12",
+   "row": "Autres à préciser :",
+   "col": "Nombre",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    314.7,
+    914.6,
+    456.4,
+    956.2
+   ]
+  },
+  {
+   "key": "autres_a_preciser__date",
+   "kind": "text",
+   "table": "t12",
+   "row": "Autres à préciser :",
+   "col": "Date",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    460.6,
+    914.6,
+    685.6,
+    956.2
+   ]
+  },
+  {
+   "key": "autres_a_preciser__lieu",
+   "kind": "text",
+   "table": "t12",
+   "row": "Autres à préciser :",
+   "col": "Lieu",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    689.7,
+    914.6,
+    873.1,
+    956.2
+   ]
+  },
+  {
+   "key": "autres_a_preciser__age_gestationnel_sa",
+   "kind": "text",
+   "table": "t12",
+   "row": "Autres à préciser :",
+   "col": "Age gestationnel (SA)",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    877.2,
+    914.6,
+    1154.3,
+    956.2
+   ]
+  },
+  {
+   "key": "date__accouch_1",
+   "kind": "text",
+   "table": "t13",
+   "row": "Date",
+   "col": "Accouch. 1",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    312.3,
+    1102.1,
+    476.9,
+    1156.2
+   ]
+  },
+  {
+   "key": "date__accouch_2",
+   "kind": "text",
+   "table": "t13",
+   "row": "Date",
+   "col": "Accouch. 2",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    481.0,
+    1102.1,
+    645.6,
+    1156.2
+   ]
+  },
+  {
+   "key": "date__accouch_3",
+   "kind": "text",
+   "table": "t13",
+   "row": "Date",
+   "col": "Accouch. 3",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    649.8,
+    1102.1,
+    814.4,
+    1156.2
+   ]
+  },
+  {
+   "key": "date__accouch_4",
+   "kind": "text",
+   "table": "t13",
+   "row": "Date",
+   "col": "Accouch. 4",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    818.5,
+    1102.1,
+    983.1,
+    1156.2
+   ]
+  },
+  {
+   "key": "date__accouch_5",
+   "kind": "text",
+   "table": "t13",
+   "row": "Date",
+   "col": "Accouch. 5",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    987.3,
+    1102.1,
+    1151.9,
+    1156.2
+   ]
+  },
+  {
+   "key": "modalite_d_extraction__accouch_1",
+   "kind": "text",
+   "table": "t13",
+   "row": "Modalité d'extraction",
+   "col": "Accouch. 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    312.3,
+    1160.4,
+    476.9,
+    1214.6
+   ]
+  },
+  {
+   "key": "modalite_d_extraction__accouch_2",
+   "kind": "text",
+   "table": "t13",
+   "row": "Modalité d'extraction",
+   "col": "Accouch. 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    481.0,
+    1160.4,
+    645.6,
+    1214.6
+   ]
+  },
+  {
+   "key": "modalite_d_extraction__accouch_3",
+   "kind": "text",
+   "table": "t13",
+   "row": "Modalité d'extraction",
+   "col": "Accouch. 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    649.8,
+    1160.4,
+    814.4,
+    1214.6
+   ]
+  },
+  {
+   "key": "modalite_d_extraction__accouch_4",
+   "kind": "text",
+   "table": "t13",
+   "row": "Modalité d'extraction",
+   "col": "Accouch. 4",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    818.5,
+    1160.4,
+    983.1,
+    1214.6
+   ]
+  },
+  {
+   "key": "modalite_d_extraction__accouch_5",
+   "kind": "text",
+   "table": "t13",
+   "row": "Modalité d'extraction",
+   "col": "Accouch. 5",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    987.3,
+    1160.4,
+    1151.9,
+    1214.6
+   ]
+  },
+  {
+   "key": "si_cesarienne_indication__accouch_1",
+   "kind": "text",
+   "table": "t13",
+   "row": "Si césarienne : indication",
+   "col": "Accouch. 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    312.3,
+    1218.7,
+    476.9,
+    1272.9
+   ]
+  },
+  {
+   "key": "si_cesarienne_indication__accouch_2",
+   "kind": "text",
+   "table": "t13",
+   "row": "Si césarienne : indication",
+   "col": "Accouch. 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    481.0,
+    1218.7,
+    645.6,
+    1272.9
+   ]
+  },
+  {
+   "key": "si_cesarienne_indication__accouch_3",
+   "kind": "text",
+   "table": "t13",
+   "row": "Si césarienne : indication",
+   "col": "Accouch. 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    649.8,
+    1218.7,
+    814.4,
+    1272.9
+   ]
+  },
+  {
+   "key": "si_cesarienne_indication__accouch_4",
+   "kind": "text",
+   "table": "t13",
+   "row": "Si césarienne : indication",
+   "col": "Accouch. 4",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    818.5,
+    1218.7,
+    983.1,
+    1272.9
+   ]
+  },
+  {
+   "key": "si_cesarienne_indication__accouch_5",
+   "kind": "text",
+   "table": "t13",
+   "row": "Si césarienne : indication",
+   "col": "Accouch. 5",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    987.3,
+    1218.7,
+    1151.9,
+    1272.9
+   ]
+  },
+  {
+   "key": "complication_type__accouch_1",
+   "kind": "text",
+   "table": "t13",
+   "row": "Complication (type)",
+   "col": "Accouch. 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    312.3,
+    1277.1,
+    476.9,
+    1331.2
+   ]
+  },
+  {
+   "key": "complication_type__accouch_2",
+   "kind": "text",
+   "table": "t13",
+   "row": "Complication (type)",
+   "col": "Accouch. 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    481.0,
+    1277.1,
+    645.6,
+    1331.2
+   ]
+  },
+  {
+   "key": "complication_type__accouch_3",
+   "kind": "text",
+   "table": "t13",
+   "row": "Complication (type)",
+   "col": "Accouch. 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    649.8,
+    1277.1,
+    814.4,
+    1331.2
+   ]
+  },
+  {
+   "key": "complication_type__accouch_4",
+   "kind": "text",
+   "table": "t13",
+   "row": "Complication (type)",
+   "col": "Accouch. 4",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    818.5,
+    1277.1,
+    983.1,
+    1331.2
+   ]
+  },
+  {
+   "key": "complication_type__accouch_5",
+   "kind": "text",
+   "table": "t13",
+   "row": "Complication (type)",
+   "col": "Accouch. 5",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    987.3,
+    1277.1,
+    1151.9,
+    1331.2
+   ]
+  },
+  {
+   "key": "poids_nouveau_ne_s__accouch_1",
+   "kind": "text",
+   "table": "t13",
+   "row": "Poids nouveau-né(s)",
+   "col": "Accouch. 1",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    312.3,
+    1335.4,
+    476.9,
+    1389.6
+   ]
+  },
+  {
+   "key": "poids_nouveau_ne_s__accouch_2",
+   "kind": "text",
+   "table": "t13",
+   "row": "Poids nouveau-né(s)",
+   "col": "Accouch. 2",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    481.0,
+    1335.4,
+    645.6,
+    1389.6
+   ]
+  },
+  {
+   "key": "poids_nouveau_ne_s__accouch_3",
+   "kind": "text",
+   "table": "t13",
+   "row": "Poids nouveau-né(s)",
+   "col": "Accouch. 3",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    649.8,
+    1335.4,
+    814.4,
+    1389.6
+   ]
+  },
+  {
+   "key": "poids_nouveau_ne_s__accouch_4",
+   "kind": "text",
+   "table": "t13",
+   "row": "Poids nouveau-né(s)",
+   "col": "Accouch. 4",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    818.5,
+    1335.4,
+    983.1,
+    1389.6
+   ]
+  },
+  {
+   "key": "poids_nouveau_ne_s__accouch_5",
+   "kind": "text",
+   "table": "t13",
+   "row": "Poids nouveau-né(s)",
+   "col": "Accouch. 5",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    987.3,
+    1335.4,
+    1151.9,
+    1389.6
+   ]
+  },
+  {
+   "key": "compl_nouveau_ne_type__accouch_1",
+   "kind": "text",
+   "table": "t13",
+   "row": "Compl. nouveau-né (type)",
+   "col": "Accouch. 1",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    312.3,
+    1393.7,
+    476.9,
+    1458.3
+   ]
+  },
+  {
+   "key": "compl_nouveau_ne_type__accouch_2",
+   "kind": "text",
+   "table": "t13",
+   "row": "Compl. nouveau-né (type)",
+   "col": "Accouch. 2",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    481.0,
+    1393.7,
+    645.6,
+    1458.3
+   ]
+  },
+  {
+   "key": "compl_nouveau_ne_type__accouch_3",
+   "kind": "text",
+   "table": "t13",
+   "row": "Compl. nouveau-né (type)",
+   "col": "Accouch. 3",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    649.8,
+    1393.7,
+    814.4,
+    1458.3
+   ]
+  },
+  {
+   "key": "compl_nouveau_ne_type__accouch_4",
+   "kind": "text",
+   "table": "t13",
+   "row": "Compl. nouveau-né (type)",
+   "col": "Accouch. 4",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    818.5,
+    1393.7,
+    983.1,
+    1458.3
+   ]
+  },
+  {
+   "key": "compl_nouveau_ne_type__accouch_5",
+   "kind": "text",
+   "table": "t13",
+   "row": "Compl. nouveau-né (type)",
+   "col": "Accouch. 5",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    987.3,
+    1393.7,
+    1151.9,
+    1458.3
+   ]
+  },
+  {
+   "key": "age",
+   "kind": "text",
+   "label": "Age :",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    156.3,
+    156.4,
+    468.8,
+    195.9
+   ]
+  },
+  {
+   "key": "cin",
+   "kind": "text",
+   "label": "CIN :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    680.3,
+    159.6,
+    972.0,
+    199.2
+   ]
+  },
+  {
+   "key": "niveau_d_instruction",
+   "kind": "text",
+   "label": "Niveau d'instruction :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    271.2,
+    202.9,
+    583.7,
+    242.5
+   ]
+  },
+  {
+   "key": "profession",
+   "kind": "text",
+   "label": "Profession :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    730.0,
+    205.8,
+    1021.7,
+    245.4
+   ]
+  },
+  {
+   "key": "adresse",
+   "kind": "text",
+   "label": "Adresse :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    187.2,
+    248.2,
+    499.7,
+    287.8
+   ]
+  },
+  {
+   "key": "telephone",
+   "kind": "text",
+   "label": "Téléphone :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    729.8,
+    251.6,
+    1021.4,
+    291.2
+   ]
+  },
+  {
+   "key": "nom_du_mari",
+   "kind": "text",
+   "label": "Nom du Mari :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    221.1,
+    294.3,
+    533.6,
+    333.9
+   ]
+  },
+  {
+   "key": "profession_2",
+   "kind": "text",
+   "label": "Profession :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    729.5,
+    297.5,
+    1021.1,
+    337.0
+   ]
+  },
+  {
+   "key": "gestation",
+   "kind": "text",
+   "label": "Gestation :",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    172.8,
+    1478.6,
+    235.3,
+    1518.2
+   ]
+  },
+  {
+   "key": "parite",
+   "kind": "text",
+   "label": "Parité :",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    395.0,
+    1480.0,
+    457.5,
+    1519.6
+   ]
+  },
+  {
+   "key": "nombre_d_enfants_vivants",
+   "kind": "text",
+   "label": "Nombre d'enfants vivants :",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    789.0,
+    1482.5,
+    851.5,
+    1522.1
+   ]
+  },
+  {
+   "key": "date_vacc_rubeole",
+   "kind": "text",
+   "label": "Le",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    651.9,
+    1571.6,
+    818.5,
+    1611.2
+   ]
+  },
+  {
+   "key": "date_vacc_hepatite_b",
+   "kind": "text",
+   "label": "Le",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    651.6,
+    1604.9,
+    818.3,
+    1644.5
+   ]
+  },
+  {
+   "key": "frottis_cervical_iva_moins_de_3_ans",
+   "kind": "text",
+   "label": "Frottis cervical / IVA (moins de 3 ans) :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    377.4,
+    1640.8,
+    585.7,
+    1680.4
+   ]
+  },
+  {
+   "label": "Consanguinité",
+   "context": "Nom du Mari :",
+   "kind": "checkbox",
+   "key": "consanguinite",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    103.2,
+    361.3,
+    119.9,
+    378.0
+   ]
+  },
+  {
+   "label": "Grossesse désirée",
+   "context": "Profession :",
+   "kind": "checkbox",
+   "key": "grossesse_desiree",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    628.2,
+    364.6,
+    644.9,
+    381.4
+   ]
+  },
+  {
+   "label": "1",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vat_1",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    151.9,
+    1540.8,
+    168.7,
+    1557.5
+   ]
+  },
+  {
+   "label": "2",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vat_2",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    235.2,
+    1541.3,
+    252.0,
+    1558.1
+   ]
+  },
+  {
+   "label": "3",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vat_3",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    318.6,
+    1541.8,
+    335.3,
+    1558.6
+   ]
+  },
+  {
+   "label": "4",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vat_4",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    401.9,
+    1542.4,
+    418.7,
+    1559.1
+   ]
+  },
+  {
+   "label": "5",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vat_5",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    485.2,
+    1542.9,
+    502.0,
+    1559.7
+   ]
+  },
+  {
+   "label": "Vaccinée contre la rubéole",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vaccinee_contre_la_rubeo",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    78.7,
+    1582.0,
+    95.5,
+    1598.7
+   ]
+  },
+  {
+   "label": "Vaccinée contre l'hépatite B",
+   "context": "VAT :",
+   "kind": "checkbox",
+   "key": "vaccinee_contre_l_hepati",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    78.5,
+    1615.3,
+    95.3,
+    1632.1
+   ]
+  }
+ ],
+ "redact": [
+  [
+   680.3,
+   159.6,
+   972.0,
+   199.2
+  ],
+  [
+   187.2,
+   248.2,
+   499.7,
+   287.8
+  ],
+  [
+   729.8,
+   251.6,
+   1021.4,
+   291.2
+  ],
+  [
+   221.1,
+   294.3,
+   533.6,
+   333.9
+  ],
+  [
+   729.5,
+   297.5,
+   1021.1,
+   337.0
+  ]
+ ]
+}

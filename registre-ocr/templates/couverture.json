@@ -1,0 +1,607 @@
+{
+ "page_type": "couverture",
+ "dpi": 150,
+ "size_px": [
+  1240,
+  1754
+ ],
+ "title": "FICHE DE SURVEILLANCE DE LA GROSSESSE ET DU POST-PARTUM",
+ "anchors": [
+  {
+   "id": "fiche_de_surveillance_de_la_gr",
+   "text": "FICHE DE SURVEILLANCE DE LA GROSSESSE ET DU POST-PARTUM",
+   "bold": true,
+   "bbox": [
+    85.7,
+    61.4,
+    852.3,
+    95.2
+   ]
+  },
+  {
+   "id": "modele_de_formulaire_neutre_sp",
+   "text": "Modèle de formulaire neutre (spécimen)",
+   "bold": false,
+   "bbox": [
+    85.6,
+    97.1,
+    381.2,
+    120.9
+   ]
+  },
+  {
+   "id": "specimen_donnees_fictives",
+   "text": "SPÉCIMEN — DONNÉES FICTIVES",
+   "bold": true,
+   "bbox": [
+    836.3,
+    64.1,
+    1111.4,
+    87.9
+   ]
+  },
+  {
+   "id": "n_de_la_fiche",
+   "text": "N° de la fiche :",
+   "bold": false,
+   "bbox": [
+    106.1,
+    209.7,
+    219.4,
+    232.9
+   ]
+  },
+  {
+   "id": "region",
+   "text": "Région :",
+   "bold": false,
+   "bbox": [
+    105.9,
+    282.6,
+    172.7,
+    305.7
+   ]
+  },
+  {
+   "id": "province",
+   "text": "Province :",
+   "bold": false,
+   "bbox": [
+    668.4,
+    284.3,
+    747.2,
+    307.5
+   ]
+  },
+  {
+   "id": "nom_de_l_etablissement_sanitai",
+   "text": "Nom de l'établissement sanitaire :",
+   "bold": false,
+   "bbox": [
+    105.7,
+    355.5,
+    359.9,
+    379.2
+   ]
+  },
+  {
+   "id": "type_de_l_etablissement_sanita",
+   "text": "Type de l'établissement sanitaire :",
+   "bold": false,
+   "bbox": [
+    105.5,
+    428.4,
+    357.0,
+    452.1
+   ]
+  },
+  {
+   "id": "csc",
+   "text": "CSC",
+   "bold": false,
+   "bbox": [
+    421.9,
+    491.9,
+    457.2,
+    514.9
+   ]
+  },
+  {
+   "id": "csu",
+   "text": "CSU",
+   "bold": false,
+   "bbox": [
+    671.9,
+    492.7,
+    707.2,
+    515.7
+   ]
+  },
+  {
+   "id": "csca",
+   "text": "CSCA",
+   "bold": false,
+   "bbox": [
+    130.1,
+    553.5,
+    176.4,
+    576.6
+   ]
+  },
+  {
+   "id": "csua",
+   "text": "CSUA",
+   "bold": false,
+   "bbox": [
+    421.7,
+    554.4,
+    468.1,
+    577.4
+   ]
+  },
+  {
+   "id": "fixe",
+   "text": "Fixe",
+   "bold": false,
+   "bbox": [
+    213.1,
+    668.3,
+    244.6,
+    691.3
+   ]
+  },
+  {
+   "id": "mobile",
+   "text": "Mobile",
+   "bold": false,
+   "bbox": [
+    504.7,
+    669.2,
+    553.9,
+    692.3
+   ]
+  },
+  {
+   "id": "nom_prenom_de_la_parturiente",
+   "text": "Nom/Prénom de la parturiente :",
+   "bold": false,
+   "bbox": [
+    104.4,
+    782.6,
+    341.6,
+    806.2
+   ]
+  },
+  {
+   "id": "grossesse_classee_a_risque",
+   "text": "Grossesse classée à risque :",
+   "bold": true,
+   "bbox": [
+    156.1,
+    914.1,
+    385.0,
+    937.7
+   ]
+  },
+  {
+   "id": "si_grossesse_a_risque_preciser",
+   "text": "Si grossesse à risque, préciser le type de risque :",
+   "bold": false,
+   "bbox": [
+    124.7,
+    959.7,
+    488.8,
+    983.8
+   ]
+  },
+  {
+   "id": "anemie",
+   "text": "Anémie",
+   "bold": false,
+   "bbox": [
+    159.9,
+    1011.9,
+    216.5,
+    1035.0
+   ]
+  },
+  {
+   "id": "h_t_a",
+   "text": "H.T.A",
+   "bold": false,
+   "bbox": [
+    159.8,
+    1049.4,
+    202.5,
+    1072.5
+   ]
+  },
+  {
+   "id": "diabete",
+   "text": "Diabète",
+   "bold": false,
+   "bbox": [
+    159.7,
+    1086.9,
+    217.2,
+    1110.0
+   ]
+  },
+  {
+   "id": "cardiopathie",
+   "text": "Cardiopathie",
+   "bold": false,
+   "bbox": [
+    159.6,
+    1124.4,
+    254.1,
+    1147.6
+   ]
+  },
+  {
+   "id": "metrorragie",
+   "text": "Métrorragie",
+   "bold": false,
+   "bbox": [
+    628.7,
+    1013.4,
+    714.0,
+    1036.5
+   ]
+  },
+  {
+   "id": "infection",
+   "text": "Infection",
+   "bold": false,
+   "bbox": [
+    628.6,
+    1050.9,
+    691.6,
+    1074.0
+   ]
+  },
+  {
+   "id": "pre_eclampsie",
+   "text": "Pré-éclampsie",
+   "bold": false,
+   "bbox": [
+    628.5,
+    1088.4,
+    735.0,
+    1111.6
+   ]
+  },
+  {
+   "id": "eclampsie",
+   "text": "Eclampsie",
+   "bold": false,
+   "bbox": [
+    628.3,
+    1125.9,
+    705.3,
+    1149.0
+   ]
+  },
+  {
+   "id": "autres_a_preciser",
+   "text": "Autres à préciser : ......................................",
+   "bold": false,
+   "bbox": [
+    603.2,
+    1165.4,
+    919.2,
+    1189.2
+   ]
+  },
+  {
+   "id": "document_synthetique_genere_po",
+   "text": "Document synthétique généré pour l'entraînement de modèles — aucune donnée réelle — ne pas utiliser comme dossier médical.",
+   "bold": false,
+   "bbox": [
+    80.8,
+    1705.8,
+    800.9,
+    1725.1
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "key": "n_de_la_fiche",
+   "kind": "text",
+   "label": "N° de la fiche :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    227.7,
+    199.3,
+    540.2,
+    238.9
+   ]
+  },
+  {
+   "key": "region",
+   "kind": "text",
+   "label": "Région :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    180.9,
+    272.2,
+    576.8,
+    311.8
+   ]
+  },
+  {
+   "key": "province",
+   "kind": "text",
+   "label": "Province :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    755.5,
+    273.8,
+    1068.0,
+    313.4
+   ]
+  },
+  {
+   "key": "nom_de_l_etablissement_sanitaire",
+   "kind": "text",
+   "label": "Nom de l'établissement sanitaire :",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    368.2,
+    345.9,
+    930.7,
+    385.5
+   ]
+  },
+  {
+   "key": "nom_prenom_de_la_parturiente",
+   "kind": "text",
+   "label": "Nom/Prénom de la parturiente :",
+   "sensitive": true,
+   "type": "text",
+   "bbox": [
+    349.8,
+    772.9,
+    891.5,
+    812.5
+   ]
+  },
+  {
+   "label": "DR",
+   "context": "Type de l'établissement sanitaire :",
+   "kind": "checkbox",
+   "key": "dr",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    188.6,
+    494.5,
+    205.3,
+    511.2
+   ]
+  },
+  {
+   "label": "CSC",
+   "context": "Type de l'établissement sanitaire :",
+   "kind": "checkbox",
+   "key": "csc",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    480.3,
+    495.4,
+    497.0,
+    512.1
+   ]
+  },
+  {
+   "label": "CSU",
+   "context": "Type de l'établissement sanitaire :",
+   "kind": "checkbox",
+   "key": "csu",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    730.3,
+    496.2,
+    747.0,
+    512.9
+   ]
+  },
+  {
+   "label": "CSCA",
+   "context": "Type de l'établissement sanitaire :",
+   "kind": "checkbox",
+   "key": "csca",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    188.4,
+    557.0,
+    205.1,
+    573.7
+   ]
+  },
+  {
+   "label": "CSUA",
+   "context": "Type de l'établissement sanitaire :",
+   "kind": "checkbox",
+   "key": "csua",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    480.1,
+    557.9,
+    496.8,
+    574.6
+   ]
+  },
+  {
+   "label": "Fixe",
+   "context": null,
+   "kind": "checkbox",
+   "key": "fixe",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    188.1,
+    671.6,
+    204.8,
+    688.3
+   ]
+  },
+  {
+   "label": "Mobile",
+   "context": null,
+   "kind": "checkbox",
+   "key": "mobile",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    479.7,
+    672.5,
+    496.5,
+    689.2
+   ]
+  },
+  {
+   "label": "Grossesse classée à risque :",
+   "context": "Nom/Prénom de la parturiente :",
+   "kind": "checkbox",
+   "key": "grossesse_classee_a_risq",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    124.8,
+    917.2,
+    141.5,
+    934.0
+   ]
+  },
+  {
+   "label": "Anémie",
+   "context": "Si grossesse à risque, préciser le type de risque :",
+   "kind": "checkbox",
+   "key": "anemie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    134.9,
+    1015.2,
+    151.7,
+    1031.9
+   ]
+  },
+  {
+   "label": "Métrorragie",
+   "context": "Si grossesse à risque, préciser le type de risque :",
+   "kind": "checkbox",
+   "key": "metrorragie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    603.7,
+    1016.6,
+    620.4,
+    1033.3
+   ]
+  },
+  {
+   "label": "H.T.A",
+   "context": "Si grossesse à risque, préciser le type de risque :",
+   "kind": "checkbox",
+   "key": "h_t_a",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    134.8,
+    1052.7,
+    151.5,
+    1069.4
+   ]
+  },
+  {
+   "label": "Infection",
+   "context": "Si grossesse à risque, préciser le type de risque :",
+   "kind": "checkbox",
+   "key": "infection",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    603.6,
+    1054.1,
+    620.3,
+    1070.8
+   ]
+  },
+  {
+   "label": "Diabète",
+   "context": "Si grossesse à risque, préciser le type de risque :",
+   "kind": "checkbox",
+   "key": "diabete",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    134.7,
+    1090.2,
+    151.4,
+    1106.9
+   ]
+  },
+  {
+   "label": "Pré-éclampsie",
+   "context": "Si grossesse à risque, préciser le type de risque :",
+   "kind": "checkbox",
+   "key": "pre_eclampsie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    603.5,
+    1091.6,
+    620.2,
+    1108.3
+   ]
+  },
+  {
+   "label": "Cardiopathie",
+   "context": null,
+   "kind": "checkbox",
+   "key": "cardiopathie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    134.6,
+    1127.7,
+    151.3,
+    1144.4
+   ]
+  },
+  {
+   "label": "Eclampsie",
+   "context": null,
+   "kind": "checkbox",
+   "key": "eclampsie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    603.3,
+    1129.1,
+    620.1,
+    1145.8
+   ]
+  }
+ ],
+ "redact": [
+  [
+   349.8,
+   772.9,
+   891.5,
+   812.5
+  ]
+ ]
+}

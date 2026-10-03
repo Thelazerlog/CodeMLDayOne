@@ -1,0 +1,14 @@
+# Copier en config.toml. Toutes les URL doivent rester locales : le client refuse le reste.
+[vlm]
+base_url = "http://localhost:11434/v1"   # Ollama. LM Studio : "http://localhost:1234/v1"
+model = "qwen3-vl:8b-instruct"                    # jamais de variante « -cloud »
+batch = 12                              # recadrages par appel (mosaïque)
+scale = 1.5                              # agrandissement des recadrages avant envoi
+timeout = 240
+backend = "auto"                         # Ollama -> API native, qui permet de couper le raisonnement
+parallel = 1                             # Mac : 1. vLLM sur GPU (Narval) : 8 à 16
+think = false                            # true = le modèle « réfléchit » avant de répondre : bien plus lent
+
+[pipeline]
+templates = "templates"
+out = "out"

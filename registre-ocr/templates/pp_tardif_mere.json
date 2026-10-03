@@ -1,0 +1,1350 @@
+{
+ "page_type": "pp_tardif_mere",
+ "dpi": 150,
+ "size_px": [
+  1240,
+  1754
+ ],
+ "title": "CONSULTATION DU POST-PARTUM TARDIF",
+ "anchors": [
+  {
+   "id": "consultation_du_post_partum_ta",
+   "text": "CONSULTATION DU POST-PARTUM TARDIF",
+   "bold": true,
+   "bbox": [
+    88.8,
+    59.3,
+    575.3,
+    94.2
+   ]
+  },
+  {
+   "id": "specimen_donnees_fictives",
+   "text": "SPÉCIMEN — DONNÉES FICTIVES",
+   "bold": true,
+   "bbox": [
+    839.4,
+    64.9,
+    1114.6,
+    89.8
+   ]
+  },
+  {
+   "id": "date_de_la_consultation",
+   "text": "Date de la consultation :",
+   "bold": false,
+   "bbox": [
+    692.4,
+    149.2,
+    876.0,
+    173.4
+   ]
+  },
+  {
+   "id": "entre_le_40eme_et_50eme_jour_a",
+   "text": "Entre le 40ème et 50ème jour après l'accouchement",
+   "bold": false,
+   "bbox": [
+    88.2,
+    149.2,
+    474.1,
+    174.8
+   ]
+  },
+  {
+   "id": "apres_le_50eme_jour_de_l_accou",
+   "text": "Après le 50ème jour de l'accouchement",
+   "bold": false,
+   "bbox": [
+    88.0,
+    178.4,
+    380.3,
+    203.3
+   ]
+  },
+  {
+   "id": "etat_general",
+   "text": "Etat général :",
+   "bold": true,
+   "bbox": [
+    100.1,
+    236.9,
+    205.8,
+    260.6
+   ]
+  },
+  {
+   "id": "ta",
+   "text": "TA",
+   "bold": false,
+   "bbox": [
+    316.5,
+    275.8,
+    342.6,
+    298.9
+   ]
+  },
+  {
+   "id": "pouls",
+   "text": "Pouls",
+   "bold": false,
+   "bbox": [
+    545.7,
+    277.4,
+    592.1,
+    300.6
+   ]
+  },
+  {
+   "id": "poids",
+   "text": "Poids",
+   "bold": false,
+   "bbox": [
+    754.0,
+    278.8,
+    800.5,
+    302.0
+   ]
+  },
+  {
+   "id": "etat_des_conjonctives",
+   "text": "Etat des conjonctives :",
+   "bold": false,
+   "bbox": [
+    99.5,
+    316.0,
+    266.4,
+    340.0
+   ]
+  },
+  {
+   "id": "normales",
+   "text": "Normales",
+   "bold": false,
+   "bbox": [
+    362.0,
+    317.8,
+    433.5,
+    341.2
+   ]
+  },
+  {
+   "id": "decolorees",
+   "text": "Décolorées",
+   "bold": false,
+   "bbox": [
+    549.5,
+    319.1,
+    634.0,
+    342.6
+   ]
+  },
+  {
+   "id": "presence_du_globe_uterin",
+   "text": "Présence du globe utérin",
+   "bold": false,
+   "bbox": [
+    124.3,
+    353.6,
+    309.7,
+    377.8
+   ]
+  },
+  {
+   "id": "etat_des_lochies",
+   "text": "Etat des lochies :",
+   "bold": true,
+   "bbox": [
+    99.0,
+    391.1,
+    236.3,
+    415.0
+   ]
+  },
+  {
+   "id": "fade",
+   "text": "Fade",
+   "bold": false,
+   "bbox": [
+    361.5,
+    392.8,
+    399.7,
+    415.9
+   ]
+  },
+  {
+   "id": "fetide",
+   "text": "fétide",
+   "bold": false,
+   "bbox": [
+    507.3,
+    393.8,
+    548.3,
+    417.0
+   ]
+  },
+  {
+   "id": "claires",
+   "text": "claires",
+   "bold": false,
+   "bbox": [
+    361.3,
+    426.1,
+    409.6,
+    449.4
+   ]
+  },
+  {
+   "id": "sanglantes",
+   "text": "sanglantes",
+   "bold": false,
+   "bbox": [
+    507.1,
+    427.1,
+    587.9,
+    450.6
+   ]
+  },
+  {
+   "id": "jaunatres",
+   "text": "Jaunâtres",
+   "bold": false,
+   "bbox": [
+    673.8,
+    428.3,
+    747.1,
+    451.7
+   ]
+  },
+  {
+   "id": "etat_du_perinee",
+   "text": "Etat du périnée :",
+   "bold": true,
+   "bbox": [
+    98.5,
+    466.1,
+    229.2,
+    489.9
+   ]
+  },
+  {
+   "id": "episiotomie",
+   "text": "Épisiotomie",
+   "bold": false,
+   "bbox": [
+    152.2,
+    533.0,
+    238.5,
+    556.5
+   ]
+  },
+  {
+   "id": "dechirure",
+   "text": "Déchirure",
+   "bold": false,
+   "bbox": [
+    152.0,
+    566.3,
+    224.4,
+    589.7
+   ]
+  },
+  {
+   "id": "reparee",
+   "text": "Réparée",
+   "bold": false,
+   "bbox": [
+    443.9,
+    535.0,
+    507.9,
+    558.4
+   ]
+  },
+  {
+   "id": "etat_des_sphincters_anal_et_ur",
+   "text": "Etat des sphincters (anal et urétral) :",
+   "bold": false,
+   "bbox": [
+    97.5,
+    611.8,
+    366.3,
+    636.6
+   ]
+  },
+  {
+   "id": "anormal",
+   "text": "Anormal",
+   "bold": false,
+   "bbox": [
+    651.6,
+    615.6,
+    713.9,
+    639.0
+   ]
+  },
+  {
+   "id": "cesarienne",
+   "text": "Césarienne :",
+   "bold": false,
+   "bbox": [
+    122.2,
+    653.6,
+    216.8,
+    677.2
+   ]
+  },
+  {
+   "id": "etat_de_la_cicatrice",
+   "text": "Etat de la cicatrice :",
+   "bold": false,
+   "bbox": [
+    376.4,
+    655.4,
+    522.0,
+    679.3
+   ]
+  },
+  {
+   "id": "etat_des_seins",
+   "text": "Etat des seins :",
+   "bold": false,
+   "bbox": [
+    96.9,
+    695.1,
+    211.0,
+    718.8
+   ]
+  },
+  {
+   "id": "lymphangite",
+   "text": "lymphangite",
+   "bold": false,
+   "bbox": [
+    442.7,
+    697.5,
+    532.8,
+    721.0
+   ]
+  },
+  {
+   "id": "mastite_et_abces",
+   "text": "mastite et abcès",
+   "bold": false,
+   "bbox": [
+    630.2,
+    698.8,
+    751.7,
+    722.6
+   ]
+  },
+  {
+   "id": "etat_des_mollets",
+   "text": "Etat des mollets :",
+   "bold": false,
+   "bbox": [
+    96.6,
+    736.8,
+    224.6,
+    760.6
+   ]
+  },
+  {
+   "id": "rouges",
+   "text": "Rouges",
+   "bold": false,
+   "bbox": [
+    296.4,
+    771.5,
+    354.0,
+    794.8
+   ]
+  },
+  {
+   "id": "chauds",
+   "text": "Chauds",
+   "bold": false,
+   "bbox": [
+    442.2,
+    772.5,
+    499.8,
+    795.8
+   ]
+  },
+  {
+   "id": "douloureux_a_la_dorsiflexion",
+   "text": "Douloureux à la dorsiflexion",
+   "bold": false,
+   "bbox": [
+    588.1,
+    773.5,
+    793.8,
+    797.8
+   ]
+  },
+  {
+   "id": "presence_de_complication",
+   "text": "Présence de complication :",
+   "bold": true,
+   "bbox": [
+    96.1,
+    820.2,
+    312.0,
+    844.7
+   ]
+  },
+  {
+   "id": "hemorragie",
+   "text": "Hémorragie",
+   "bold": false,
+   "bbox": [
+    150.0,
+    858.0,
+    237.2,
+    881.5
+   ]
+  },
+  {
+   "id": "infection",
+   "text": "Infection",
+   "bold": false,
+   "bbox": [
+    149.7,
+    889.3,
+    212.9,
+    912.6
+   ]
+  },
+  {
+   "id": "eclampsie",
+   "text": "Eclampsie",
+   "bold": false,
+   "bbox": [
+    149.5,
+    920.5,
+    226.6,
+    943.9
+   ]
+  },
+  {
+   "id": "phlebite",
+   "text": "Phlébite",
+   "bold": false,
+   "bbox": [
+    149.3,
+    951.7,
+    209.7,
+    975.1
+   ]
+  },
+  {
+   "id": "complications_mammaires",
+   "text": "Complications mammaires",
+   "bold": false,
+   "bbox": [
+    483.3,
+    860.3,
+    679.8,
+    884.6
+   ]
+  },
+  {
+   "id": "anemie",
+   "text": "Anémie",
+   "bold": false,
+   "bbox": [
+    483.1,
+    891.6,
+    539.7,
+    914.8
+   ]
+  },
+  {
+   "id": "autres",
+   "text": "Autres",
+   "bold": false,
+   "bbox": [
+    482.9,
+    922.8,
+    531.2,
+    946.0
+   ]
+  },
+  {
+   "id": "notion_de_prise_de_medicaments",
+   "text": "Notion de prise de médicaments :",
+   "bold": false,
+   "bbox": [
+    94.8,
+    995.1,
+    343.2,
+    1019.7
+   ]
+  },
+  {
+   "id": "conduite_a_tenir",
+   "text": "CONDUITE À TENIR :",
+   "bold": true,
+   "bbox": [
+    94.6,
+    1036.9,
+    263.2,
+    1061.0
+   ]
+  },
+  {
+   "id": "traitement_prescrit",
+   "text": "Traitement prescrit :",
+   "bold": false,
+   "bbox": [
+    94.3,
+    1070.1,
+    242.7,
+    1094.0
+   ]
+  },
+  {
+   "id": "fer",
+   "text": "Fer",
+   "bold": false,
+   "bbox": [
+    148.3,
+    1103.8,
+    173.4,
+    1126.9
+   ]
+  },
+  {
+   "id": "vitamine_a",
+   "text": "Vitamine A",
+   "bold": false,
+   "bbox": [
+    314.9,
+    1105.0,
+    395.7,
+    1128.4
+   ]
+  },
+  {
+   "id": "autres_a_preciser",
+   "text": "Autres à préciser : ..........................................",
+   "bold": false,
+   "bbox": [
+    93.8,
+    1145.1,
+    428.4,
+    1170.3
+   ]
+  },
+  {
+   "id": "prochain_rendez_vous_le",
+   "text": "Prochain rendez-vous le",
+   "bold": false,
+   "bbox": [
+    93.6,
+    1174.3,
+    278.1,
+    1198.5
+   ]
+  },
+  {
+   "id": "planification_familiale",
+   "text": "PLANIFICATION FAMILIALE",
+   "bold": true,
+   "bbox": [
+    93.0,
+    1257.7,
+    315.4,
+    1282.2
+   ]
+  },
+  {
+   "id": "desire_utiliser_une_methode",
+   "text": "Désire utiliser une méthode",
+   "bold": false,
+   "bbox": [
+    117.8,
+    1295.3,
+    320.8,
+    1319.6
+   ]
+  },
+  {
+   "id": "si_oui_laquelle",
+   "text": "Si oui, laquelle :",
+   "bold": false,
+   "bbox": [
+    92.5,
+    1332.6,
+    210.3,
+    1356.3
+   ]
+  },
+  {
+   "id": "pilule",
+   "text": "pilule",
+   "bold": false,
+   "bbox": [
+    313.3,
+    1334.1,
+    352.4,
+    1357.3
+   ]
+  },
+  {
+   "id": "diu",
+   "text": "DIU",
+   "bold": false,
+   "bbox": [
+    459.2,
+    1335.1,
+    488.0,
+    1358.2
+   ]
+  },
+  {
+   "id": "autre_a_preciser",
+   "text": "Autre à préciser : ..........................",
+   "bold": false,
+   "bbox": [
+    580.0,
+    1336.0,
+    832.2,
+    1360.6
+   ]
+  },
+  {
+   "id": "prescription_faite",
+   "text": "Prescription faite",
+   "bold": false,
+   "bbox": [
+    117.3,
+    1370.3,
+    241.5,
+    1394.0
+   ]
+  },
+  {
+   "id": "referee",
+   "text": "Référée :",
+   "bold": false,
+   "bbox": [
+    117.0,
+    1403.6,
+    185.7,
+    1427.0
+   ]
+  },
+  {
+   "id": "si_la_mere_ne_desire_pas_une_m",
+   "text": "Si la mère ne désire pas une méthode contraceptive : Pourquoi ?",
+   "bold": false,
+   "bbox": [
+    91.8,
+    1440.9,
+    571.8,
+    1467.2
+   ]
+  },
+  {
+   "id": "document_synthetique_genere_po",
+   "text": "Document synthétique généré pour l'entraînement de modèles — aucune donnée réelle — ne pas utiliser comme dossier médical.",
+   "bold": false,
+   "bbox": [
+    77.5,
+    1703.7,
+    797.7,
+    1725.8
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "key": "date_de_la_consultation",
+   "kind": "text",
+   "label": "Date de la consultation :",
+   "sensitive": false,
+   "type": "date",
+   "bbox": [
+    884.1,
+    139.9,
+    1050.8,
+    179.5
+   ]
+  },
+  {
+   "key": "temperature",
+   "kind": "text",
+   "label": "T°",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    129.6,
+    263.5,
+    202.6,
+    303.1
+   ]
+  },
+  {
+   "key": "ta",
+   "kind": "text",
+   "label": "TA",
+   "sensitive": false,
+   "type": "bp",
+   "bbox": [
+    350.8,
+    265.2,
+    465.3,
+    304.8
+   ]
+  },
+  {
+   "key": "pouls",
+   "kind": "text",
+   "label": "Pouls",
+   "sensitive": false,
+   "type": "int",
+   "bbox": [
+    600.3,
+    266.8,
+    673.2,
+    306.4
+   ]
+  },
+  {
+   "key": "poids",
+   "kind": "text",
+   "label": "Poids",
+   "sensitive": false,
+   "type": "quantity",
+   "bbox": [
+    808.6,
+    268.3,
+    902.4,
+    307.9
+   ]
+  },
+  {
+   "key": "prochain_rendez_vous_le",
+   "kind": "text",
+   "label": "Prochain rendez-vous le",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    286.3,
+    1164.9,
+    452.9,
+    1204.5
+   ]
+  },
+  {
+   "label": "Entre le 40ème et 50ème jour après l'accouchement",
+   "context": "CONSULTATION DU POST-PARTUM TARDIF",
+   "kind": "checkbox",
+   "key": "entre_le_40eme_et_50eme",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    567.4,
+    155.9,
+    584.1,
+    172.7
+   ]
+  },
+  {
+   "label": "Après le 50ème jour de l'accouchement",
+   "context": "CONSULTATION DU POST-PARTUM TARDIF",
+   "kind": "checkbox",
+   "key": "apres_le_50eme_jour_de_l",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    525.5,
+    184.7,
+    542.3,
+    201.5
+   ]
+  },
+  {
+   "label": "Normales",
+   "context": "Etat des conjonctives :",
+   "kind": "checkbox",
+   "key": "normales",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    337.1,
+    320.9,
+    353.8,
+    337.7
+   ]
+  },
+  {
+   "label": "Décolorées",
+   "context": "Etat des conjonctives :",
+   "kind": "checkbox",
+   "key": "decolorees",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    524.6,
+    322.2,
+    541.3,
+    339.0
+   ]
+  },
+  {
+   "label": "Présence du globe utérin",
+   "context": "Etat des conjonctives :",
+   "kind": "checkbox",
+   "key": "presence_du_globe_uterin",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    99.3,
+    356.8,
+    116.1,
+    373.6
+   ]
+  },
+  {
+   "label": "Fade",
+   "context": "Etat des lochies :",
+   "kind": "checkbox",
+   "key": "fade",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    336.5,
+    395.9,
+    353.3,
+    412.7
+   ]
+  },
+  {
+   "label": "fétide",
+   "context": "Etat des lochies :",
+   "kind": "checkbox",
+   "key": "fetide",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    482.4,
+    397.0,
+    499.1,
+    413.7
+   ]
+  },
+  {
+   "label": "claires",
+   "context": "Etat des lochies :",
+   "kind": "checkbox",
+   "key": "claires",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    336.3,
+    429.3,
+    353.1,
+    446.1
+   ]
+  },
+  {
+   "label": "sanglantes",
+   "context": "Etat des lochies :",
+   "kind": "checkbox",
+   "key": "sanglantes",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    482.1,
+    430.3,
+    498.9,
+    447.1
+   ]
+  },
+  {
+   "label": "Jaunâtres",
+   "context": "Etat des lochies :",
+   "kind": "checkbox",
+   "key": "jaunatres",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    648.8,
+    431.4,
+    665.6,
+    448.2
+   ]
+  },
+  {
+   "label": "Normal",
+   "context": "Etat du périnée :",
+   "kind": "checkbox",
+   "key": "etat_du_perinee__normal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    127.5,
+    502.8,
+    144.2,
+    519.6
+   ]
+  },
+  {
+   "label": "Épisiotomie",
+   "context": "Etat du périnée :",
+   "kind": "checkbox",
+   "key": "episiotomie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    127.2,
+    536.2,
+    144.0,
+    553.0
+   ]
+  },
+  {
+   "label": "Réparée",
+   "context": "Etat du périnée :",
+   "kind": "checkbox",
+   "key": "reparee",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    418.9,
+    538.2,
+    435.7,
+    555.0
+   ]
+  },
+  {
+   "label": "Déchirure",
+   "context": "Etat du périnée :",
+   "kind": "checkbox",
+   "key": "dechirure",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    127.0,
+    569.5,
+    143.8,
+    586.3
+   ]
+  },
+  {
+   "label": "Normal",
+   "context": "Etat des sphincters (anal et urétral) :",
+   "kind": "checkbox",
+   "key": "etat_des_sphincter__normal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    480.8,
+    617.8,
+    497.6,
+    634.6
+   ]
+  },
+  {
+   "label": "Anormal",
+   "context": "Etat des sphincters (anal et urétral) :",
+   "kind": "checkbox",
+   "key": "anormal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    626.7,
+    618.8,
+    643.5,
+    635.6
+   ]
+  },
+  {
+   "label": "Césarienne :",
+   "context": "Etat des sphincters (anal et urétral) :",
+   "kind": "checkbox",
+   "key": "cesarienne",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    97.2,
+    656.8,
+    114.0,
+    673.6
+   ]
+  },
+  {
+   "label": "Normal",
+   "context": "Etat des seins :",
+   "kind": "checkbox",
+   "key": "etat_des_seins__normal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    271.9,
+    699.7,
+    288.7,
+    716.5
+   ]
+  },
+  {
+   "label": "lymphangite",
+   "context": "Etat des seins :",
+   "kind": "checkbox",
+   "key": "lymphangite",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    417.8,
+    700.7,
+    434.5,
+    717.5
+   ]
+  },
+  {
+   "label": "mastite et abcès",
+   "context": "Etat des seins :",
+   "kind": "checkbox",
+   "key": "mastite_et_abces",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    605.3,
+    702.0,
+    622.0,
+    718.8
+   ]
+  },
+  {
+   "label": "Normal",
+   "context": "Etat des mollets :",
+   "kind": "checkbox",
+   "key": "etat_des_mollets__normal",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    125.6,
+    773.7,
+    142.4,
+    790.4
+   ]
+  },
+  {
+   "label": "Rouges",
+   "context": "Etat des mollets :",
+   "kind": "checkbox",
+   "key": "rouges",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    271.4,
+    774.7,
+    288.2,
+    791.5
+   ]
+  },
+  {
+   "label": "Chauds",
+   "context": "Etat des mollets :",
+   "kind": "checkbox",
+   "key": "chauds",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    417.2,
+    775.7,
+    434.0,
+    792.5
+   ]
+  },
+  {
+   "label": "Douloureux à la dorsiflexion",
+   "context": "Etat des mollets :",
+   "kind": "checkbox",
+   "key": "douloureux_a_la_dorsifle",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    563.1,
+    776.7,
+    579.9,
+    793.5
+   ]
+  },
+  {
+   "label": "Présence de complication :",
+   "context": "Etat des mollets :",
+   "kind": "checkbox",
+   "key": "presence_de_complication",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    396.1,
+    825.5,
+    412.8,
+    842.3
+   ]
+  },
+  {
+   "label": "Hémorragie",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "hemorragie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    125.0,
+    861.2,
+    141.8,
+    877.9
+   ]
+  },
+  {
+   "label": "Complications mammaires",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "complications_mammaires",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    458.3,
+    863.5,
+    475.1,
+    880.2
+   ]
+  },
+  {
+   "label": "Infection",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "infection",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    124.8,
+    892.4,
+    141.5,
+    909.2
+   ]
+  },
+  {
+   "label": "Anémie",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "anemie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    458.1,
+    894.7,
+    474.9,
+    911.5
+   ]
+  },
+  {
+   "label": "Eclampsie",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "eclampsie",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    124.6,
+    923.7,
+    141.3,
+    940.4
+   ]
+  },
+  {
+   "label": "Autres",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "autres",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    457.9,
+    926.0,
+    474.7,
+    942.7
+   ]
+  },
+  {
+   "label": "Phlébite",
+   "context": "Présence de complication :",
+   "kind": "checkbox",
+   "key": "phlebite",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    124.3,
+    954.9,
+    141.1,
+    971.7
+   ]
+  },
+  {
+   "label": "Notion de prise de médicaments :",
+   "context": null,
+   "kind": "checkbox",
+   "key": "notion_de_prise_de_medic",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    394.9,
+    1000.5,
+    411.6,
+    1017.3
+   ]
+  },
+  {
+   "label": "Fer",
+   "context": "Traitement prescrit :",
+   "kind": "checkbox",
+   "key": "fer",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    123.3,
+    1107.0,
+    140.1,
+    1123.8
+   ]
+  },
+  {
+   "label": "Vitamine A",
+   "context": "Traitement prescrit :",
+   "kind": "checkbox",
+   "key": "vitamine_a",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    289.9,
+    1108.1,
+    306.7,
+    1124.9
+   ]
+  },
+  {
+   "label": "Désire utiliser une méthode",
+   "context": "PLANIFICATION FAMILIALE",
+   "kind": "checkbox",
+   "key": "desire_utiliser_une_meth",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    92.8,
+    1298.4,
+    109.6,
+    1315.2
+   ]
+  },
+  {
+   "label": "pilule",
+   "context": "Si oui, laquelle :",
+   "kind": "checkbox",
+   "key": "pilule",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    288.4,
+    1337.3,
+    305.1,
+    1354.1
+   ]
+  },
+  {
+   "label": "DIU",
+   "context": "Si oui, laquelle :",
+   "kind": "checkbox",
+   "key": "diu",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    434.2,
+    1338.3,
+    451.0,
+    1355.1
+   ]
+  },
+  {
+   "label": "Prescription faite",
+   "context": "Si oui, laquelle :",
+   "kind": "checkbox",
+   "key": "prescription_faite",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    92.3,
+    1373.4,
+    109.1,
+    1390.2
+   ]
+  },
+  {
+   "label": "Référée :",
+   "context": "Si oui, laquelle :",
+   "kind": "checkbox",
+   "key": "referee",
+   "sensitive": false,
+   "type": "bool",
+   "bbox": [
+    92.0,
+    1406.8,
+    108.8,
+    1423.6
+   ]
+  },
+  {
+   "key": "etat_de_la_cicatrice",
+   "kind": "text",
+   "label": "Etat de la cicatrice :",
+   "origin": "orphelin",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    524.0,
+    651.6,
+    808.4,
+    690.0
+   ]
+  },
+  {
+   "key": "notion_de_prise_de_medicaments",
+   "kind": "text",
+   "label": "Notion de prise de médicaments :",
+   "origin": "orphelin",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    345.3,
+    987.6,
+    837.8,
+    1032.4
+   ]
+  },
+  {
+   "key": "pf_motif_refus",
+   "kind": "text",
+   "label": null,
+   "origin": "orphelin",
+   "sensitive": false,
+   "type": "text",
+   "bbox": [
+    80.7,
+    1467.5,
+    532.8,
+    1514.4
+   ]
+  }
+ ],
+ "redact": [
+  [
+   151.1,
+   90.9,
+   509.1,
+   123.3
+  ]
+ ]
+}

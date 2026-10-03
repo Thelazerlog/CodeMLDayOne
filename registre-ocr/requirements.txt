@@ -1,0 +1,8 @@
+numpy>=1.26
+opencv-contrib-python>=4.9     # SIFT, USAC_MAGSAC
+pymupdf>=1.24                  # lecture du PDF spécimen (gabarits + vérité terrain)
+pydantic>=2.6
+rapidfuzz>=3.6
+pillow>=10.3                   # génération synthétique (polices manuscrites, arabe via libraqm)
+pytest>=8
+# Facultatif : second lecteur sur les nombres -> brew install tesseract tesseract-lang

@@ -1,0 +1,665 @@
+{
+  "challengeId": "17",
+  "files": [
+    {
+      "path": "consignes-fr-en.pdf",
+      "bytes": 197169,
+      "sha256": "86e48051d2382ebd7bb94d323de530321de579f3d0a778887982243b83620da3"
+    },
+    {
+      "path": "data/Paper Registry/1-1.jpg",
+      "bytes": 89472,
+      "sha256": "be14860ede4aadadff910b75cc46ff4c460c62f02e7262039fea9f5defb08062"
+    },
+    {
+      "path": "data/Paper Registry/1-2.jpg",
+      "bytes": 96842,
+      "sha256": "f832d123337b1ccc6fd371885e626523195fb444849279d7f3bce957110dadb0"
+    },
+    {
+      "path": "data/Paper Registry/1-3.jpg",
+      "bytes": 115039,
+      "sha256": "62506749f258499c85fdc64451ca7129a2f49540a93ab7c802eecf47999af683"
+    },
+    {
+      "path": "data/Paper Registry/1-4.jpg",
+      "bytes": 129829,
+      "sha256": "fdc5e725f4fac9e45059ab71886898c02114522e8cb79a175373922a610b44a2"
+    },
+    {
+      "path": "data/Paper Registry/1-5.jpg",
+      "bytes": 138984,
+      "sha256": "8a693564367df88b7c0946665f8e454dabd6c004ca13e0b01742b464308f116c"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-01.png",
+      "bytes": 59694,
+      "sha256": "4434209ee4bca0d638a1b396f8cf7bbaa3435fd7c67a67a454d4f814c8a34db7"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-02.png",
+      "bytes": 126015,
+      "sha256": "59269a18cf56729fe81caa5d3a97071d3aaa3b2f4760fe514f95c7f5527c5814"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-03.png",
+      "bytes": 123376,
+      "sha256": "653fbc540b1e801ce51fd824427135b01db73c98a261b3645638e797a78afe78"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-04.png",
+      "bytes": 90733,
+      "sha256": "f6c9c1fc1f444b44662f0fef1e3f308d277921eb4cdec076c601a70724e5fcb9"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-05.png",
+      "bytes": 99999,
+      "sha256": "e9b1ea314860ce922f9b14b6008d8292cac593abb1fe2d20986057d641750967"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-06.png",
+      "bytes": 117588,
+      "sha256": "e43cbfec65aacbbfa7d2bf5f5f3f2264042d8b5327c5f090aa771dd1141bba54"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-07__1O_M-H0E7z.png",
+      "bytes": 107140,
+      "sha256": "e631adc80d7f4de7ceb40c16a9dc714a175346459fcedf4dceaca0f9fd87c8f5"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-07__1qaWGv8qLJ.png",
+      "bytes": 107140,
+      "sha256": "e631adc80d7f4de7ceb40c16a9dc714a175346459fcedf4dceaca0f9fd87c8f5"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-08.png",
+      "bytes": 123989,
+      "sha256": "4b2cb2278bed946f3568b4c0412db11b3553d2fdd874169199ba4a3f5b3a7c7a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-09.png",
+      "bytes": 60542,
+      "sha256": "21457e975edc05c5703a4cdc9fc8f672d0cbb248a08604d205e27751ce77f95a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-10__1U_S1pqftP.png",
+      "bytes": 123828,
+      "sha256": "154bd3c9362a0dde2da77aff9479b044aace1c812c32940a198b9c9324131d2a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-10__1YQQbSs_NO.png",
+      "bytes": 123828,
+      "sha256": "154bd3c9362a0dde2da77aff9479b044aace1c812c32940a198b9c9324131d2a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-11.png",
+      "bytes": 141616,
+      "sha256": "4448119c5f9ad22b4889f256962394fb4060d3f833a77337bc87c6063288a292"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-12__1D4u3zWyes.png",
+      "bytes": 86544,
+      "sha256": "51942ad751d480a94ff717856133e5a83a77c68b5ab03bfc8a41c498aed112a8"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-12__1MSer0e6h1.png",
+      "bytes": 86544,
+      "sha256": "51942ad751d480a94ff717856133e5a83a77c68b5ab03bfc8a41c498aed112a8"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-13.png",
+      "bytes": 102191,
+      "sha256": "e4bcc05189e4402e67d1ef0b44da9a063681c8006a76e8124eded3756b29b083"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-14__1NRsJ9Ddo8.png",
+      "bytes": 111409,
+      "sha256": "dbb7fd0f83862cf8c790241b8cb17cb0502cb841d8ff74d26fa6f10f8484be4d"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-14__1pnAIEwOi1.png",
+      "bytes": 111409,
+      "sha256": "dbb7fd0f83862cf8c790241b8cb17cb0502cb841d8ff74d26fa6f10f8484be4d"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-15__1NMe1Ym5MK.png",
+      "bytes": 102837,
+      "sha256": "1d81c80619746259afcd05afd47dc529ff70fb9318ea7e146f76d84d35bfaebd"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-15__1jUDWVMcE-.png",
+      "bytes": 102837,
+      "sha256": "1d81c80619746259afcd05afd47dc529ff70fb9318ea7e146f76d84d35bfaebd"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-16__1CB60L7TiS.png",
+      "bytes": 103788,
+      "sha256": "853c1f7f087692f6ed0bbcabab1dd34cb92183b4396afd4a12b11741e36f2a11"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-16__1OBRq_dz53.png",
+      "bytes": 103788,
+      "sha256": "853c1f7f087692f6ed0bbcabab1dd34cb92183b4396afd4a12b11741e36f2a11"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-17__1JAXyAcTm1.png",
+      "bytes": 59655,
+      "sha256": "6a2a5eea3dd959d3a69be33b177c9353aaf0c7348e4cb8f45bc3ad19b4b0b8ed"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-17__1oBPaU3YTV.png",
+      "bytes": 59655,
+      "sha256": "6a2a5eea3dd959d3a69be33b177c9353aaf0c7348e4cb8f45bc3ad19b4b0b8ed"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-18__1YDapV3RjJ.png",
+      "bytes": 120353,
+      "sha256": "9dc958cfa6d12c218c0ea7ea1eb62c0b246239b93823878b23bf9a8d439312b1"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-18__1baIjVKeMw.png",
+      "bytes": 120353,
+      "sha256": "9dc958cfa6d12c218c0ea7ea1eb62c0b246239b93823878b23bf9a8d439312b1"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-19__1CnJAvJyYe.png",
+      "bytes": 154852,
+      "sha256": "c1fe6e59b224556ab4983c671da7785476fb118c27d5f03afb5787c0d6477065"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-19__1yUclbTmix.png",
+      "bytes": 154852,
+      "sha256": "c1fe6e59b224556ab4983c671da7785476fb118c27d5f03afb5787c0d6477065"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-20__18kYVBTwE4.png",
+      "bytes": 87965,
+      "sha256": "7151338c987432e1facb57236e23fa1c4b58e38bc16f350134d3dd21e19072e0"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-20__1Fe9vKiY1J.png",
+      "bytes": 87965,
+      "sha256": "7151338c987432e1facb57236e23fa1c4b58e38bc16f350134d3dd21e19072e0"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-21__1YGNHKDIuK.png",
+      "bytes": 111101,
+      "sha256": "0def8ed3a474e2d38d05cdbcacf1fcb6b5c355b35da743eb0e9879a61187a81b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-21__1uKoGpOPgd.png",
+      "bytes": 111101,
+      "sha256": "0def8ed3a474e2d38d05cdbcacf1fcb6b5c355b35da743eb0e9879a61187a81b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-22.png",
+      "bytes": 110166,
+      "sha256": "138939d7684b547ed8c4d23c8c1297602ae6c9bdd880ffd6e50ffc96037d4394"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-23__1M0bYiZmc7.png",
+      "bytes": 110810,
+      "sha256": "eeda3f9c183c0a0cf03746173cc0d209b73a001cfda708aac457bb18b192705a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-23__1Ot9b8mqEv.png",
+      "bytes": 110810,
+      "sha256": "eeda3f9c183c0a0cf03746173cc0d209b73a001cfda708aac457bb18b192705a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-24__11w0IP6pSn.png",
+      "bytes": 117778,
+      "sha256": "b4aba6bea2cd4986395a1b2a41f3f3fe4f46b49f1e196b2e4100f585fd81d44b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-24__1sK7jnFhTK.png",
+      "bytes": 117778,
+      "sha256": "b4aba6bea2cd4986395a1b2a41f3f3fe4f46b49f1e196b2e4100f585fd81d44b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-25__1-CjNUosOk.png",
+      "bytes": 55665,
+      "sha256": "bb0c8fa6d4f33095170db7fcebf5acc0226a3481816b58eff987022daffca0f3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-25__1y1StxYt4T.png",
+      "bytes": 55665,
+      "sha256": "bb0c8fa6d4f33095170db7fcebf5acc0226a3481816b58eff987022daffca0f3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-26__17ANHGh7D9.png",
+      "bytes": 129764,
+      "sha256": "fcef16919b55baf473ba8c2dd45c4a351e371fbe2cd350e1e5394c3535a8a6ae"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-26__1sByprDs4N.png",
+      "bytes": 129764,
+      "sha256": "fcef16919b55baf473ba8c2dd45c4a351e371fbe2cd350e1e5394c3535a8a6ae"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-27__1IYSy5g-zc.png",
+      "bytes": 138614,
+      "sha256": "c93854f7a91edc442e2ad61079dd37bbaffc9ebd6b097c13ced2d304f624eb3d"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-27__1v5jkynbxz.png",
+      "bytes": 138614,
+      "sha256": "c93854f7a91edc442e2ad61079dd37bbaffc9ebd6b097c13ced2d304f624eb3d"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-28__1OtF9rNsnr.png",
+      "bytes": 90439,
+      "sha256": "753805031f5edce98140abbebf58b5e10e8fd6a2db2fb012f31aae6c61b1693e"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-28__1xE6UA-qzN.png",
+      "bytes": 90439,
+      "sha256": "753805031f5edce98140abbebf58b5e10e8fd6a2db2fb012f31aae6c61b1693e"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-29__1IIeCj5Sjq.png",
+      "bytes": 105774,
+      "sha256": "6c56a24cfd5ef47b4ad17dbe17e1990f23cef513431ddf335912c7de45f016cf"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-29__1mN4qfTcFX.png",
+      "bytes": 105774,
+      "sha256": "6c56a24cfd5ef47b4ad17dbe17e1990f23cef513431ddf335912c7de45f016cf"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-30__1MEUrnbu5W.png",
+      "bytes": 118238,
+      "sha256": "065e2111d89a6998c064cb8e5180034efe5eac6203b0a0c7cb29bfdd7789b77f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-30__1kKkGMBMD5.png",
+      "bytes": 118238,
+      "sha256": "065e2111d89a6998c064cb8e5180034efe5eac6203b0a0c7cb29bfdd7789b77f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-31__1Nue3NqAua.png",
+      "bytes": 107004,
+      "sha256": "c9a01810a226a7fa5449b22659d2a88415f729620b9d9afcb0f066d474d9ff4b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-31__1kEzf9yMpL.png",
+      "bytes": 107004,
+      "sha256": "c9a01810a226a7fa5449b22659d2a88415f729620b9d9afcb0f066d474d9ff4b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-32__1Bx-67ocGy.png",
+      "bytes": 119547,
+      "sha256": "940ad93e464178311da23d18804023c012d2eb3b301ab77f9ddbd41eda6407c3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-32__1csOqNdzZT.png",
+      "bytes": 119547,
+      "sha256": "940ad93e464178311da23d18804023c012d2eb3b301ab77f9ddbd41eda6407c3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-33__15ITQvlEdR.png",
+      "bytes": 56860,
+      "sha256": "be19418d61ef7eba39ad0701de717238f37624ddcc0226b62eddc10b66d3e764"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-33__1NG6kKSvcL.png",
+      "bytes": 56860,
+      "sha256": "be19418d61ef7eba39ad0701de717238f37624ddcc0226b62eddc10b66d3e764"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-34__1-TNB7bUpy.png",
+      "bytes": 113998,
+      "sha256": "d3067c11a7be02f981a536b2e7c87541414f5d38828fbe3013aebb86ae66ac2e"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-34__12oVhijHWY.png",
+      "bytes": 113998,
+      "sha256": "d3067c11a7be02f981a536b2e7c87541414f5d38828fbe3013aebb86ae66ac2e"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-35__1G4fXy_5Gm.png",
+      "bytes": 113459,
+      "sha256": "719016a3e535bbecac4c628ae67fb504ada4e99645bfb80dd34709beae013790"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-35__1dlbkeq5N9.png",
+      "bytes": 113459,
+      "sha256": "719016a3e535bbecac4c628ae67fb504ada4e99645bfb80dd34709beae013790"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-36__10YoYqH4k6.png",
+      "bytes": 92984,
+      "sha256": "26a0de6f4ab51e0a137fc06c3802bfe6ce1141b3e9551ec4b60f40d2e77e7a5f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-36__1RkGX7Zoyd.png",
+      "bytes": 92984,
+      "sha256": "26a0de6f4ab51e0a137fc06c3802bfe6ce1141b3e9551ec4b60f40d2e77e7a5f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-37__1ClQJtts9I.png",
+      "bytes": 115689,
+      "sha256": "66925e2c56f75ca1b17a5e621c1df50b49d63b4262fef126d91dfc683b876a34"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-37__1WUTegRE-Q.png",
+      "bytes": 115689,
+      "sha256": "66925e2c56f75ca1b17a5e621c1df50b49d63b4262fef126d91dfc683b876a34"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-38__1CXcCUFyrj.png",
+      "bytes": 110697,
+      "sha256": "2fb813c119e90504357ba7bf6338cd891f2eb53b6e9b1f78917b12caab5c0a6f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-38__1IM4rRG5Yr.png",
+      "bytes": 110697,
+      "sha256": "2fb813c119e90504357ba7bf6338cd891f2eb53b6e9b1f78917b12caab5c0a6f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-39__17KgDI_D25.png",
+      "bytes": 118778,
+      "sha256": "6f6f40c0f5ee95578c84af8109e25a88cf23e3ce4cb8ab96a9c8049f96f60eaa"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-39__1YErqisjMy.png",
+      "bytes": 118778,
+      "sha256": "6f6f40c0f5ee95578c84af8109e25a88cf23e3ce4cb8ab96a9c8049f96f60eaa"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-40__1WnbGI6FRA.png",
+      "bytes": 111135,
+      "sha256": "dcc4ebf1c1c166b497859f55bc77918bde5a8a6367df901a82f89176c77a60e2"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-40__1s1Z5scO-G.png",
+      "bytes": 111135,
+      "sha256": "dcc4ebf1c1c166b497859f55bc77918bde5a8a6367df901a82f89176c77a60e2"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-41__1PEcVIoFXJ.png",
+      "bytes": 52456,
+      "sha256": "5f01cd01c2491bad27742bc412cdcb97a92074602af32a83d28cb4019b16feda"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-41__1soPpS91RH.png",
+      "bytes": 52456,
+      "sha256": "5f01cd01c2491bad27742bc412cdcb97a92074602af32a83d28cb4019b16feda"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-42__1RrCOGAZgm.png",
+      "bytes": 123757,
+      "sha256": "d2beb125ed44daf83c563be80577337e69b3277f18ff18f15bcf20b5841f4ee3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-42__1h8zxWGG4P.png",
+      "bytes": 123757,
+      "sha256": "d2beb125ed44daf83c563be80577337e69b3277f18ff18f15bcf20b5841f4ee3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-43.png",
+      "bytes": 139355,
+      "sha256": "c0ec5c164b86e49585a1cdbc0abb39d7a0b28125c549568b5a4bdcd04bfda998"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-44__1XxzcLjCYe.png",
+      "bytes": 74840,
+      "sha256": "fd153ff7ea57a47afd0170834f56b3b3acf5d6d4adef70f0270d224d0b0a8f1c"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-44__1iKRCirxp9.png",
+      "bytes": 74840,
+      "sha256": "fd153ff7ea57a47afd0170834f56b3b3acf5d6d4adef70f0270d224d0b0a8f1c"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-45__1CU3r5Tdou.png",
+      "bytes": 96473,
+      "sha256": "830eef1f264f71e1d5672bb3df01adc173e3fb139e542638fe288592dc907fd0"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-45__1jejwmzfhf.png",
+      "bytes": 96473,
+      "sha256": "830eef1f264f71e1d5672bb3df01adc173e3fb139e542638fe288592dc907fd0"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-46__13tFG11aaA.png",
+      "bytes": 105112,
+      "sha256": "50ff16998e1c6ef7392f3b1b3a993f57a64a499d40e657ee2d7016178dff5d2a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-46__14c_tFYKBo.png",
+      "bytes": 105112,
+      "sha256": "50ff16998e1c6ef7392f3b1b3a993f57a64a499d40e657ee2d7016178dff5d2a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-47__1IUs1h6KZQ.png",
+      "bytes": 91104,
+      "sha256": "644e0e0697880d866b76332070419dd36279fbbfdb8ef463ac75562ac1b26ff6"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-47__1IqdH6NkRH.png",
+      "bytes": 91104,
+      "sha256": "644e0e0697880d866b76332070419dd36279fbbfdb8ef463ac75562ac1b26ff6"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-48__1JY9DkRr_Z.png",
+      "bytes": 93473,
+      "sha256": "1486749fc689d774b86d67b5408cc2d79871b6e515ebe9b864bb46acb3573421"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-48__1yPzNR2jPe.png",
+      "bytes": 93473,
+      "sha256": "1486749fc689d774b86d67b5408cc2d79871b6e515ebe9b864bb46acb3573421"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-49__1SVq0XRfj2.png",
+      "bytes": 63135,
+      "sha256": "dedeb8c5adfa1a75fd9a69e8f5fd1e7291aab60013a9e6c06ff3e4404e84b58a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-49__1hm5RSPNCf.png",
+      "bytes": 63135,
+      "sha256": "dedeb8c5adfa1a75fd9a69e8f5fd1e7291aab60013a9e6c06ff3e4404e84b58a"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-50__1JrJI1k9zk.png",
+      "bytes": 122747,
+      "sha256": "3a7b07df754e435a7a914c840ded67f540cb7ec809b586362b3153f68391e4f9"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-50__1xXF5g-WKK.png",
+      "bytes": 122747,
+      "sha256": "3a7b07df754e435a7a914c840ded67f540cb7ec809b586362b3153f68391e4f9"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-51__1ArSWOxwYZ.png",
+      "bytes": 110014,
+      "sha256": "387b0a9aa82973898bea79ed4a39d2a906f3aad507fc9bea7eefec0f5c09532c"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-51__1CBmi9gojK.png",
+      "bytes": 110014,
+      "sha256": "387b0a9aa82973898bea79ed4a39d2a906f3aad507fc9bea7eefec0f5c09532c"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-52__13GPlkmxU-.png",
+      "bytes": 95563,
+      "sha256": "082cab4b53c8f45de01106db5e1f521c34cfb1fc2d3c26601d8d846f3abd8dfc"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-52__1hTETTbfnm.png",
+      "bytes": 95563,
+      "sha256": "082cab4b53c8f45de01106db5e1f521c34cfb1fc2d3c26601d8d846f3abd8dfc"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-53__1Djbws5jOt.png",
+      "bytes": 109471,
+      "sha256": "df895b522c2fe5b4cb798f28e752fc4c0ff99c0cc3221478ced1ecedb63fd366"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-53__1dTvG8Cvh5.png",
+      "bytes": 109471,
+      "sha256": "df895b522c2fe5b4cb798f28e752fc4c0ff99c0cc3221478ced1ecedb63fd366"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-54__155-coOlhB.png",
+      "bytes": 113688,
+      "sha256": "1857c36da7dad67cdedcdb7fd4c36991abbf9bc5634cbbbb106ab20595829e04"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-54__1fIE23rXM4.png",
+      "bytes": 113688,
+      "sha256": "1857c36da7dad67cdedcdb7fd4c36991abbf9bc5634cbbbb106ab20595829e04"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-55__1t5UQZZmWv.png",
+      "bytes": 110844,
+      "sha256": "7d8157d1cb472c2687b41c10f0e82f1af5514ddd77a4b25cbdfa770d9c447070"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-55__1vzizet8Xd.png",
+      "bytes": 110844,
+      "sha256": "7d8157d1cb472c2687b41c10f0e82f1af5514ddd77a4b25cbdfa770d9c447070"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-56__14R5jqMZgt.png",
+      "bytes": 123574,
+      "sha256": "8035acac8f8a46ebba2031884dfe6bb2cb5fe0631b4a58027c3c7a2f9e07d3ae"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-56__1FD_HmSh0t.png",
+      "bytes": 123574,
+      "sha256": "8035acac8f8a46ebba2031884dfe6bb2cb5fe0631b4a58027c3c7a2f9e07d3ae"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-57.png",
+      "bytes": 63701,
+      "sha256": "11c1e7b5f582a0b80ea8260f50e589efbd742a748e7edba041c2034fe4c31de5"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-58.png",
+      "bytes": 123427,
+      "sha256": "f8915926bcadfeb49878e50f41fdbc3e6f7a8e059425cd7271859a640c0c34c8"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-59.png",
+      "bytes": 142710,
+      "sha256": "0b1db595367e35cb969818957a04959eb06f11c6649fae09bbc077a2cce9d8bb"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-60.png",
+      "bytes": 82386,
+      "sha256": "32040f00a6ccb08f4cfbeae6d17e4ca192966af4fc638c7e7e9d1d9e42cd19b1"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-61.png",
+      "bytes": 108635,
+      "sha256": "beb8dedf03e5da3b83837f975b401930cad3b2bf7ad4fe6a80652504daca6a65"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-62.png",
+      "bytes": 99717,
+      "sha256": "99562ed7a6228e3f953869e7d16fa9df6532ee6c192cc5e4835696e9ca064505"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-63.png",
+      "bytes": 106770,
+      "sha256": "8d04ee2b783c967833372d212ba1d1ea0b1a3db770b3485978e4c857a0698d54"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-64.png",
+      "bytes": 117979,
+      "sha256": "3b1ac2c9e972c7284c18dc55cd8782f80e65ce5590ea3363125f059aa33904fc"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-65.png",
+      "bytes": 58866,
+      "sha256": "98225233196867ee41b92b48fe5d87d82da4897ea1b6e4f61ae6e2c1e14efa51"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-66.png",
+      "bytes": 102124,
+      "sha256": "71f8834e65f1d3d1abb8170b9e27e46b0d5157da77412cded40bade722101270"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-67.png",
+      "bytes": 122604,
+      "sha256": "c17cfcca195f28d8ca3dc78e7068311c5a5885d5245c5b45df53bc5a1fdd6050"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-68.png",
+      "bytes": 91820,
+      "sha256": "8dddfec0c1cd98723696a2acf2b2782ab7cfa23da872150d6885ea1f06bc6659"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-69.png",
+      "bytes": 111905,
+      "sha256": "75dcd71471fe09dc21326aa0907054daf0f74386ac0de3dc7f659fabd6ca367c"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-70.png",
+      "bytes": 121454,
+      "sha256": "42bfe62e7eda705e768d6bc94918669e232e2bd410b5014df2a0ace1eb32fc62"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-71.png",
+      "bytes": 104190,
+      "sha256": "26afff348f4af46f4a0a35ac96c32694450dc493a2b3bcd4d51734e7abc2fe9b"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-72.png",
+      "bytes": 108820,
+      "sha256": "6441e5d61a90f5db3180585a43c2bbcda94bad318c48aa4aa6ac094811efa94d"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-73.png",
+      "bytes": 61247,
+      "sha256": "df166c198089713c7c12428d4e87c1756592397d596889909a817c777940857f"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-74.png",
+      "bytes": 102544,
+      "sha256": "126cd0bcb6530fdb581255d3952ccf55dda74cc3c91279e119de564458acbe36"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-75.png",
+      "bytes": 139120,
+      "sha256": "c56519bf4d02bde61ee87f262c490eea3047011340f9caee21840cd1c51812e7"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-76.png",
+      "bytes": 74236,
+      "sha256": "3927b908124ce9ebe32b0c106b04372e25ac74a279ef517266915bd13f1aeccc"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-77.png",
+      "bytes": 94632,
+      "sha256": "8237a9c57214f7d654025af427d9410dcd69c0bd11c67c9744df75ad99562fc3"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-78.png",
+      "bytes": 98267,
+      "sha256": "0cbdde6d8878748493e3001a42cb416f1f1d298077759411ed6d4dd640777968"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-79.png",
+      "bytes": 95142,
+      "sha256": "72f840b37155b761ada820a94630e4f0371a7ae2cb8815ac5f63dbbbeda4efc0"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes-80.png",
+      "bytes": 95893,
+      "sha256": "62d034d1793a3169e4a859a31ad97b08c8fa45fdebd196895505e30ec4c143d8"
+    },
+    {
+      "path": "data/Paper Registry/dossiers_specimen_10_patientes.pdf",
+      "bytes": 819551,
+      "sha256": "2797a99aee490ee255ee8f6487b7d20804175df216724098289d7033d78d22fb"
+    },
+    {
+      "path": "data/maternal_registry_synthetic.csv",
+      "bytes": 18504,
+      "sha256": "c1e533281a94cb16b32099e5b3cc8d3a61dbef6648cf08196fe95970d5541a69"
+    }
+  ]
+}

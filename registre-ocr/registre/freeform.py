@@ -63,8 +63,8 @@ def classify(reader, img: np.ndarray, page_types: list[str]) -> tuple[str, str]:
 
 
 def _vocab(tpl: Template):
-    """Vocabulaire du gabarit : champs simples, lignes et colonnes des tableaux, cases."""
-    simple, rows, cols, boxes, by_rc = {}, {}, {}, {}, {}
+    """Vocabulaire du gabarit : champs simples, cases, et tableaux (lignes, colonnes, cellule -> champ)."""
+    simple, boxes, tables = {}, {}, {}
     for f in tpl.data["fields"]:
         if f.get("sensitive"):
             continue
@@ -73,62 +73,119 @@ def _vocab(tpl: Template):
             boxes[k] = field_label(f)
         elif f.get("row") and "__" in k:
             r, c = k.split("__", 1)
-            rows[r] = f["row"].rstrip(" :")
-            cols[c] = COLUMN_LABELS.get(c, f.get("col") or c)
-            by_rc[(r, c)] = f
+            t = tables.setdefault(f.get("table") or "t", {"rows": {}, "cols": {}, "cells": {}})
+            t["rows"][r] = f["row"].rstrip(" :")
+            t["cols"][c] = COLUMN_LABELS.get(c, f.get("col") or c)
+            t["cells"][(r, c)] = k
         else:
             simple[k] = field_label(f)
-    return simple, rows, cols, boxes, by_rc
+    return simple, boxes, tables
+
+
+def _match(name, choices: dict[str, str], seuil: int = 80) -> str | None:
+    """Clé du schéma correspondant à ce que le modèle a écrit : la clé elle-même, ou un libellé proche
+    (« Accouchement prématuré » -> accouchement_premature, « 2ème trimestre Visite 1 » -> t2_v1)."""
+    from rapidfuzz import fuzz, process
+    from .textutil import norm_text
+    name = str(name or "").strip()
+    if not name:
+        return None
+    if name in choices:
+        return name
+    q = norm_text(name).replace("eme", "e").replace("ème", "e")
+    opts = {k: norm_text(v).replace("eme", "e") for k, v in choices.items()}
+    opts.update({f"{k}\x00key": norm_text(k.replace("_", " ")) for k in choices})
+    best = process.extractOne(q, opts, scorer=fuzz.WRatio)
+    if not best or best[1] < seuil:
+        return None
+    return best[2].split("\x00")[0]
+
+
+def _ask(reader, prompt, img, schema, max_tokens):
+    parsed, *_ = reader.ask(prompt, img, schema, max_tokens, system=SYSTEM, timeout=900)
+    return parsed if isinstance(parsed, dict) else {}
 
 
 def extract(reader, img: np.ndarray, tpl: Template, max_tokens: int = 1500) -> dict:
-    """Lecture de la page entière, rangée dans le schéma du gabarit `tpl`.
-    Retourne {"valeurs": {cle: texte}, "cochees": [cles], "brut": parsed}."""
-    simple, rows, cols, boxes, by_rc = _vocab(tpl)
-    lines = ["Champs simples (clé = libellé) :"] + [f"  {k} = {v}" for k, v in simple.items()]
-    if rows:
-        lines += ["Lignes de tableau :"] + [f"  {k} = {v}" for k, v in rows.items()]
-        lines += ["Colonnes de tableau :"] + [f"  {k} = {v}" for k, v in cols.items()]
-    if boxes:
-        lines += ["Cases à cocher (cochées, entourées ou soulignées) :"] + [f"  {k} = {v}" for k, v in boxes.items()]
-    prompt = (
-        "Voici une page de registre de suivi de grossesse (mise en page possiblement différente de la liste ci-dessous). "
-        "Relève UNIQUEMENT ce qui est écrit à la main, en le rangeant avec les clés suivantes.\n"
-        + "\n".join(lines) +
-        "\n\nFormat de réponse (compact) :\n"
-        '  "c" : liste de paires [clé, texte] pour les champs simples\n'
-        + ('  "t" : liste de triplets [ligne, colonne, texte] pour les tableaux\n' if rows else "")
-        + ('  "x" : liste des clés des cases cochées\n' if boxes else "")
-        + "Règles : recopie exactement (pas de correction, pas de traduction) ; une écriture qui couvre "
-        "plusieurs cases (ex. « RAS » en travers) vaut pour chacune ; n'invente rien ; ignore ce qui n'a pas de clé ; "
-        "ne recopie jamais de nom, téléphone, adresse ni numéro d'identité. Réponds uniquement avec le JSON, "
-        "sur une seule ligne.")
-    pair = {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 2}
-    triple = {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 3}
-    props = {"c": {"type": "array", "items": pair}}
-    if rows:
-        props["t"] = {"type": "array", "items": triple}
-    if boxes:
-        props["x"] = {"type": "array", "items": {"type": "string", "enum": list(boxes)}}
-    schema = {"type": "object", "properties": props, "required": list(props)}
-    # page entière : réponse longue -> délai d'attente généreux (Mac lent), mais limite de jetons
-    parsed, *_ = reader.ask(prompt, rectify(img, max_side=1400), schema, max_tokens, system=SYSTEM,
-                            timeout=900)
-
+    """Lecture d'une page de mise en page inconnue, rangée dans le schéma du gabarit `tpl`.
+    Un appel pour les champs simples et les cases, puis un appel PAR TABLEAU : le modèle transcrit le
+    tableau ligne par ligne avec les en-têtes qu'il voit (ce qu'il fait bien), et c'est nous qui
+    rapprochons ces libellés du schéma (ce qu'il fait mal). Une photo peut ne montrer qu'une moitié de
+    page : seuls les lignes et colonnes visibles sont renvoyées.
+    Retourne {"valeurs": {cle: texte}, "cochees": [cles], "brut": [réponses]}."""
+    simple, boxes, tables = _vocab(tpl)
+    page = rectify(img, max_side=1600)
+    regles = ("Règles : recopie exactement ce qui est écrit à la main (pas de correction, pas de traduction, pas "
+              "de conversion d'unité) ; une écriture tracée en travers de plusieurs cases (ex. « RAS » en diagonale) "
+              "vaut pour chacune des cases qu'elle couvre ; n'invente rien ; ne recopie jamais de nom, téléphone, "
+              "adresse ni numéro d'identité. Réponds uniquement avec le JSON, sur une seule ligne.")
     vals: dict[str, str] = {}
-    for x in parsed.get("c", []) or []:
-        if isinstance(x, list) and len(x) == 2 and x[0] in simple and str(x[1]).strip():
-            vals[x[0]] = str(x[1]).strip()
-    for x in parsed.get("t", []) or []:
-        if not (isinstance(x, list) and len(x) == 3):
-            continue
-        f = by_rc.get((x[0], x[1]))
-        if f and str(x[2]).strip():
-            vals[f["key"]] = str(x[2]).strip()
-    checked = [k for k in parsed.get("x", []) or [] if k in boxes]
+    checked: list[str] = []
+    brut = []
+
+    if simple or boxes:
+        lines = (["Champs simples (libellé imprimé) :"] + [f"  - {v}" for v in simple.values()]
+                 + (["Cases à cocher :"] + [f"  - {v}" for v in boxes.values()] if boxes else []))
+        prompt = ("Voici une photo d'une page de registre de suivi de grossesse (mise en page possiblement différente). "
+                  "Pour les champs suivants, s'ils sont visibles sur la photo, relève ce qui est écrit à la main à côté "
+                  "du libellé imprimé, et liste les cases cochées, entourées ou soulignées.\n" + "\n".join(lines) +
+                  '\n\nFormat : {"c": [[libellé, texte écrit], ...], "x": [libellés des cases cochées]}. '
+                  "Omets un champ vide ou absent de la photo. " + regles)
+        schema = {"type": "object", "properties": {
+            "c": {"type": "array", "items": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 2}},
+            "x": {"type": "array", "items": {"type": "string"}}}, "required": ["c", "x"]}
+        r = _ask(reader, prompt, page, schema, 600)
+        brut.append(r)
+        for x in r.get("c", []) or []:
+            if isinstance(x, list) and len(x) == 2 and str(x[1]).strip():
+                k = _match(x[0], simple)
+                if k:
+                    vals[k] = str(x[1]).strip()
+        checked = [k for k in (_match(x, boxes) for x in r.get("x", []) or []) if k]
+
+    for t in tables.values():
+        rows = "\n".join(f"  - {v}" for v in t["rows"].values())
+        cols = "\n".join(f"  - {v}" for v in dict.fromkeys(t["cols"].values()))
+        prompt = ("Voici une photo d'une page de registre de suivi de grossesse. Elle peut contenir un tableau dont "
+                  f"les lignes s'appellent par exemple :\n{rows}\net les colonnes :\n{cols}\n"
+                  "Si ce tableau (ou une partie) est visible, transcris-le TEL QU'IL APPARAÎT SUR LA PHOTO : d'abord les "
+                  "en-têtes des colonnes de VALEURS visibles, de gauche à droite (sans la colonne des libellés), chacun "
+                  "précédé de son groupe s'il y en a un (ex. « 2ème trimestre - Visite 1 », « 3ème trimestre - 8ème mois ») ; "
+                  "puis chaque ligne visible, DE HAUT EN BAS DANS L'ORDRE DE LA PHOTO, en recopiant le libellé imprimé tel "
+                  "qu'il est écrit sur la photo, suivi d'une valeur par colonne, dans le même ordre (\"\" si la case est "
+                  "vide). Ne crée pas de ligne qui n'est pas imprimée sur la photo ; si les libellés des lignes ne sont "
+                  "pas visibles (page coupée), renvoie des listes vides.\n"
+                  'Format : {"colonnes": [...], "lignes": [[libellé, valeur1, valeur2, ...], ...]}. '
+                  "Si le tableau n'est pas sur la photo, renvoie des listes vides. " + regles)
+        schema = {"type": "object", "properties": {
+            "colonnes": {"type": "array", "items": {"type": "string"}},
+            "lignes": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}},
+            "required": ["colonnes", "lignes"]}
+        r = _ask(reader, prompt, page, schema, 2500)
+        brut.append(r)
+        heads = [str(c) for c in r.get("colonnes", []) or []]
+        lignes = [ln for ln in r.get("lignes", []) or [] if isinstance(ln, list) and len(ln) >= 2]
+        if heads and lignes and len(heads) == len(lignes[0]) and _match(heads[0], t["cols"]) is None:
+            heads = heads[1:]  # le modèle a inclus l'en-tête de la colonne des libellés (« Nature »...)
+        colkeys = [_match(c, t["cols"]) for c in heads]
+        # réponse dégénérée (même valeur recopiée dans presque toutes les lignes) : colonne rejetée
+        for j in range(len(heads)):
+            col = [str(ln[j + 1]).strip() for ln in lignes if len(ln) > j + 1 and str(ln[j + 1]).strip()]
+            if len(lignes) >= 6 and len(col) >= 0.6 * len(lignes) and len(set(col)) <= 2:
+                colkeys[j] = None
+        for ln in lignes:
+            if not isinstance(ln, list) or len(ln) < 2:
+                continue
+            rk = _match(ln[0], t["rows"])
+            if rk is None:
+                continue
+            for ck, v in zip(colkeys, ln[1:]):
+                k = t["cells"].get((rk, ck)) if ck else None
+                if k and str(v).strip():
+                    vals[k] = str(v).strip()
     # filet de sécurité confidentialité
     vals = {k: v for k, v in vals.items() if not CIN_RE.search(v) and not PHONE_RE.search(v)}
-    return {"valeurs": vals, "cochees": checked, "brut": parsed}
+    return {"valeurs": vals, "cochees": checked, "brut": brut}
 
 
 def to_champs(result: dict, tpl: Template, image_id: str) -> dict[str, Champ]:

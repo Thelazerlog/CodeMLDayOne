@@ -235,10 +235,12 @@ class _FakeFreeReader:
             return {"type": "grossesse_actuelle", "indices": "GROSSESSE ACTUELLE, DDR, Visites"}, "", None, {}
         if self.fail:
             raise TimeoutError("timed out")
-        return ({"c": [["ddr", "19/05/2025"], ["taille", "06 61 23 45 67"]],   # téléphone : doit être filtré
-                 "t": [["poids_kg", "t1_v1", "62"], ["hu_cm", "t1_v2", "340"],  # 340 : aberrant -> question
-                       ["inexistante", "t1_v1", "x"]],
-                 "x": ["rh_pos"]}, "", None, {})
+        if "colonnes" in schema["properties"]:  # transcription du tableau, avec les libellés imprimés
+            return ({"colonnes": ["1er trimestre - Visite 1", "1er trimestre - Visite 2"],
+                     "lignes": [["Poids (kg)", "62", ""], ["HU (cm)", "", "340"],   # 340 : aberrant -> question
+                                ["Ligne inexistante", "x", "y"]]}, "", None, {})
+        return ({"c": [["DDR", "19/05/2025"], ["Taille", "06 61 23 45 67"]],   # téléphone : doit être filtré
+                 "x": ["Rhésus positif"]}, "", None, {})
 
     def read(self, items):
         return {}

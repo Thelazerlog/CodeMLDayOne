@@ -10,6 +10,7 @@
     python -m registre.cli evaluate data/augmented --reader vlm|oracle|aucun
     python -m registre.cli calibrate-quality          # seuils de flou à partir des augmentations
     python -m registre.cli record data/demo            # enregistre les vraies lectures du VLM (rejouables sans GPU)
+    python -m registre.cli gt-csv data/reel            # vérité terrain des vraies photos (CSV lisible) -> JSON
 """
 from __future__ import annotations
 
@@ -83,6 +84,8 @@ def main(argv=None):
     e.add_argument("--glob", default="*.json", help="sous-ensemble, ex. « patient_01_grossesse* »")
     e.add_argument("--out", default="out/eval")
     sub.add_parser("calibrate-quality")
+    gc = sub.add_parser("gt-csv", help="convertit les CSV de vérité terrain (vraies photos) en fichiers JSON")
+    gc.add_argument("dir")
     rc = sub.add_parser("record", help="enregistre les lectures du VLM pour les rejouer sans GPU (démo, jury)")
     rc.add_argument("images_dir")
     rc.add_argument("--out", default=None, help="par défaut <images_dir>/lectures.json")
@@ -189,6 +192,26 @@ def main(argv=None):
                 {"patient": int(row["patient"]), "page_type": row["page_type"], "severity": row.get("note", "reel")}))
             n += 1
         print(n, "fichiers d'association écrits")
+    elif args.cmd == "gt-csv":
+        import csv
+        for f in sorted(Path(args.dir).glob("*.csv")):
+            lines = f.read_text(encoding="utf-8").splitlines()
+            page_type = lines[0].split(";")[1].strip()
+            kinds = {x["key"]: x["kind"] for x in json.loads(Path(cfg.templates, f"{page_type}.json").read_text())["fields"]}
+            gt = {}
+            for row in csv.DictReader(lines[1:], delimiter=";"):
+                k, st, v = row["cle"].strip(), row["statut"].strip(), (row["valeur"] or "").strip()
+                if k not in kinds:
+                    raise SystemExit(f"{f.name} : clé inconnue « {k} » pour la page {page_type}")
+                if kinds[k] == "checkbox":
+                    gt[k] = {"value": v.lower() in ("oui", "x", "1", "true"), "status": "CONNU"}
+                elif st == "CONNU":
+                    gt[k] = {"value": v, "status": "CONNU"}
+                else:
+                    gt[k] = {"value": None, "status": st, **({"raw": v} if v else {})}
+            f.with_suffix(".json").write_text(json.dumps({"patient": None, "page_type": page_type, "severity": "reel",
+                                                          "gt": gt}, ensure_ascii=False, indent=1))
+            print(f"{f.name} -> {f.with_suffix('.json').name} : {len(gt)} champs ({page_type})")
     elif args.cmd == "record":
         import hashlib
         import cv2

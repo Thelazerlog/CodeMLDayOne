@@ -73,6 +73,15 @@ def run(images_dir: str, reader_factory, second=None, templates_dir: str = "temp
         types = {f["key"]: f.get("type", "text") for f in tpl.data["fields"]}
         for key, g in gt.items():
             c = res.page.champs.get(key) if classified else None
+            libre = classified and any(x.signaux.get("mode_libre") for x in res.page.champs.values())
+            if c is None and libre:
+                # mode libre : le modèle ne rend que ce qu'il voit écrit ; un champ absent n'est juste que s'il
+                # était vide sur le registre
+                rows.append({"image": img_path.name, "page": meta["page_type"], "sev": sev, "key": key,
+                             "type": types.get(key, "text"), "statut": "NON_LU_MODE_LIBRE",
+                             "ok": g["status"] == "NON_FOURNI" or (types.get(key) == "bool" and g["value"] is False),
+                             "conf": 0.0, "gt_empty": g["status"] == "NON_FOURNI", "attendu": g.get("value")})
+                continue
             if c is None:
                 rows.append({"image": img_path.name, "page": meta["page_type"], "sev": sev, "key": key,
                              "type": types.get(key, "text"), "statut": "PAGE_NON_LUE", "ok": False, "conf": 0.0,

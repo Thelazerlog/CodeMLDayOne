@@ -1,0 +1,48 @@
+page_type;grossesse_actuelle
+cle;statut;valeur
+ddr;CONNU;19/05/2025
+taille;NON_FOURNI;
+a;CONNU;oui
+b;CONNU;non
+o;CONNU;non
+ab;CONNU;non
+rh_neg;CONNU;non
+rh_pos;CONNU;oui
+venue_le__t1_v1;CONNU;11/09/2025
+venue_le__t1_v2;CONNU;09/10/2025
+venue_le__t1_v3;CONNU;13/11/2025
+age_probable__t1_v1;CONNU;16 SA+3j
+age_probable__t1_v2;CONNU;20 SA+2j
+age_probable__t1_v3;CONNU;25 SA+3j
+poids_kg__t1_v1;NON_FOURNI;NF
+poids_kg__t1_v2;NON_FOURNI;NF
+poids_kg__t1_v3;NON_FOURNI;NF
+ta__t1_v1;CONNU;11/7
+ta__t1_v2;CONNU;11/7
+ta__t1_v3;CONNU;11/7
+anomalies_squelette__t1_v1;CONNU;RAS
+anomalies_squelette__t1_v2;CONNU;RAS
+anomalies_squelette__t1_v3;CONNU;RAS
+etat_des_conjonctives__t1_v1;CONNU;Colorées
+etat_des_conjonctives__t1_v2;CONNU;Colorées
+etat_des_conjonctives__t1_v3;CONNU;Colorées
+examen_des_seins__t1_v1;CONNU;RAS
+examen_des_seins__t1_v2;CONNU;RAS
+examen_des_seins__t1_v3;CONNU;RAS
+oedemes__t1_v1;CONNU;0
+oedemes__t1_v2;CONNU;neg
+oedemes__t1_v3;CONNU;-
+mouvements_actifs__t1_v1;CONNU;-
+mouvements_actifs__t1_v2;CONNU;+
+mouvements_actifs__t1_v3;CONNU;+
+hu_cm__t1_v2;CONNU;15 cm
+hu_cm__t1_v3;CONNU;22 cm
+bcf__t1_v2;CONNU;+
+syphilis_tpha_vdrl__t1_v1;CONNU;neg,neg
+serologie_vih__t1_v1;CONNU;Neg
+hemoglobine__t1_v1;CONNU;11,1 g/dL
+plaquettes__t1_v1;CONNU;233000/mm3
+bilan_glycemique__t1_v1;CONNU;0,76 g/L
+fer__t1_v1;CONNU;Reçu
+fer__t1_v2;CONNU;Reçu
+fer__t1_v3;CONNU;Reçu

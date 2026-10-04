@@ -18,6 +18,7 @@ from rapidfuzz import fuzz, process
 from .textutil import ARABIC_DIGITS, norm_text
 
 EMPTY_MARKERS = {"—", "-", "–", "--", "/", "ø", "x"}
+NOT_DONE_MARKERS = {"nf", "n.f", "n.f.", "non fait", "non faite", "nfait"}   # examen non fait -> vide
 UNKNOWN_MARKERS = {"?", "??", "nsp", "ne sait pas", "inconnu", "inconnue", "non connu", "؟", "unknown"}
 
 # Vocabulaire contrôlé : formes canoniques fréquentes sur le registre (complété par build_vocab()).
@@ -27,6 +28,7 @@ BASE_VOCAB = [
     "Voie basse", "Césarienne", "Cycles réguliers", "Cycles irréguliers", "Non fait", "Propre", "Propre, sèche",
     "Poursuivre l'allaitement exclusif", "Souffrance fœtale", "Utérus cicatriciel", "Pré-éclampsie sévère",
     "Sage-femme", "Lycée", "Collège", "Primaire", "Supérieur", "Analphabète",
+    "Colorées", "Reçu", "Positif", "Négatif",
 ]
 
 
@@ -75,7 +77,7 @@ def normalize(raw: str | None, ftype: str, vocab: list[str] | None = None) -> No
         return Normalized(None, "", True, marker="vide")
     s = _clean(str(raw))
     low = s.lower()
-    if s in EMPTY_MARKERS:
+    if s in EMPTY_MARKERS or low in NOT_DONE_MARKERS:
         return Normalized(None, s, True, marker="vide")
     if low in UNKNOWN_MARKERS:
         return Normalized(None, s, True, marker="inconnu")
@@ -86,16 +88,28 @@ def normalize(raw: str | None, ftype: str, vocab: list[str] | None = None) -> No
                           note="" if d else "date invalide")
     if ftype == "bp":
         m = re.match(r"^(\d{2,3})\s*[/\\|-]\s*(\d{2,3})$", s)
-        if not m:
+        if not m and not re.match(r"^\d{1,2}(?:[.,]\d)?\s*[/\\|-]\s*\d{1,2}(?:[.,]\d)?$", s):
             return Normalized(s, s, False, note="tension illisible au format SYS/DIA")
-        sys_, dia = int(m.group(1)), int(m.group(2))
+        m = m or re.match(r"^(\d{1,2}(?:[.,]\d)?)\s*[/\\|-]\s*(\d{1,2}(?:[.,]\d)?)$", s)
+        sys_, dia = float(m.group(1).replace(",", ".")), float(m.group(2).replace(",", "."))
+        note = ""
+        if sys_ < 30 and dia < 20:  # notation de terrain en cmHg : « 11/7 » = 110/70 mmHg
+            sys_, dia, note = sys_ * 10, dia * 10, f"lu « {s} » (cmHg) -> {sys_ * 10:g}/{dia * 10:g} mmHg"
+        sys_, dia = int(round(sys_)), int(round(dia))
         ok = 60 <= sys_ <= 260 and 30 <= dia <= 160 and sys_ > dia
-        return Normalized({"sys": sys_, "dia": dia}, f"{sys_}/{dia}", ok, note="" if ok else "tension hors bornes")
+        return Normalized({"sys": sys_, "dia": dia}, f"{sys_}/{dia}", ok, note=note if ok else "tension hors bornes")
     if ftype == "int":
         n = parse_number(s)
         ok = n is not None and float(n).is_integer() and re.fullmatch(r"\d+", s.replace(" ", "")) is not None
+        if not ok and n is not None and re.fullmatch(r"\d{1,3}\s*(?:ans?|g|ème|e|x)?", low.replace(" ", " ")):
+            # « 21 ans », « 1G » (gestité), « 2e » : nombre suivi d'une abréviation usuelle
+            return Normalized(int(n), str(int(n)), True, note=f"lu « {s} »")
         return Normalized(int(n) if n is not None else s, s, ok, note="" if ok else "entier attendu")
     if ftype == "quantity":
+        m = re.match(r"^(\d{1,2})\s*(?:sa|s\.a\.?|sem)\s*\+?\s*(\d)\s*j(?:ours?)?$", low)
+        if m:  # âge gestationnel « 16 SA+3j » -> 16,43 SA
+            wk = int(m.group(1)) + int(m.group(2)) / 7
+            return Normalized({"value": round(wk, 2), "unit": "SA"}, s, True)
         n = parse_number(s)
         unit = re.sub(r"[-\d.,\s]+", "", s, count=1).strip().lower()
         unit = UNIT_ALIASES.get(unit, unit) if unit else ""

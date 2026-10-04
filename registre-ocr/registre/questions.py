@@ -82,6 +82,12 @@ def build(d: Dossier, templates_dir: str = "templates", pages_attendues: list[st
     for pt, page in d.pages.items():
         labels = _labels(templates_dir, pt)
         libre = [c for c in page.champs.values() if c.signaux.get("mode_libre")]
+        a_tableau = any("__" in k for k in labels)
+        if libre and a_tableau and not any("__" in c.cle for c in libre):
+            # tableau illisible sans ses libellés de lignes (ex. page de droite du carnet photographiée seule)
+            add(2, "reprendre_photo", f"Page « {PAGE_LABELS.get(pt, pt)} » : je ne retrouve pas les lignes du "
+                "tableau. Photographiez la DOUBLE page ouverte (pages de gauche et de droite ensemble) pour que "
+                "chaque valeur reste en face de son libellé.", page=pt, options=["Reprendre la photo", "Saisir à la main"])
         if libre:
             lus = "; ".join(f"{labels.get(c.cle, c.cle)} : {c.affichage}" for c in libre[:25])
             add(4, "confirmer_page", f"Page « {PAGE_LABELS.get(pt, pt)} » (mise en page non reconnue). "

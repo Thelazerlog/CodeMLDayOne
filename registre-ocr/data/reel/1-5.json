@@ -1,0 +1,143 @@
+{
+ "patient": null,
+ "page_type": "grossesse_actuelle",
+ "severity": "reel",
+ "gt": {
+  "date_prevue_d_accouchement": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date_de_depassement_de_terme": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "venue_le__t2_v1": {
+   "value": "23/12/25",
+   "status": "CONNU"
+  },
+  "venue_le__t3_m8": {
+   "value": "20/1/26",
+   "status": "CONNU"
+  },
+  "venue_le__t3_m9": {
+   "value": "24/02/26",
+   "status": "CONNU"
+  },
+  "age_probable__t2_v1": {
+   "value": "31 SA+1j",
+   "status": "CONNU"
+  },
+  "age_probable__t3_m8": {
+   "value": "35 SA+1j",
+   "status": "CONNU"
+  },
+  "age_probable__t3_m9": {
+   "value": "40 SA+1j",
+   "status": "CONNU"
+  },
+  "poids_kg__t2_v1": {
+   "value": "62 kg",
+   "status": "CONNU"
+  },
+  "poids_kg__t3_m8": {
+   "value": "63 kg",
+   "status": "CONNU"
+  },
+  "poids_kg__t3_m9": {
+   "value": "64 kg",
+   "status": "CONNU"
+  },
+  "ta__t2_v1": {
+   "value": "12/7",
+   "status": "CONNU"
+  },
+  "ta__t3_m8": {
+   "value": "12/7",
+   "status": "CONNU"
+  },
+  "ta__t3_m9": {
+   "value": "12/8",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t2_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t3_m8": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t3_m9": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t2_v1": {
+   "value": "Colorées",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t3_m8": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t3_m9": {
+   "value": "Colorées",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t2_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t3_m8": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t3_m9": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "oedemes__t3_m8": {
+   "value": "0",
+   "status": "CONNU"
+  },
+  "oedemes__t3_m9": {
+   "value": "0",
+   "status": "CONNU"
+  },
+  "hu_cm__t2_v1": {
+   "value": "27 cm",
+   "status": "CONNU"
+  },
+  "hu_cm__t3_m8": {
+   "value": "28 cm",
+   "status": "CONNU"
+  },
+  "hu_cm__t3_m9": {
+   "value": "27 cm",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t2_v1": {
+   "value": "+",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t3_m8": {
+   "value": "+",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t3_m9": {
+   "value": "+",
+   "status": "CONNU"
+  },
+  "fer__t2_v1": {
+   "value": "Reçu",
+   "status": "CONNU"
+  },
+  "fer__t3_m8": {
+   "value": "Reçu",
+   "status": "CONNU"
+  },
+  "fer__t3_m9": {
+   "value": "Reçu",
+   "status": "CONNU"
+  }
+ }
+}

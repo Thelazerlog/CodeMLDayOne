@@ -1,0 +1,194 @@
+{
+ "patient": null,
+ "page_type": "grossesse_actuelle",
+ "severity": "reel",
+ "gt": {
+  "ddr": {
+   "value": "19/05/2025",
+   "status": "CONNU"
+  },
+  "taille": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "a": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "b": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "o": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "ab": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "rh_neg": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "rh_pos": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "venue_le__t1_v1": {
+   "value": "11/09/2025",
+   "status": "CONNU"
+  },
+  "venue_le__t1_v2": {
+   "value": "09/10/2025",
+   "status": "CONNU"
+  },
+  "venue_le__t1_v3": {
+   "value": "13/11/2025",
+   "status": "CONNU"
+  },
+  "age_probable__t1_v1": {
+   "value": "16 SA+3j",
+   "status": "CONNU"
+  },
+  "age_probable__t1_v2": {
+   "value": "20 SA+2j",
+   "status": "CONNU"
+  },
+  "age_probable__t1_v3": {
+   "value": "25 SA+3j",
+   "status": "CONNU"
+  },
+  "poids_kg__t1_v1": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "NF"
+  },
+  "poids_kg__t1_v2": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "NF"
+  },
+  "poids_kg__t1_v3": {
+   "value": null,
+   "status": "NON_FOURNI",
+   "raw": "NF"
+  },
+  "ta__t1_v1": {
+   "value": "11/7",
+   "status": "CONNU"
+  },
+  "ta__t1_v2": {
+   "value": "11/7",
+   "status": "CONNU"
+  },
+  "ta__t1_v3": {
+   "value": "11/7",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t1_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t1_v2": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "anomalies_squelette__t1_v3": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t1_v1": {
+   "value": "Colorées",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t1_v2": {
+   "value": "Colorées",
+   "status": "CONNU"
+  },
+  "etat_des_conjonctives__t1_v3": {
+   "value": "Colorées",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t1_v1": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t1_v2": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "examen_des_seins__t1_v3": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "oedemes__t1_v1": {
+   "value": "0",
+   "status": "CONNU"
+  },
+  "oedemes__t1_v2": {
+   "value": "neg",
+   "status": "CONNU"
+  },
+  "oedemes__t1_v3": {
+   "value": "-",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t1_v1": {
+   "value": "-",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t1_v2": {
+   "value": "+",
+   "status": "CONNU"
+  },
+  "mouvements_actifs__t1_v3": {
+   "value": "+",
+   "status": "CONNU"
+  },
+  "hu_cm__t1_v2": {
+   "value": "15 cm",
+   "status": "CONNU"
+  },
+  "hu_cm__t1_v3": {
+   "value": "22 cm",
+   "status": "CONNU"
+  },
+  "bcf__t1_v2": {
+   "value": "+",
+   "status": "CONNU"
+  },
+  "syphilis_tpha_vdrl__t1_v1": {
+   "value": "neg,neg",
+   "status": "CONNU"
+  },
+  "serologie_vih__t1_v1": {
+   "value": "Neg",
+   "status": "CONNU"
+  },
+  "hemoglobine__t1_v1": {
+   "value": "11,1 g/dL",
+   "status": "CONNU"
+  },
+  "plaquettes__t1_v1": {
+   "value": "233000/mm3",
+   "status": "CONNU"
+  },
+  "bilan_glycemique__t1_v1": {
+   "value": "0,76 g/L",
+   "status": "CONNU"
+  },
+  "fer__t1_v1": {
+   "value": "Reçu",
+   "status": "CONNU"
+  },
+  "fer__t1_v2": {
+   "value": "Reçu",
+   "status": "CONNU"
+  },
+  "fer__t1_v3": {
+   "value": "Reçu",
+   "status": "CONNU"
+  }
+ }
+}

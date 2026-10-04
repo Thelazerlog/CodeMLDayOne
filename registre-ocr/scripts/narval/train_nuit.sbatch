@@ -15,6 +15,9 @@ set -euo pipefail
 module load python/3.11 cuda arrow
 source $HOME/venvs/lf/bin/activate
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1   # nœuds de calcul sans internet
+# les roues de l'Alliance portent un suffixe (« 5.6.0+computecanada ») que le contrôle de version de
+# LLaMA-Factory refuse alors que la version est la bonne
+export DISABLE_VERSION_CHECK=1
 
 cp -r $SCRATCH/registre_finetune $SLURM_TMPDIR/
 sed "s#\${SCRATCH}/registre_finetune#$SLURM_TMPDIR/registre_finetune#; s#\${SCRATCH}#$SCRATCH#g" \

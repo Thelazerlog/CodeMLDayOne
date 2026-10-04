@@ -1,0 +1,36 @@
+page_type;grossesse_actuelle
+cle;statut;valeur
+date_prevue_d_accouchement;NON_FOURNI;
+date_de_depassement_de_terme;NON_FOURNI;
+venue_le__t2_v1;CONNU;23/12/25
+venue_le__t3_m8;CONNU;20/1/26
+venue_le__t3_m9;CONNU;24/02/26
+age_probable__t2_v1;CONNU;31 SA+1j
+age_probable__t3_m8;CONNU;35 SA+1j
+age_probable__t3_m9;CONNU;40 SA+1j
+poids_kg__t2_v1;CONNU;62 kg
+poids_kg__t3_m8;CONNU;63 kg
+poids_kg__t3_m9;CONNU;64 kg
+ta__t2_v1;CONNU;12/7
+ta__t3_m8;CONNU;12/7
+ta__t3_m9;CONNU;12/8
+anomalies_squelette__t2_v1;CONNU;RAS
+anomalies_squelette__t3_m8;CONNU;RAS
+anomalies_squelette__t3_m9;CONNU;RAS
+etat_des_conjonctives__t2_v1;CONNU;Colorées
+etat_des_conjonctives__t3_m8;CONNU;RAS
+etat_des_conjonctives__t3_m9;CONNU;Colorées
+examen_des_seins__t2_v1;CONNU;RAS
+examen_des_seins__t3_m8;CONNU;RAS
+examen_des_seins__t3_m9;CONNU;RAS
+oedemes__t3_m8;CONNU;0
+oedemes__t3_m9;CONNU;0
+hu_cm__t2_v1;CONNU;27 cm
+hu_cm__t3_m8;CONNU;28 cm
+hu_cm__t3_m9;CONNU;27 cm
+mouvements_actifs__t2_v1;CONNU;+
+mouvements_actifs__t3_m8;CONNU;+
+mouvements_actifs__t3_m9;CONNU;+
+fer__t2_v1;CONNU;Reçu
+fer__t3_m8;CONNU;Reçu
+fer__t3_m9;CONNU;Reçu

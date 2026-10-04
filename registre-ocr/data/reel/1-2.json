@@ -1,0 +1,79 @@
+{
+ "patient": null,
+ "page_type": "identification",
+ "severity": "reel",
+ "gt": {
+  "age": {
+   "value": "21",
+   "status": "CONNU"
+  },
+  "niveau_d_instruction": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "profession": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "consanguinite": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "grossesse_desiree": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "hta__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "diabete__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "maladies_hereditaires__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "malformations__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "allergie_s__famille_de_la_femme": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "hta__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "diabete__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "maladies_hereditaires__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "malformations__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "allergie_s__mari_famille": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "medicaux": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "chirurgicaux": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "gynecologiques": {
+   "value": "RAS",
+   "status": "CONNU"
+  }
+ }
+}

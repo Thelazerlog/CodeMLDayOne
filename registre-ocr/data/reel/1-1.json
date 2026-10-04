@@ -1,0 +1,87 @@
+{
+ "patient": null,
+ "page_type": "couverture",
+ "severity": "reel",
+ "gt": {
+  "n_de_la_fiche": {
+   "value": "164125",
+   "status": "CONNU"
+  },
+  "region": {
+   "value": "Casa-Settat",
+   "status": "CONNU"
+  },
+  "province": {
+   "value": "El Jadida",
+   "status": "CONNU"
+  },
+  "nom_de_l_etablissement_sanitaire": {
+   "value": "C/S Sidi Smail",
+   "status": "CONNU"
+  },
+  "dr": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csc": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csu": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csca": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "csua": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "fixe": {
+   "value": true,
+   "status": "CONNU"
+  },
+  "mobile": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "grossesse_classee_a_risq": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "anemie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "h_t_a": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "diabete": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "cardiopathie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "metrorragie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "infection": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "pre_eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "eclampsie": {
+   "value": false,
+   "status": "CONNU"
+  }
+ }
+}

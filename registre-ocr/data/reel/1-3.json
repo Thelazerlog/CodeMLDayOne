@@ -1,0 +1,243 @@
+{
+ "patient": null,
+ "page_type": "identification",
+ "severity": "reel",
+ "gt": {
+  "avortement__nombre": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "avortement__date": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "avortement__lieu": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "avortement__age_gestationnel_sa": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "accouchement_premature__nombre": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "accouchement_premature__date": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "accouchement_premature__lieu": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "accouchement_premature__age_gestationnel_sa": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "mort_foetale_in_utero__nombre": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "mort_foetale_in_utero__date": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "mort_foetale_in_utero__lieu": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "mort_foetale_in_utero__age_gestationnel_sa": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "autres_a_preciser__nombre": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "autres_a_preciser__date": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "autres_a_preciser__lieu": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "autres_a_preciser__age_gestationnel_sa": {
+   "value": "RAS",
+   "status": "CONNU"
+  },
+  "date__accouch_1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "modalite_d_extraction__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_2": {
+   "value": "1G",
+   "status": "CONNU"
+  },
+  "si_cesarienne_indication__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "si_cesarienne_indication__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "complication_type__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "poids_nouveau_ne_s__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_1": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_2": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_3": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_4": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "compl_nouveau_ne_type__accouch_5": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "gestation": {
+   "value": "1G",
+   "status": "CONNU"
+  },
+  "parite": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "nombre_d_enfants_vivants": {
+   "value": "00",
+   "status": "CONNU"
+  },
+  "vat_1": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_2": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_3": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_4": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vat_5": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vaccinee_contre_la_rubeo": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "vaccinee_contre_l_hepati": {
+   "value": false,
+   "status": "CONNU"
+  },
+  "date_vacc_rubeole": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "date_vacc_hepatite_b": {
+   "value": null,
+   "status": "NON_FOURNI"
+  },
+  "frottis_cervical_iva_moins_de_3_ans": {
+   "value": null,
+   "status": "NON_FOURNI"
+  }
+ }
+}

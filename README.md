@@ -8,7 +8,7 @@ aléatoire. Le registre papier reste l'outil de référence : le numérique s'y 
 Tout tourne en local. Aucune image ni aucune donnée ne quitte la machine, et le modèle de vision est
 un modèle ouvert (Qwen3-VL-8B) exécuté sur place.
 
-**🎬 Démo vidéo (2 min) : [`Video_show_final.mp4`](Video_show_final.mp4)**. On y voit une capture hors ligne, le retour du
+**🎬 Démo vidéo (2 min) : [YouTube](https://youtu.be/UasRawQHcDU)** (aussi dans le dépôt : [`Video_show_final.mp4`](Video_show_final.mp4)). On y voit une capture hors ligne, le retour du
 réseau, la révision de champs incertains, une décision de correspondance de patiente, une coupure
 pendant l'envoi et l'accès à l'image d'origine selon le rôle.
 

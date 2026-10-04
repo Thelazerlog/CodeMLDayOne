@@ -138,6 +138,44 @@ def apply_ranges(page_type: str, champs: dict[str, Champ]) -> None:
     for k, c in champs.items():  # TA : bornes déjà vérifiées à la normalisation
         if c.type == "bp" and isinstance(c.valeur, dict) and c.valeur.get("sys", 0) <= c.valeur.get("dia", 0):
             _flag(c, "Systolique ≤ diastolique : inversion ou erreur de lecture ?")
+    apply_page_dates(page_type, champs)
+
+
+VISITES = ["t1_v1", "t1_v2", "t1_v3", "t2_v1", "t2_v2", "t2_v3", "t3_m7", "t3_m8", "t3_m9"]
+RDV_MAX_JOURS = 120  # un rendez-vous de suivi se donne en jours ou semaines, pas en années
+
+
+def apply_page_dates(page_type: str, champs: dict[str, Champ]) -> None:
+    """Chronologie des dates d'une même page. Sur photo dégradée, une année mal lue (2024 pour 2026)
+    garde un format valide et une forte confiance : seule la cohérence entre dates la trahit."""
+    g = champs.get
+
+    def check(ok: bool, raison: str, *cles: str):
+        if not ok:
+            for k in cles:
+                _flag(g(k), raison)
+
+    if page_type == "grossesse_actuelle":
+        ddr, prev = date(g("ddr")), None
+        for col in VISITES:
+            v_k, r_k = f"venue_le__{col}", f"rendez_vous__{col}"
+            v, rdv = date(g(v_k)), date(g(r_k))
+            if v and rdv:
+                check(0 < (rdv - v).days <= RDV_MAX_JOURS,
+                      f"Rendez-vous à {(rdv - v).days:+d} j de la visite : date ou année mal lue ?", v_k, r_k)
+            if v and ddr:
+                check(0 <= (v - ddr).days <= 44 * 7, "Visite hors de la grossesse d'après la DDR : date mal lue ?",
+                      v_k, "ddr")
+            if v and prev:
+                check(v > prev[1], "Visites hors d'ordre chronologique : date mal lue ?", v_k, prev[0])
+            if v:
+                prev = (v_k, v)
+    elif page_type.startswith("pp_"):
+        dc, rdv = date(g("date_de_la_consultation")), date(g("prochain_rendez_vous_le"))
+        if dc and rdv:
+            check(0 < (rdv - dc).days <= RDV_MAX_JOURS,
+                  f"Prochain rendez-vous à {(rdv - dc).days:+d} j de la consultation : date mal lue ?",
+                  "date_de_la_consultation", "prochain_rendez_vous_le")
 
 
 def apply_dossier_rules(d: Dossier) -> None:

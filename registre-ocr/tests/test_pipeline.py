@@ -286,3 +286,25 @@ def test_freeform_timeout_does_not_lose_the_record(tmp_path):
     assert len(d.images) == 1 and d.images[0].sha256                      # l'image est gardée
     assert any("échec" in a["message"] for a in d.alertes)
     assert any(q["type"] == "saisir" and "Réessayer" in q["options"] for q in d.questions)
+
+
+def test_silent_error_guards_from_narval_eval():
+    """Erreurs silencieuses relevées sur l'évaluation Narval (photos dégradées, qwen3-vl 8B)."""
+    from registre.fusion import decide_text
+    from registre.readers.base import Reading
+    from registre.rules import apply_ranges
+    from registre.schema import Provenance
+    prov = lambda: Provenance(image_id="x", page_type="grossesse_actuelle", bbox=[0, 0, 1, 1], methode="vlm")  # noqa: E731
+    # 1. bascule en chiffres arabes-indiens avec une forte confiance -> révision
+    c = decide_text("ta__t3_m8", "bp", Reading("١١٠/٧٠", "ecrit", 0.98, "vlm"), None, {"encre": 0.05}, prov())
+    assert c.statut is Statut.A_REVISER and "inattendue" in c.raisons[0]
+    # 2. lettre accentuée perdue (« N ant ») -> vocabulaire contrôlé
+    assert normalize("N ant", "text").value == "Néant"
+    # 3. année mal lue : rendez-vous deux ans avant la visite -> les deux dates en révision
+    champs = {k: decide_text(k, "date", Reading(v, "ecrit", 0.99, "vlm"), None, {"encre": 0.05}, prov())
+              for k, v in {"ddr": "26/04/2025", "venue_le__t2_v1": "13/01/2026",
+                           "rendez_vous__t2_v1": "10/02/2024"}.items()}
+    assert all(c.statut is Statut.CONNU for c in champs.values())
+    apply_ranges("grossesse_actuelle", champs)
+    assert champs["rendez_vous__t2_v1"].statut is Statut.A_REVISER
+    assert champs["venue_le__t2_v1"].statut is Statut.A_REVISER and champs["ddr"].statut is Statut.CONNU

@@ -15,11 +15,15 @@ couverture / erreurs silencieuses en fonction du seuil).
 """
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 
 from .normalize import Normalized, normalize, same_value
 from .readers.base import Reading
 from .schema import Champ, Provenance, Statut
+
+# Arabe (lettres et chiffres arabes-indiens, y compris persans) et cyrillique
+UNEXPECTED_SCRIPT = re.compile(r"[؀-ۿݐ-ݿЀ-ӿ]")
 
 
 @dataclass
@@ -92,6 +96,12 @@ def decide_text(key: str, ftype: str, r: Reading | None, r2: Reading | None, sig
     if ink < p.encre_vide:
         conf *= 0.4
         raisons.append("Valeur lue alors que la zone semble vide (hallucination possible).")
+    if UNEXPECTED_SCRIPT.search(r.text or ""):
+        # Sur photo dégradée, le modèle bascule parfois en chiffres arabes-indiens ou en cyrillique :
+        # sur l'évaluation Narval, 2 lectures sur 3 de ce genre étaient fausses malgré une confiance > 0,85.
+        conf *= 0.5
+        sig["ecriture_inattendue"] = True
+        raisons.append("Écriture inattendue dans la lecture (chiffres arabes-indiens ou cyrillique) : à vérifier.")
     if not n.format_ok:
         conf *= 0.55
         raisons.append(f"Format inattendu : {n.note}.")

@@ -106,7 +106,12 @@ def normalize(raw: str | None, ftype: str, vocab: list[str] | None = None) -> No
     # texte libre : rapprochement d'un vocabulaire contrôlé, sans forcer
     voc = list(dict.fromkeys((vocab or []) + BASE_VOCAB))
     if voc:
-        best = process.extractOne(norm_text(s), {v: norm_text(v) for v in voc}, scorer=fuzz.ratio)
+        choices = {v: norm_text(v) for v in voc}
+        best = process.extractOne(norm_text(s), choices, scorer=fuzz.ratio)
+        if (not best or best[1] < 88) and re.search(r"\w \w", s):
+            # lettre accentuée perdue et remplacée par une espace (« N ant » pour « Néant ») : sans les espaces
+            best = process.extractOne(norm_text(s).replace(" ", ""), {v: n.replace(" ", "") for v, n in
+                                                                      choices.items()}, scorer=fuzz.ratio)
         if best and best[1] >= 88:
             canon = best[2]
             return Normalized(canon, canon, True, note="" if norm_text(canon) == norm_text(s) else f"lu « {s} »")

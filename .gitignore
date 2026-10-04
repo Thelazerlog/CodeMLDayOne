@@ -1,0 +1,5 @@
+.DS_Store
+DayOne/
+out/
+.claude/
+__pycache__/

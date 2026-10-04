@@ -123,6 +123,9 @@ progresser sur les vraies photos, il faut de vraies données annotées, pas plus
 ## Structure
 
 ```
+data/              jeu de données fourni par les organisateurs (non modifié) : 124 images, 5 vraies photos, CSV
+gemini_code/       premier prototype exploratoire de l'équipe (remplacé par registre-ocr)
+Show_video.mp4     vidéo de démonstration
 registre-ocr/
   registre/        pipeline d'extraction (schéma, alignement, lecture, fusion, règles, mode libre, évaluation)
   app/             prototype conversationnel, file hors ligne chiffrée, cycle de vie, liaison patiente

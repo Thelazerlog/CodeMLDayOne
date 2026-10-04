@@ -31,7 +31,8 @@ B_PASSER, B_PLUS_TARD = "⏭ Passer", "Vérifier le reste plus tard"
 B_CREER, B_NSP = "Aucune, créer", "Je ne sais pas"
 B_PAGE_FINIE, B_VIDE, B_INCONNU = "⏭ Page terminée", "Laisser vide", "Inconnu"
 B_ANNULER = "Annuler"
-QUESTIONS_AVANT_PAUSE = 8   # au-delà, on propose de garder le reste pour plus tard (les doutes restent visibles)
+B_MENU = "↩️ Menu"
+QUESTIONS_AVANT_PAUSE = 3   # au-delà, on propose de garder le reste pour plus tard (les doutes restent visibles)
 
 
 class Agent:
@@ -56,12 +57,21 @@ class Agent:
                           "heure": dt.datetime.now().strftime("%H:%M"), **extra})
 
     def _menu(self, texte: str = "Que voulez-vous faire ?") -> None:
+        self._abandonner_session_vide()
         self.mode, self.ctx = "idle", {}
         boutons = [B_NOUVEAU, B_FILE, B_MANUEL]
         n = len(self._non_rattaches())
         if n:
             boutons.append(f"{B_RATTACHER} ({n})")
         self._bot(texte, boutons)
+
+    def _abandonner_session_vide(self) -> None:
+        """Session ouverte sans aucune photo : annulée en quittant (elle n'encombre pas la file)."""
+        rid = self.ctx.get("rec") if self.mode == "photos" else None
+        if rid:
+            rec = self.store.get(rid)
+            if rec["etat"] == Etat.CAPTURE.value and not rec["images"]:
+                self.store.changer_etat(rec, Etat.ANNULE, "session vide abandonnée")
 
     def demarrer(self) -> None:
         with self.lock:
@@ -91,7 +101,10 @@ class Agent:
     def bouton(self, b: str) -> None:
         with self.lock:
             self._moi(b)
+            if b == B_MENU:
+                return self._menu()
             if b == B_NOUVEAU:
+                self._abandonner_session_vide()
                 return self._nouveau()
             if b == B_FILE:
                 return self._file()
@@ -114,8 +127,15 @@ class Agent:
         with self.lock:
             if self.mode == "idle":
                 self._moi("📷 " + nom, photo=True)
-                self._bot("Pour quelle patiente ? Indiquez d'abord le code écrit sur le registre.")
+                self._bot("Photo gardée. Pour quelle patiente ? Indiquez le code écrit sur le registre "
+                          "(vous pouvez continuer à envoyer les autres pages).", [B_SANS_CODE, B_MENU])
                 self.mode, self.ctx = "code", {"photos_en_attente": [(data, nom)]}
+                return
+            if self.mode == "code":  # le code n'est pas encore donné : on garde les photos en attente
+                self._moi("📷 " + nom, photo=True)
+                self.ctx.setdefault("photos_en_attente", []).append((data, nom))
+                n = len(self.ctx["photos_en_attente"])
+                self._bot(f"Photo gardée ({n}). J'attends le code de la patiente.", [B_SANS_CODE, B_MENU])
                 return
             if self.mode not in ("photos",):
                 self._moi("📷 " + nom, photo=True)
@@ -148,12 +168,12 @@ class Agent:
     def _nouveau(self, manuel: bool = False) -> None:
         self.mode, self.ctx = "code", {"manuel": manuel}
         self._bot("Quel est le code de la patiente écrit sur le registre (ex. K7Q2) ?\n"
-                  "Je n'enregistre ni nom ni téléphone : seulement ce code.", [B_SANS_CODE])
+                  "Je n'enregistre ni nom ni téléphone : seulement ce code.", [B_SANS_CODE, B_MENU])
 
     def _texte_code(self, t: str) -> None:
         code = norm_code(t)
         if not 3 <= len(code) <= 10:
-            return self._bot("Le code doit faire 3 à 10 lettres ou chiffres. Réessayez.", [B_SANS_CODE])
+            return self._bot("Le code doit faire 3 à 10 lettres ou chiffres. Réessayez.", [B_SANS_CODE, B_MENU])
         self._ouvrir_session(code)
 
     def _bouton_code(self, b: str) -> None:
@@ -167,9 +187,10 @@ class Agent:
         if manuel:
             return self._manuel_debut(rec)
         self.mode, self.ctx = "photos", {"rec": rec["id"]}
-        self._bot(f"Registre {code or '(sans code)'} ouvert. Envoyez les photos des pages remplies, une par une "
-                  "(toutes les pages d'un même registre forment un seul dossier). Touchez « J'ai terminé » à la fin.",
-                  [B_FINI])
+        if not attente:
+            self._bot(f"Registre {code or '(sans code)'} ouvert. Envoyez les photos des pages remplies, une par une "
+                      "(toutes les pages d'un même registre forment un seul dossier). Touchez « J'ai terminé » à la fin.",
+                      [B_FINI, B_MENU])
         for data, nom in attente:
             self.photo(data, nom, echo=False)
 
@@ -189,6 +210,7 @@ class Agent:
             q = assess(img) if img is not None else None
             if q is not None and not q.accept:
                 self.ctx["photo_douteuse"] = meta["image_id"]
+                self.ctx.setdefault("douteuses", []).append((meta["image_id"], meta["nom"], " ".join(q.reasons)))
                 self._bot("📸 Cette photo risque d'être mal lue : " + " ".join(q.reasons) +
                           "\nVoulez-vous la reprendre ?", ["Reprendre la photo", "Garder quand même"])
                 return
@@ -200,14 +222,36 @@ class Agent:
         if rec["etat"] == Etat.DOUBLON_SUSPECT.value and b not in ("Ce n'est pas un doublon", B_ANNULER):
             return self._repeter()
         if b == "Reprendre la photo":
-            rec["images"] = [i for i in rec["images"] if i["image_id"] != self.ctx.pop("photo_douteuse", None)]
+            iid = self.ctx.pop("photo_douteuse", None)
+            self.ctx["douteuses"] = [d for d in self.ctx.get("douteuses", []) if d[0] != iid]
+            rec["images"] = [i for i in rec["images"] if i["image_id"] != iid]
             self.store.save(rec)  # l'original reste dans le stockage chiffré, simplement non utilisé
             return self._bot("D'accord, envoyez la nouvelle photo.", [B_FINI])
         if b == "Garder quand même":
-            self.ctx.pop("photo_douteuse", None)
+            iid = self.ctx.pop("photo_douteuse", None)
+            self.ctx["douteuses"] = [d for d in self.ctx.get("douteuses", []) if d[0] != iid]
+            rec.setdefault("photos_gardees", []).append(iid)
+            self.store.save(rec)
             return self._bot(f"Gardée. {len(rec['images'])} page(s) au total. Autre page ?", [B_FINI])
         if b == B_FINI:
+            dts = self.ctx.get("douteuses", [])
+            if dts:  # photos douteuses envoyées en lot : la sage-femme décide avant la mise en file
+                return self._bot(f"Avant d'enregistrer : {len(dts)} photo(s) risquent d'être mal lues.\n" +
+                                 "\n".join(f"• {nom} : {why}" for _, nom, why in dts),
+                                 ["Les garder et terminer", "Reprendre ces photos"])
             return self._terminer_capture(rec)
+        if b == "Les garder et terminer":
+            rec.setdefault("photos_gardees", []).extend(d[0] for d in self.ctx.pop("douteuses", []))
+            self.ctx.pop("photo_douteuse", None)
+            self.store.save(rec)
+            return self._terminer_capture(rec)
+        if b == "Reprendre ces photos":
+            ids = {d[0] for d in self.ctx.pop("douteuses", [])}
+            self.ctx.pop("photo_douteuse", None)
+            rec["images"] = [i for i in rec["images"] if i["image_id"] not in ids]
+            self.store.save(rec)
+            return self._bot(f"D'accord : envoyez les nouvelles photos de ces {len(ids)} page(s), puis touchez "
+                             "« J'ai terminé ».", [B_FINI, B_MENU])
         if b == "Ce n'est pas un doublon":
             self.store.changer_etat(rec, Etat.EN_ATTENTE_IA, "doublon écarté par la sage-femme")
             return self._apres_mise_en_file(rec)
@@ -218,7 +262,8 @@ class Agent:
 
     def _terminer_capture(self, rec: dict) -> None:
         if not rec["images"]:
-            return self._bot("Je n'ai encore aucune photo. Envoyez au moins une page, ou tapez « menu ».", [B_FINI])
+            return self._bot("Je n'ai encore aucune photo. Envoyez au moins une page (bouton 📷), ou revenez au menu.",
+                             [B_MENU])
         if self.ctx.get("reprise"):  # photo reprise pendant la vérification : relecture de tout le registre
             self.store.changer_etat(rec, Etat.EN_ATTENTE_IA, "photo reprise")
             return self._apres_mise_en_file(rec)
@@ -245,8 +290,13 @@ class Agent:
         recs = [r for r in self.store.tous() if r["etat"] != Etat.ANNULE.value]
         if not recs:
             return self._menu("La file est vide.")
-        lignes = [f"• {r.get('code_patiente') or '(sans code)'} — {len(r['images'])} photo(s) — "
-                  f"{LIBELLES[Etat(r['etat'])]}" for r in recs[-12:]]
+        lignes = []
+        for r in recs[-8:]:
+            lignes.append(f"• {r.get('code_patiente') or '(sans code)'} — {len(r['images'])} photo(s) — "
+                          f"{LIBELLES[Etat(r['etat'])]}")
+            for h in r.get("historique", [])[-4:]:
+                heure = dt.datetime.fromisoformat(h["le"]).astimezone().strftime("%H:%M") if h.get("le") else ""
+                lignes.append(f"    {heure} {LIBELLES[Etat(h['vers'])]}" + (f" ({h['raison']})" if h.get("raison") else ""))
         self._menu("📋 Enregistrements sur ce téléphone :\n" + "\n".join(lignes) +
                    f"\nRéseau : {'en ligne 📶' if self.reseau.en_ligne else 'hors ligne 📴'}")
 
@@ -382,7 +432,11 @@ class Agent:
 
     def _texte_revision(self, t: str) -> None:
         if "saisie" not in self.ctx:
-            return self._bot("Utilisez les boutons, ou tapez « menu ».")
+            _, q = self._q()
+            refs = self._refs(q) if q else []
+            if len(refs) != 1:
+                return self._bot("Utilisez les boutons, ou tapez « menu ».")
+            self.ctx["saisie"] = refs[0]  # valeur tapée directement : vaut correction du champ en question
         page, cle = self.ctx["saisie"]
         rec = self.store.get(self.ctx["rec"])
         ok, err = D.saisir(rec["dossier"], page, cle, t, self.sf, self.templates)

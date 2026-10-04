@@ -29,6 +29,8 @@ def capturer(app, code, pages):
     for p in pages:
         ag.photo(Path(p).read_bytes(), Path(p).name)
     ag.bouton("✅ J'ai terminé")
+    if "Les garder et terminer" in ag.msgs[-1]["boutons"]:  # photos douteuses : la sage-femme décide
+        ag.bouton("Les garder et terminer")
     return app.store.tous()[-1]
 
 

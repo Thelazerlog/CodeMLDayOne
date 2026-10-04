@@ -130,6 +130,12 @@ class Travailleur:
         for cap, im in zip(d.images, rec["images"]):
             cap.chemin_original = f"chiffre:{im['image_id']}"
         rec["dossier"] = json.loads(d.model_dump_json())
+        gardees = set(rec.get("photos_gardees") or [])
+        if gardees:  # photo douteuse gardée en connaissance de cause : pas de seconde question « reprendre »
+            pages = {cap.page_type for cap, im in zip(d.images, rec["images"]) if im["image_id"] in gardees}
+            rec["dossier"]["questions"] = [q for q in rec["dossier"]["questions"]
+                                           if not (q["type"] == "reprendre_photo" and q.get("page") in pages
+                                                   and "pas assez bonne" in q["texte"])]
         reappliquer(rec)  # une page rephotographiée garde ce que la sage-femme a déjà validé
         self.store.changer_etat(rec, Etat.TRAITE_IA, f"{len(d.pages)} page(s) lue(s)")
         n_q = len(rec["dossier"]["questions"])

@@ -119,7 +119,9 @@ const api = (u, body) => fetch(u, body ? {method:'POST', headers:{'Content-Type'
   .then(r => r.json());
 
 function bulle(m) {
-  document.querySelectorAll('#fil .btns').forEach(b => b.classList.add('vieux'));
+  // seuls les boutons du dernier message qui en propose restent actifs (une simple notification,
+  // comme « réseau coupé », ne doit pas griser le menu en cours)
+  if ((m.boutons && m.boutons.length) || m.de === 'moi') document.querySelectorAll('#fil .btns').forEach(b => b.classList.add('vieux'));
   const d = document.createElement('div');
   d.className = 'm ' + (m.de === 'bot' ? 'bot' : 'moi');
   d.textContent = m.texte;
@@ -137,9 +139,11 @@ function bulle(m) {
   $('#fil').scrollTop = $('#fil').scrollHeight;
 }
 
+let enCours = null;
 function maj() {
-  return api('/api/etat?depuis=' + dernier).then(s => {
-    s.messages.forEach(m => { bulle(m); dernier = Math.max(dernier, m.id); });
+  if (enCours) return enCours;  // un seul rafraîchissement à la fois : pas de message affiché deux fois
+  enCours = api('/api/etat?depuis=' + dernier).then(s => {
+    s.messages.forEach(m => { if (m.id > dernier) { bulle(m); dernier = m.id; } });
     $('#badge').textContent = s.en_ligne ? '📶 en ligne' : '📴 hors ligne';
     $('#badge').className = 'reseau' + (s.en_ligne ? '' : ' off');
     $('#on').className = s.en_ligne ? 'actif' : ''; $('#off').className = s.en_ligne ? '' : 'actif off';
@@ -155,7 +159,8 @@ function maj() {
     const cur = $('#img').value;
     $('#img').innerHTML = imgs.map(x => `<option value="${x.i}">${x.code || '—'} · ${x.i.slice(0,8)}</option>`).join('');
     if (cur) $('#img').value = cur;
-  });
+  }).finally(() => { enCours = null; });
+  return enCours;
 }
 
 function kpi() {

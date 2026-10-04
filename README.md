@@ -8,6 +8,10 @@ aléatoire. Le registre papier reste l'outil de référence : le numérique s'y 
 Tout tourne en local. Aucune image ni aucune donnée ne quitte la machine, et le modèle de vision est
 un modèle ouvert (Qwen3-VL-8B) exécuté sur place.
 
+**🎬 Démo vidéo : [`Show_video.mp4`](Show_video.mp4)**. On y voit une capture hors ligne, le retour du
+réseau, la révision de champs incertains, une décision de correspondance de patiente, une coupure
+pendant l'envoi et l'accès à l'image d'origine selon le rôle.
+
 ## Essayer en 2 minutes (sans GPU)
 
 ```bash
@@ -57,8 +61,20 @@ officielles :
 cd registre-ocr && python -m registre.cli evaluate data/officiel --reader enregistre --out out/officiel
 ```
 
-**Fine-tuning LoRA** (Qwen3-VL-8B, 6 000 mosaïques synthétiques, 1 h sur un A100) : voir
-[`registre-ocr/resultats/test_lora`](registre-ocr/resultats/) et la section Limites.
+### Fine-tuning LoRA : essayé, mesuré, **non retenu**
+
+LoRA (rang 16) sur Qwen3-VL-8B : 6 000 mosaïques issues de pages synthétiques et des patientes 1 à 7,
+1 époque, 52 min sur un A100. La perte finale est de 0,012. L'évaluation se fait sur des données
+jamais vues :
+
+| Jeu | Modèle de base | Avec LoRA |
+|---|---|---|
+| Photos dégradées, patientes 9 et 10 (jamais vues) | 88,6 % / 1,6 % d'erreurs silencieuses (toutes patientes) | 86,2 % / **4,0 %** |
+| Vraies photos du carnet | **48 %** | 13,6 % |
+
+Le LoRA s'est trop spécialisé sur nos données synthétiques. Il fait davantage d'erreurs silencieuses
+et perd sa capacité à lire une page entière (mode libre). **On garde le modèle de base.** Pour
+progresser sur les vraies photos, il faut de vraies données annotées, pas plus de synthétique.
 
 ## Ce qui répond à chaque exigence
 
@@ -99,8 +115,7 @@ cd registre-ocr && python -m registre.cli evaluate data/officiel --reader enregi
   Le mode libre lit environ la moitié des champs. Une page de droite photographiée seule (sans les
   libellés des lignes) n'est pas lisible : l'agent **demande alors de photographier la double page**.
   La suite logique : un gabarit construit sur le vrai carnet, et une vérité terrain réelle plus large.
-- **Fine-tuning** : le LoRA est appris sur des pages synthétiques ; il ne corrige pas l'écart de mise
-  en page des vraies photos.
+- **Fine-tuning** : un LoRA appris sur des pages synthétiques dégrade les résultats (voir plus haut).
 - Formulaire : Ag HBs (hépatite B) au lieu de l'hépatite C du défi ; pas de température prénatale.
 - Téléphone simulé dans un navigateur, serveur central simulé (SQLite), rôles sans authentification
   réelle. Une seule sage-femme à la fois dans la démo.

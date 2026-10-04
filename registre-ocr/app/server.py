@@ -42,6 +42,7 @@ def fabrique_lecteur(kind: str, templates: str, lectures: str = "data/demo/lectu
         from registre.readers.cache import CacheReader
         table = json.loads(Path(lectures).read_text())
         modele = next(iter(table.values()), {}).get("modele", "?")
+        modele = "Qwen3-VL-8B-Instruct (vLLM, A100)" if modele == "registre" else modele
 
         def pour(nom, chemin):
             x = table.get(hashlib.sha256(Path(chemin).read_bytes()).hexdigest())

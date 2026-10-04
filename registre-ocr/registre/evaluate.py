@@ -66,7 +66,8 @@ def run(images_dir: str, reader_factory, second=None, templates_dir: str = "temp
             gt_all = json.loads(Path(gt_dir, f"patient_{int(meta['patient']):02d}.json").read_text())
             gt = gt_all.get(meta["page_type"], {})
         img = cv2.imread(str(img_path))
-        res = process_image(img, templates, reader_factory(gt), second, params=params)
+        rd = reader_factory(gt, img_path) if getattr(reader_factory, "avec_image", False) else reader_factory(gt)
+        res = process_image(img, templates, rd, second, params=params)
         sev = meta.get("params", {}).get("severity", meta.get("severity", "reel"))
         classified = res.page is not None and res.page.page_type == meta["page_type"]
         tpl = next(t for t in templates if t.page_type == meta["page_type"])

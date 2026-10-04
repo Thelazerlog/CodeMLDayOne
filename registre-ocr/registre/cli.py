@@ -78,7 +78,8 @@ def main(argv=None):
     p.add_argument("--out", default=cfg.out)
     e = sub.add_parser("evaluate")
     e.add_argument("images_dir")
-    e.add_argument("--reader", choices=["vlm", "oracle", "aucun"], default="vlm")
+    e.add_argument("--reader", choices=["vlm", "oracle", "aucun", "enregistre"], default="vlm")
+    e.add_argument("--lectures", default="data/demo/lectures.json", help="avec --reader enregistre")
     e.add_argument("--tesseract", action="store_true")
     e.add_argument("--limit", type=int)
     e.add_argument("--glob", default="*.json", help="sous-ensemble, ex. « patient_01_grossesse* »")
@@ -160,6 +161,15 @@ def main(argv=None):
         if args.reader == "oracle":
             factory = oracle_factory()
             print("⚠ lecteur SIMULÉ : teste la plomberie, ne mesure pas la lecture.", file=sys.stderr)
+        elif args.reader == "enregistre":  # vraies lectures du VLM, enregistrées sur GPU, rejouées sans GPU
+            import hashlib
+            from .readers.cache import CacheReader
+            table = json.loads(Path(args.lectures).read_text())
+
+            def factory(gt, img_path):
+                x = table.get(hashlib.sha256(Path(img_path).read_bytes()).hexdigest())
+                return CacheReader(x) if x else None
+            factory.avec_image = True
         else:
             r = _reader(args.reader, cfg)
             factory = lambda gt: r  # noqa: E731

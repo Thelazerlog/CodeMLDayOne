@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registre maternel</title>
+<style>
+  :root { --vert:#075e54; --vert2:#128c7e; --bulle:#dcf8c6; --fond:#ece5dd; --txt:#111b21; --gris:#667781;
+          --panneau:#f7f8fa; --bord:#d9dee3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--txt); background:#cfd6dc;
+         display:flex; gap:20px; padding:20px; justify-content:center; align-items:flex-start; min-height:100vh; }
+  .tel { width:390px; height:800px; background:var(--fond); border-radius:28px; overflow:hidden; display:flex;
+         flex-direction:column; box-shadow:0 10px 40px rgba(0,0,0,.25); border:10px solid #1f2c33; flex:none; }
+  .entete { background:var(--vert); color:#fff; padding:12px 14px; display:flex; align-items:center; gap:10px; }
+  .avatar { width:36px; height:36px; border-radius:50%; background:#25d366; display:grid; place-items:center; font-size:18px; }
+  .entete small { display:block; opacity:.85; font-size:12px; }
+  .reseau { margin-left:auto; font-size:12px; padding:3px 8px; border-radius:10px; background:rgba(255,255,255,.18); }
+  .reseau.off { background:#c0392b; }
+  #fil { flex:1; overflow-y:auto; padding:12px 10px; display:flex; flex-direction:column; gap:6px; }
+  .m { max-width:85%; padding:7px 9px 4px; border-radius:8px; white-space:pre-wrap; box-shadow:0 1px .5px rgba(0,0,0,.13); }
+  .bot { background:#fff; align-self:flex-start; border-top-left-radius:0; }
+  .moi { background:var(--bulle); align-self:flex-end; border-top-right-radius:0; }
+  .h { font-size:11px; color:var(--gris); text-align:right; margin-top:2px; }
+  .conf { display:inline-block; font-size:11px; color:#8a5a00; background:#fff3cd; border-radius:6px; padding:0 6px; margin-top:4px; }
+  .btns { display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
+  .btns button { border:1px solid var(--vert2); color:var(--vert2); background:#fff; border-radius:16px; padding:5px 10px;
+                 font:inherit; font-size:13px; cursor:pointer; }
+  .btns button:hover { background:#e7f6f3; }
+  .btns.vieux button { opacity:.45; pointer-events:none; }
+  .saisie { display:flex; gap:6px; padding:8px; background:#f0f2f5; }
+  .saisie input[type=text] { flex:1; border:none; border-radius:20px; padding:10px 14px; font:inherit; }
+  .rond { width:42px; height:42px; border-radius:50%; border:none; background:var(--vert2); color:#fff; font-size:18px; cursor:pointer; }
+  .panneau { width:560px; display:flex; flex-direction:column; gap:12px; }
+  .carte { background:var(--panneau); border:1px solid var(--bord); border-radius:12px; padding:12px 14px; }
+  .carte h3 { margin:0 0 8px; font-size:14px; }
+  .bandeau { background:#fff3cd; border:1px solid #f0d58a; border-radius:8px; padding:6px 10px; font-size:12px; }
+  table { width:100%; border-collapse:collapse; font-size:12px; }
+  td, th { text-align:left; padding:4px 6px; border-bottom:1px solid var(--bord); vertical-align:top; }
+  .etat { font-size:11px; padding:1px 7px; border-radius:9px; background:#e9ecef; white-space:nowrap; }
+  .etat.SYNCHRONISE { background:#d4edda; } .etat.EN_ATTENTE_IA, .etat.CAPTURE { background:#fff3cd; }
+  .etat.A_REVISER, .etat.REVISION_MANUELLE_REQUISE, .etat.DOUBLON_SUSPECT { background:#ffe0b2; }
+  .etat.ECHEC_TRAITEMENT, .etat.ECHEC_SYNC { background:#f8d7da; } .etat.ENREGISTRE, .etat.VALIDE, .etat.PATIENTE_LIEE { background:#d1ecf1; }
+  .interrupteur { display:flex; gap:8px; align-items:center; }
+  .interrupteur button, .carte select, .carte .act { font:inherit; padding:6px 12px; border-radius:8px; border:1px solid var(--bord); background:#fff; cursor:pointer; }
+  .interrupteur button.actif { background:var(--vert2); color:#fff; border-color:var(--vert2); }
+  .interrupteur button.actif.off { background:#c0392b; border-color:#c0392b; }
+  .demo { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+  .demo select { max-width:330px; }
+  .hist { color:var(--gris); font-size:11px; }
+  #imgres { margin-top:6px; font-size:12px; } #imgres img { max-width:100%; border-radius:6px; margin-top:6px; }
+  .kpi { display:flex; gap:10px; flex-wrap:wrap; } .kpi div { background:#fff; border:1px solid var(--bord); border-radius:8px; padding:6px 10px; }
+  .kpi b { display:block; font-size:16px; }
+  @media (max-width: 1000px) { body { flex-direction:column; align-items:center; } .panneau { width:100%; max-width:560px; } }
+</style>
+</head>
+<body>
+<div class="tel">
+  <div class="entete">
+    <div class="avatar">🤰</div>
+    <div><b>Registre maternel</b><small>agent local · sage-femme SF-01</small></div>
+    <span id="badge" class="reseau">📶 en ligne</span>
+  </div>
+  <div id="fil"></div>
+  <form class="saisie" id="form">
+    <label class="rond" title="Envoyer une photo" style="display:grid;place-items:center">📷
+      <input type="file" id="fichier" accept="image/*" multiple hidden></label>
+    <input type="text" id="texte" placeholder="Message" autocomplete="off">
+    <button class="rond" title="Envoyer">➤</button>
+  </form>
+</div>
+
+<div class="panneau">
+  <div class="carte">
+    <h3>Démo : réseau</h3>
+    <div class="interrupteur">
+      <button id="on">📶 En ligne</button><button id="off">📴 Hors ligne</button>
+      <span id="travail" class="hist"></span>
+    </div>
+    <div class="bandeau" id="lecteur" style="margin-top:8px"></div>
+  </div>
+  <div class="carte">
+    <h3>Démo : envoyer une photo du jeu de données</h3>
+    <div class="demo">
+      <select id="demoSel"></select>
+      <button class="act" id="demoEnvoi">Envoyer dans la conversation</button>
+      <button class="act" id="demoPatiente" title="Envoie les 8 pages de la même patiente">Toutes les pages de cette patiente</button>
+    </div>
+  </div>
+  <div class="carte">
+    <h3>File d'attente et cycle de vie (stockage chiffré du téléphone)</h3>
+    <table><thead><tr><th>Code</th><th>Photos</th><th>État</th><th>Historique</th></tr></thead><tbody id="file"></tbody></table>
+  </div>
+  <div class="carte">
+    <h3>Patientes (aucun nom : code + identifiant interne aléatoire)</h3>
+    <table><thead><tr><th>Id interne</th><th>Code</th><th>Visites</th><th>Profil</th></tr></thead><tbody id="pat"></tbody></table>
+    <div class="hist" id="srv"></div>
+  </div>
+  <div class="carte">
+    <h3>Image d'origine : accès selon le rôle</h3>
+    <div class="demo">
+      <select id="img"></select>
+      <select id="role"><option value="sage-femme">sage-femme SF-01</option><option value="sage-femme|SF-02">sage-femme SF-02</option>
+        <option value="superviseur">superviseur</option><option value="analyste">analyste</option></select>
+      <button class="act" id="voir">Ouvrir</button>
+    </div>
+    <div id="imgres"></div>
+  </div>
+  <div class="carte">
+    <h3>Agrégats anonymisés (dossiers reçus par le serveur)</h3>
+    <div class="kpi" id="kpi"></div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let dernier = 0, demo = [];
+const api = (u, body) => fetch(u, body ? {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)} : {})
+  .then(r => r.json());
+
+function bulle(m) {
+  document.querySelectorAll('#fil .btns').forEach(b => b.classList.add('vieux'));
+  const d = document.createElement('div');
+  d.className = 'm ' + (m.de === 'bot' ? 'bot' : 'moi');
+  d.textContent = m.texte;
+  if (m.confiance !== undefined) {
+    const c = document.createElement('div'); c.className = 'conf'; c.textContent = 'confiance ' + m.confiance; d.appendChild(c);
+  }
+  if (m.boutons && m.boutons.length) {
+    const b = document.createElement('div'); b.className = 'btns';
+    m.boutons.forEach(t => { const x = document.createElement('button'); x.textContent = t;
+      x.onclick = () => api('/api/message', {bouton:t}).then(maj); b.appendChild(x); });
+    d.appendChild(b);
+  }
+  const h = document.createElement('div'); h.className = 'h'; h.textContent = m.heure + (m.de === 'moi' ? ' ✓✓' : ''); d.appendChild(h);
+  $('#fil').appendChild(d);
+  $('#fil').scrollTop = $('#fil').scrollHeight;
+}
+
+function maj() {
+  return api('/api/etat?depuis=' + dernier).then(s => {
+    s.messages.forEach(m => { bulle(m); dernier = Math.max(dernier, m.id); });
+    $('#badge').textContent = s.en_ligne ? '📶 en ligne' : '📴 hors ligne';
+    $('#badge').className = 'reseau' + (s.en_ligne ? '' : ' off');
+    $('#on').className = s.en_ligne ? 'actif' : ''; $('#off').className = s.en_ligne ? '' : 'actif off';
+    $('#travail').textContent = s.travail ? '⏳ traitement / envoi en cours…' : '';
+    $('#lecteur').textContent = 'Lecteur : ' + s.lecteur;
+    $('#file').innerHTML = s.file.slice().reverse().map(r => `<tr><td>${r.code || '—'}<div class="hist">${r.id}</div></td><td>${r.photos}</td>
+      <td><span class="etat ${r.etat}">${r.libelle}</span><div class="hist">${r.etat}</div></td>
+      <td class="hist">${r.historique.join('<br>')}</td></tr>`).join('');
+    $('#pat').innerHTML = s.patientes.map(p => `<tr><td>${p.id}…</td><td>${p.code}</td><td>${p.visites}</td>
+      <td class="hist">${p.profil ? Object.entries(p.profil).filter(([k,v]) => v !== null).map(([k,v]) => k + ' ' + v).join(' · ') : ''}</td></tr>`).join('');
+    $('#srv').textContent = `Serveur central : ${s.serveur} dossier(s) reçu(s).`;
+    const imgs = s.file.flatMap(r => r.images.map(i => ({i, code:r.code})));
+    const cur = $('#img').value;
+    $('#img').innerHTML = imgs.map(x => `<option value="${x.i}">${x.code || '—'} · ${x.i.slice(0,8)}</option>`).join('');
+    if (cur) $('#img').value = cur;
+  });
+}
+
+function kpi() {
+  api('/api/tableau').then(t => {
+    const f = o => `${o.positives}/${o.testees}`;
+    $('#kpi').innerHTML = `<div>Dossiers<b>${t.dossiers}</b></div><div>TA moyenne<b>${t.ta_moyenne || '—'}</b></div>
+      <div>TA ≥ 140/90<b>${t.ta_140_90}</b></div><div>VIH +<b>${f(t.vih)}</b></div><div>Syphilis +<b>${f(t.syphilis)}</b></div>
+      <div>Hépatite B +<b>${f(t.hepatite_b)}</b></div><div title="${t.hepatite_c}">Hépatite C<b>n/d</b></div>`;
+  });
+}
+
+$('#form').onsubmit = e => { e.preventDefault(); const t = $('#texte').value; if (!t) return; $('#texte').value = '';
+  api('/api/message', {texte:t}).then(maj); };
+$('#fichier').onchange = async e => {
+  for (const f of e.target.files) {
+    const data = await new Promise(r => { const fr = new FileReader(); fr.onload = () => r(fr.result.split(',')[1]); fr.readAsDataURL(f); });
+    await api('/api/photo', {data, nom:f.name}); await maj();
+  }
+  e.target.value = '';
+};
+$('#on').onclick = () => api('/api/reseau', {en_ligne:true}).then(maj);
+$('#off').onclick = () => api('/api/reseau', {en_ligne:false}).then(maj);
+$('#demoEnvoi').onclick = () => api('/api/photo-demo', {chemin:$('#demoSel').value}).then(maj);
+$('#demoPatiente').onclick = async () => {
+  const nom = $('#demoSel').selectedOptions[0].textContent, pat = (nom.match(/patient_\d+/) || [])[0], dos = demo.find(d => d.chemin === $('#demoSel').value).dossier;
+  for (const d of demo.filter(d => pat && d.nom.startsWith(pat + '_') && d.dossier === dos && !/aug0[1-9]/.test(d.nom))) {
+    await api('/api/photo-demo', {chemin:d.chemin}); await maj();
+  }
+};
+$('#voir').onclick = () => {
+  const [role, user] = $('#role').value.split('|'), id = $('#img').value;
+  fetch(`/api/image/${id}?role=${role}&utilisateur=${user || 'SF-01'}`).then(async r => {
+    if (r.ok) { const u = URL.createObjectURL(await r.blob()); $('#imgres').innerHTML = `Accès autorisé (journalisé).<img src="${u}">`; }
+    else { $('#imgres').textContent = '⛔ ' + (await r.json()).erreur + ' (tentative journalisée)'; }
+  });
+};
+api('/api/demo').then(d => { demo = d;
+  $('#demoSel').innerHTML = d.map(x => `<option value="${x.chemin}">${x.dossier.split('/').pop()} / ${x.nom}</option>`).join(''); });
+maj(); kpi(); setInterval(maj, 1500); setInterval(kpi, 5000);
+</script>
+</body>
+</html>

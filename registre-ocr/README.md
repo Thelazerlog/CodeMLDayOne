@@ -1,7 +1,8 @@
 # Registre maternel : de la photo au dossier structuré
 
-Partie **traitement d'image et constitution du dossier** du défi DayOne. La couche WhatsApp viendra
-se brancher dessus. Tout tourne en local : aucune image ni aucune donnée ne quitte la machine.
+Partie **traitement d'image et constitution du dossier** du défi DayOne. Le prototype conversationnel
+(agent type WhatsApp, file hors ligne chiffrée, cycle de vie, liaison patiente) est dans
+[`app/`](app/README.md) : `python -m app.server --lecteur simulation`, puis http://localhost:8000. Tout tourne en local : aucune image ni aucune donnée ne quitte la machine.
 
 ```
 photo ─► qualité ─► type de page + alignement ─► masquage ─► lecture ─► statuts ─► dossier
@@ -148,8 +149,7 @@ Le fine-tuning se fait sur Narval : voir `scripts/narval/README.md`.
 - Le formulaire contient Ag HBs (hépatite B), pas l'hépatite C du défi : la colonne reste vide.
 - Il n'y a pas de ligne de température prénatale sur ce formulaire.
 - Le seuil de flou est calibré sur seulement 48 photos : à refaire sur un jeu plus grand.
-- Le chiffrement du stockage, les rôles d'accès à l'image d'origine et la file hors ligne relèvent de
-  l'étape suivante. `ImageCapture` prévoit déjà les champs nécessaires.
+- Chiffrement, rôles d'accès à l'image d'origine et file hors ligne : voir [`app/README.md`](app/README.md).
 - Incohérences présentes dans les données synthétiques, **volontaires ou non**, et signalées par les
   règles sans être corrigées :
   - G3 P1 sans avortement ;

@@ -209,15 +209,18 @@ def merge_pages(old: PageExtraite, new: PageExtraite) -> PageExtraite:
 def process_session(paths: list[str], reader: TextReader | None, second: TextReader | None = None,
                     templates_dir: str = "templates", sage_femme_id: str = "SF-inconnue",
                     code_patiente: str | None = None, out_dir: str | None = "out",
-                    params: FusionParams = FusionParams()) -> tuple[Dossier, list[PageResult]]:
+                    params: FusionParams = FusionParams(),
+                    reader_for=None) -> tuple[Dossier, list[PageResult]]:
+    """`reader_for(path)` : lecteur propre à chaque photo (prioritaire sur `reader` s'il est fourni)."""
     templates = load_all(templates_dir)
     d = Dossier(sage_femme_id=sage_femme_id, code_patiente=code_patiente)
     results = []
     for p in paths:
         raw = Path(p).read_bytes()
         img = cv2.imdecode(np.frombuffer(raw, np.uint8), cv2.IMREAD_COLOR)
+        r = reader_for(p) if reader_for else reader
         try:
-            res = process_image(img, templates, reader, second, sage_femme_id, out_dir, params, image_bytes=raw)
+            res = process_image(img, templates, r, second, sage_femme_id, out_dir, params, image_bytes=raw)
         except Exception as e:  # aucun enregistrement perdu : l'image est gardée, l'échec est tracé
             cap = ImageCapture(sha256=hashlib.sha256(raw).hexdigest(), capture_le=dt.datetime.now(dt.timezone.utc),
                                sage_femme_id=sage_femme_id, alignement={"erreur": repr(e)[:300]})

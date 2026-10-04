@@ -6,3 +6,5 @@ data/drive/
 __pycache__/
 *.pyc
 config.toml
+.venv/
+.DS_Store

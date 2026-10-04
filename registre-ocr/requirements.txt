@@ -6,3 +6,4 @@ rapidfuzz>=3.6
 pillow>=10.3                   # génération synthétique (polices manuscrites, arabe via libraqm)
 pytest>=8
 # Facultatif : second lecteur sur les nombres -> brew install tesseract tesseract-lang
+cryptography>=42

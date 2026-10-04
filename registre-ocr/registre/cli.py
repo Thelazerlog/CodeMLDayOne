@@ -9,6 +9,7 @@
     python -m registre.cli process p1.jpg p2.jpg ... --code K7Q2 --sage-femme SF-012
     python -m registre.cli evaluate data/augmented --reader vlm|oracle|aucun
     python -m registre.cli calibrate-quality          # seuils de flou à partir des augmentations
+    python -m registre.cli record data/demo            # enregistre les vraies lectures du VLM (rejouables sans GPU)
 """
 from __future__ import annotations
 
@@ -82,6 +83,10 @@ def main(argv=None):
     e.add_argument("--glob", default="*.json", help="sous-ensemble, ex. « patient_01_grossesse* »")
     e.add_argument("--out", default="out/eval")
     sub.add_parser("calibrate-quality")
+    rc = sub.add_parser("record", help="enregistre les lectures du VLM pour les rejouer sans GPU (démo, jury)")
+    rc.add_argument("images_dir")
+    rc.add_argument("--out", default=None, help="par défaut <images_dir>/lectures.json")
+    rc.add_argument("--glob", default="*")
     gs = sub.add_parser("gt-skeleton", help="fichier de vérité terrain à remplir pour une page faite à la main")
     gs.add_argument("page_type")
     gs.add_argument("image", help="chemin de la photo (le JSON est créé à côté)")
@@ -184,6 +189,30 @@ def main(argv=None):
                 {"patient": int(row["patient"]), "page_type": row["page_type"], "severity": row.get("note", "reel")}))
             n += 1
         print(n, "fichiers d'association écrits")
+    elif args.cmd == "record":
+        import hashlib
+        import cv2
+        import numpy as np
+        from .align import load_all
+        from .pipeline import process_image
+        from .readers.cache import RecordingReader
+        vlm, templates = _reader("vlm", cfg), load_all(cfg.templates)
+        out = Path(args.out or Path(args.images_dir, "lectures.json"))
+        table = json.loads(out.read_text()) if out.exists() else {}
+        files = sorted(p for p in Path(args.images_dir).glob(args.glob) if p.suffix.lower() in (".jpg", ".jpeg", ".png"))
+        for i, p in enumerate(files, 1):
+            raw = p.read_bytes()
+            sha = hashlib.sha256(raw).hexdigest()
+            if sha in table:
+                continue
+            rec = RecordingReader(vlm)
+            res = process_image(cv2.imdecode(np.frombuffer(raw, np.uint8), cv2.IMREAD_COLOR), templates, rec,
+                                image_bytes=raw)
+            table[sha] = {"image": p.name, "modele": cfg.vlm.model, **rec.dump()}
+            out.write_text(json.dumps(table, ensure_ascii=False, default=str))
+            print(f"[{i}/{len(files)}] {p.name}: page={res.page.page_type if res.page else 'non lue'} "
+                  f"zones={len(rec.lectures)} appels_libres={len(rec.appels)}", flush=True)
+        print(f"{len(table)} photo(s) enregistrée(s) -> {out}")
     elif args.cmd == "calibrate-quality":
         from .calibrate import calibrate_quality
         calibrate_quality("data/augmented")

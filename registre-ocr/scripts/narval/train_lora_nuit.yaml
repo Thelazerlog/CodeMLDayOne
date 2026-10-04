@@ -1,0 +1,33 @@
+# LLaMA-Factory : LoRA court (une nuit) sur Qwen3-VL-8B. Vérifier les clés avec la version installée
+# (llamafactory-cli version) ; « template » doit exister dans cette version (qwen3_vl).
+model_name_or_path: ${SCRATCH}/models/Qwen3-VL-8B-Instruct
+template: qwen3_vl
+trust_remote_code: true
+
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_target: all
+freeze_vision_tower: true
+
+dataset_dir: ${SCRATCH}/registre_finetune
+dataset: registre_train
+max_samples: 6000             # plafond pour tenir en ~2 h sur un A100
+cutoff_len: 2048
+image_max_pixels: 1048576
+preprocessing_num_workers: 8
+
+output_dir: ${SCRATCH}/runs/registre_lora_nuit
+logging_steps: 10
+save_steps: 100               # points de reprise fréquents : un job coupé garde son travail
+save_total_limit: 3
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 1
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+bf16: true
+report_to: none

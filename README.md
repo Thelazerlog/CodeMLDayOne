@@ -8,7 +8,7 @@ aléatoire. Le registre papier reste l'outil de référence : le numérique s'y 
 Tout tourne en local. Aucune image ni aucune donnée ne quitte la machine, et le modèle de vision est
 un modèle ouvert (Qwen3-VL-8B) exécuté sur place.
 
-**🎬 Démo vidéo : [`Show_video.mp4`](Show_video.mp4)**. On y voit une capture hors ligne, le retour du
+**🎬 Démo vidéo (2 min) : [`Video_show_final.mp4`](Video_show_final.mp4)**. On y voit une capture hors ligne, le retour du
 réseau, la révision de champs incertains, une décision de correspondance de patiente, une coupure
 pendant l'envoi et l'accès à l'image d'origine selon le rôle.
 
@@ -101,13 +101,103 @@ progresser sur les vraies photos, il faut de vraies données annotées, pas plus
   chez un tiers. Le prototype reproduit donc l'expérience WhatsApp (boutons de réponse rapide) en local.
 - Seules des données synthétiques ont été envoyées sur Narval.
 
-## Reproduire
+## Reproduire de zéro
 
-- **Mac** : voir [`registre-ocr/README.md`](registre-ocr/README.md) (Ollama, `qwen3-vl:8b-instruct`).
-  Les tests (`python -m pytest -q`, 30 tests) tournent sans modèle ni GPU.
-- **Narval** (GPU A100) : voir [`registre-ocr/scripts/narval/README.md`](registre-ocr/scripts/narval/README.md).
-  `vlm_job.sbatch` lance vLLM (avec ou sans LoRA) puis n'importe quelle commande d'évaluation ;
-  `prep_data.sbatch` et `train_nuit.sbatch` servent au fine-tuning.
+**Prérequis** : macOS (Apple Silicon conseillé) ou Linux, Python ≥ 3.11, 16 Go de RAM et environ 10 Go
+de disque pour le modèle. Un GPU NVIDIA est facultatif ; il ne sert qu'à aller plus vite.
+
+### Le modèle : où il est, comment l'obtenir
+
+Les poids du modèle **ne sont pas dans le dépôt** : 6 Go en version Ollama, 17 Go en bf16, alors que
+GitHub limite un fichier à 100 Mo. Le modèle est **identifié exactement** et se télécharge en une
+commande :
+
+| Usage | Modèle | Commande | Taille |
+|---|---|---|---|
+| Portable (Ollama) | `qwen3-vl:8b-instruct` (empreinte `0533d74300e4`) | `ollama pull qwen3-vl:8b-instruct` | 6,1 Go |
+| GPU (vLLM) | `Qwen/Qwen3-VL-8B-Instruct` (Hugging Face, bf16) | `hf download Qwen/Qwen3-VL-8B-Instruct --local-dir models/Qwen3-VL-8B-Instruct` | 17,5 Go |
+
+Il n'y a aucun poids personnalisé à fournir : le fine-tuning LoRA n'a pas été retenu (voir plus haut).
+Utilisez bien la variante **`-instruct`**. `qwen3-vl:8b` est la variante « thinking », lente et dont
+les réponses sont tronquées.
+
+### Étape 1 : code et environnement Python
+
+```bash
+git clone https://github.com/Thelazerlog/CodeMLDayOne.git
+cd CodeMLDayOne/registre-ocr
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest -q                      # 30 tests, sans modèle ni GPU (environ 40 s)
+```
+
+### Étape 2 : sans modèle (vraies lectures enregistrées sur GPU)
+
+```bash
+# chiffres du README, à l'identique : 124 images officielles -> 99,7 %
+python -m registre.cli evaluate data/officiel --reader enregistre --out out/officiel
+# prototype conversationnel -> http://localhost:8000
+python -m app.server --lecteur enregistre
+```
+
+### Étape 3 : avec le modèle en local (Ollama)
+
+```bash
+# installer Ollama
+brew install ollama                                  # macOS
+# curl -fsSL https://ollama.com/install.sh | sh      # Linux
+ollama serve &                                       # serveur local (port 11434)
+ollama pull qwen3-vl:8b-instruct                     # 6,1 Go
+
+cp config.toml.example config.toml                   # pointe vers http://localhost:11434/v1
+python -m registre.cli check-vlm                     # doit afficher « OK »
+
+# lire un registre et produire le dossier JSON (out/dossier_<id>.json)
+python -m registre.cli process data/demo/patient_02_*aug00*.jpg --code B4T7 --sage-femme SF-01
+
+# évaluations champ par champ (rapport dans out/<nom>/report.md)
+python -m registre.cli evaluate data/reel --reader vlm --out out/reel          # 5 vraies photos (environ 10 min)
+python -m registre.cli evaluate data/demo --reader vlm --out out/demo          # 32 photos dégradées
+python -m registre.cli evaluate data/officiel --reader vlm --out out/officiel  # 124 images (plusieurs heures sur Mac)
+
+# prototype avec lecture en direct
+python -m app.server --lecteur vlm
+```
+
+Ollama sert une version **quantifiée** du modèle (Q4) : les lectures peuvent différer légèrement des
+nôtres, faites en bf16 sur GPU. L'étape 2 rejoue exactement ces dernières.
+
+### Étape 4 : régénérer les données et la vérité terrain
+
+```bash
+python -m registre.cli build-templates               # gabarits + data/clean + data/gt depuis le PDF spécimen
+python -m registre.cli augment --per-page 2 --out data/augmented       # 160 photos dégradées simulées
+python -m registre.cli synth --n 40 --seed 777 --out data/synth_test   # pages synthétiques inédites
+python -m registre.cli augment --src data/synth_test --out data/synth_test_aug --per-page 1 --seed 777
+python -m registre.cli gt-csv data/reel              # vérité terrain des vraies photos (CSV lisibles -> JSON)
+```
+
+### Étape 5 : sur GPU (vLLM), pour aller vite et enregistrer les lectures
+
+```bash
+pip install "vllm>=0.11"
+hf download Qwen/Qwen3-VL-8B-Instruct --local-dir models/Qwen3-VL-8B-Instruct
+vllm serve models/Qwen3-VL-8B-Instruct --served-model-name registre --port 8000 \
+     --max-model-len 8192 --limit-mm-per-prompt '{"image": 1}' &
+```
+
+Dans `config.toml`, utilisez ensuite :
+`base_url = "http://localhost:8000/v1"`, `model = "registre"`, `backend = "openai"`, `parallel = 16`.
+
+```bash
+python -m registre.cli evaluate data/augmented --out out/aug             # environ 10 min sur un A100
+python -m registre.cli record data/demo --out data/demo/lectures.json    # lectures rejouables sans GPU
+```
+
+Sur une grappe Slurm (nous avons utilisé Narval), `scripts/narval/vlm_job.sbatch` lance vLLM puis
+n'importe quelle commande, avec ou sans adaptateur LoRA (variable `LORA`). Fine-tuning :
+`prep_data.sbatch` (données, CPU), puis `train_nuit.sbatch` (LLaMA-Factory, environ 1 h sur A100). Voir
+[`registre-ocr/scripts/narval/README.md`](registre-ocr/scripts/narval/README.md).
 
 ## Limites connues et suite
 
@@ -124,8 +214,7 @@ progresser sur les vraies photos, il faut de vraies données annotées, pas plus
 
 ```
 data/              jeu de données fourni par les organisateurs (non modifié) : 124 images, 5 vraies photos, CSV
-gemini_code/       premier prototype exploratoire de l'équipe (remplacé par registre-ocr)
-Show_video.mp4     vidéo de démonstration
+Video_show_final.mp4  vidéo de démonstration (2 min)
 registre-ocr/
   registre/        pipeline d'extraction (schéma, alignement, lecture, fusion, règles, mode libre, évaluation)
   app/             prototype conversationnel, file hors ligne chiffrée, cycle de vie, liaison patiente

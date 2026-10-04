@@ -25,7 +25,7 @@ cp config.toml.example config.toml
 python -m registre.cli build-templates            # gabarits + vérité terrain depuis le PDF
 python -m registre.cli check-vlm                  # le modèle local répond-il ?
 python -m registre.cli process data/clean/patient_01_*.png --code K7Q2 --sage-femme SF-01
-python -m pytest -q                               # 16 tests, sans modèle ni GPU
+python -m pytest -q                               # 30 tests, sans modèle ni GPU
 ```
 
 `process` écrit `out/dossier_<id>.json`, plus les images redressées et masquées dans `out/masque/`.
